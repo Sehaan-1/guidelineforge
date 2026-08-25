@@ -1,0 +1,601 @@
+ticket_id,text,source,design_intent,ambiguity_type,augmentation,design_sentiment,borderline,is_gold,is_calibration,batch,in_overlap
+GF-0001,I have got to locate order #4661544,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0002,could you help me notify of payment problems?,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0003,"I don't mean to trouble you, but the payment went through twice.",injected_polite_complaint,billing_payments,polite_complaint,none,negative,True,False,False,B2,True
+GF-0004,Very upsetting situation. tell me about canceling the subscription to ur newsletter,bitext,other_contact,none,neg_wrap,negative,True,False,False,B3,True
+GF-0005,i cannot sign up i need to notify of signup proiblems,bitext,account_access,none,none,neutral,False,False,False,B2,False
+GF-0006,Absolutely pathetic service. Issue the refund for #2176675 like you promised.,injected_tone_trap,refund_request,tone_trap,none,negative,True,False,False,B3,True
+GF-0007,how do I use the #6658042 profile?,bitext,account_access,none,none,neutral,False,True,False,B3,True
+GF-0008,"I want to write a comment about a product, how can I do it?",bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0009,Very upsetting situation. rebating $40 dollars,bitext,refund_request,none,neg_wrap,negative,False,False,False,B1,False
+GF-0010,I want help to file a reclamation against your business,bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0011,"I have to see the status of the rebate, will you help me?",bitext,refund_request,none,none,neutral,False,False,False,B2,False
+GF-0012,Your support is useless. Just give me my money back for order #1866995.,injected_tone_trap,refund_request,tone_trap,none,negative,True,True,False,B4,True
+GF-0013,need help to see what hours i can contact customer support,bitext,other_contact,none,none,neutral,False,False,False,B4,False
+GF-0014,can you help me check what shipment methods are there?,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0015,I want to locate purchase #6658042,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0016,i have got to se how long the shipment takes how to do it,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0017,Frustrated customer here. is there an e-mail to submit a comment for your services?,bitext,feedback_complaints,none,neg_wrap,negative,False,False,False,B1,False
+GF-0018,You guys are awesome. Quick question: i want assistance to swap something of purchase #8438443,bitext,order_changes,none,pos_wrap,positive,False,False,False,B1,False
+GF-0019,"I need to earn a goddamn article, could you help me?",bitext,order_changes,none,none,neutral,False,False,False,B3,False
+GF-0020,help me creating a freemium account,bitext,account_access,none,none,neutral,False,False,False,B3,False
+GF-0021,want help modifying my address,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0022,Brilliant — I can't reset my password because your site is down. You never disappoint.,injected_sarcasm,account_access,sarcasm,none,negative,True,True,False,B2,True
+GF-0023,how to make a consumer claim against ur company,bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0024,Billed $14.5 after I already cancelled (#7471523). Refund it.,injected_mixed_intent,refund_request,mixed_intent,none,negative,True,True,False,B4,True
+GF-0025,can uhelp me cancelling purchase #8757008,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0026,Either cancel #6648298 today or refund my money — your pick.,injected_mixed_intent,refund_request,mixed_intent,none,neutral,True,False,False,B3,True
+GF-0027,what time can I get in touch with customer support?,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0028,"Love the new site, by the way! i call to lodge a customer complaint against ur organization",bitext,feedback_complaints,none,pos_wrap,positive,True,False,False,B4,True
+GF-0029,where can i shop some articles,bitext,order_changes,none,none,neutral,False,False,False,B4,False
+GF-0030,Cancel #1168557 and explain this mystery $49.99 charge on my statement.,injected_mixed_intent,cancellation,mixed_intent,none,neutral,True,False,False,B1,True
+GF-0031,Cancel my order #3045073 and refund the $120 to my card today.,injected_mixed_intent,refund_request,mixed_intent,none,neutral,True,True,False,B2,True
+GF-0032,i nee help to cancel order $25,bitext,cancellation,none,none,neutral,False,False,False,B1,False
+GF-0033,"Yeah, because I still don't have my refund is totally my favorite thing.",injected_sarcasm,refund_request,sarcasm,none,negative,True,False,False,B4,True
+GF-0034,I'm getting tired of this awful runaround. could utell me more abouut creating a #1866995 account,bitext,account_access,none,neg_wrap,negative,False,False,False,B3,False
+GF-0035,"I want to see the allowed payment methods, can you help me?",bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0036,Still no package.,injected_short_fragment,shipping_delivery,short_fragment,none,negative,True,False,False,B4,True
+GF-0037,I need to talk to a operator,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0038,is it possible to notify of a problem with a signup?,bitext,account_access,none,none,neutral,False,False,False,B4,False
+GF-0039,You guys are awesome. Quick question: i need help to leave some feedback about ur services,bitext,feedback_complaints,none,pos_wrap,positive,False,False,False,B4,False
+GF-0040,solve a trouble with payment,bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0041,Very upsetting situation. i am experiencing a problem with the sign-up,bitext,account_access,none,neg_wrap,negative,False,False,False,B3,True
+GF-0042,I have to unsubscribe from the company newsletter,bitext,other_contact,none,none,neutral,False,False,False,B2,True
+GF-0043,Frustrated customer here. i am trying to retrieve the key of my user account,bitext,account_access,none,neg_wrap,negative,False,False,False,B3,False
+GF-0044,Frustrated customer here. swithcing to $120 account,bitext,account_access,none,neg_wrap,negative,False,False,False,B1,False
+GF-0045,Fantastic service as always: I can't reset my password because your site is down.,injected_sarcasm,account_access,sarcasm,none,negative,True,False,False,B4,True
+GF-0046,help to inform of troubles with online payments,bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0047,I want assistance deleting my #1471645 account,bitext,account_access,none,none,neutral,False,False,False,B1,False
+GF-0048,can I check if there are any news on my reimbursement?,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0049,I have to sde in what cases can I request a refund,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0050,where do I receive rebates of my money?,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0051,is it possible to check the early termination charges?,bitext,cancellation,none,none,neutral,False,False,False,B1,False
+GF-0052,Frustrated customer here. i'm trying to get in touch with bloody customer service,bitext,other_contact,none,neg_wrap,negative,False,False,False,B3,False
+GF-0053,Thanks so much! i don't know how to see the shipping methods,bitext,shipping_delivery,none,pos_wrap,positive,False,False,False,B3,False
+GF-0054,"Love how my delivery went to the wrong address. Really top-notch stuff, guys.",injected_sarcasm,shipping_delivery,sarcasm,none,negative,True,True,False,B3,True
+GF-0055,I want to cancel order #8178526. When do I get my money back?,injected_mixed_intent,refund_request,mixed_intent,none,neutral,True,False,False,B4,True
+GF-0056,wana correct order #2275152,bitext,order_changes,none,none,neutral,False,False,False,B4,False
+GF-0057,wanna change my fucking address,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0058,I want to know if there is anything wrong with my rebate,bitext,refund_request,none,none,neutral,False,False,True,B3,True
+GF-0059,"I have got to see the delivery methods, how to do it?",bitext,shipping_delivery,none,none,neutral,False,False,False,B3,False
+GF-0060,ya have a method to send a comment about a product,bitext,feedback_complaints,none,none,neutral,False,False,False,B1,False
+GF-0061,i need assistance solving errors with payments,bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0062,can i place an order frim $58,bitext,shipping_delivery,none,none,neutral,False,False,False,B1,False
+GF-0063,can you help me check my restitution status?,bitext,refund_request,none,none,neutral,False,False,False,B3,False
+GF-0064,Would you be able to tell me why the package is still in transit after a week?,injected_polite_complaint,shipping_delivery,polite_complaint,none,negative,True,False,False,B4,True
+GF-0065,Frustrated customer here. tell me ur alowed payment options,bitext,billing_payments,none,neg_wrap,negative,False,False,False,B4,False
+GF-0066,I do not know how to retrieve my bloody account PIN code,bitext,account_access,none,none,neutral,False,False,False,B2,False
+GF-0067,help to file a consumer complaint,bitext,feedback_complaints,none,none,neutral,False,False,True,B3,True
+GF-0068,can I cancel my subscription to your corporate newsletter?,bitext,other_contact,none,none,neutral,True,False,False,B2,False
+GF-0069,i have to request a compensation of my money,bitext,refund_request,none,none,neutral,False,False,False,B3,False
+GF-0070,Thanks so much! i have got to earn some of your article,bitext,order_changes,none,pos_wrap,positive,False,False,False,B1,False
+GF-0071,I'd appreciate an update on my refund; it's been two weeks now.,injected_polite_complaint,refund_request,polite_complaint,none,negative,True,True,False,B2,True
+GF-0072,I want help to remove some products from order $75,bitext,order_changes,none,none,neutral,False,True,False,B4,True
+GF-0073,where could I get information about shipping period?,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0074,I have got to see the early exit penalpties,bitext,cancellation,none,none,neutral,False,False,False,B4,False
+GF-0075,"Love the new site, by the way! how tolodge a customer complaint",bitext,feedback_complaints,none,pos_wrap,positive,False,False,False,B4,False
+GF-0076,Very upsetting situation. i have paid $64.2#8178526 for an item help me receive a compensation,bitext,refund_request,none,neg_wrap,negative,True,False,False,B1,True
+GF-0077,need help to cancel purchase #5936436,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0078,I was wondering why my order still hasn't shipped after ten days.,injected_polite_complaint,shipping_delivery,polite_complaint,none,negative,True,False,False,B3,True
+GF-0079,i cant make payments help to report issues with payments,bitext,billing_payments,none,none,neutral,False,False,False,B2,False
+GF-0080,help to solve an error withonline payments,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0081,Very upsetting situation. acn you help me changing something of purchase #4072634?,bitext,order_changes,none,neg_wrap,negative,False,False,True,B2,True
+GF-0082,Great experience so far. want help ot write a review for a service,bitext,feedback_complaints,none,pos_wrap,positive,False,True,False,B1,True
+GF-0083,checking bill from #6818269,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0084,have a problem with the deletio of my premium account,bitext,account_access,none,none,neutral,False,False,False,B2,False
+GF-0085,Honestly quite annoyed — updating order $64.2,bitext,order_changes,none,neg_wrap,negative,False,False,False,B3,False
+GF-0086,what do I need to do to call customer assistance?,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0087,"I lost bill #37777, mail it to me",bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0088,Great experience so far. help me make a claim against your business,bitext,feedback_complaints,none,pos_wrap,positive,True,False,False,B4,True
+GF-0089,I try to check in which cases can I ask to be reimbursed,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0090,I need help to find my damn invoice from #8178526,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0091,Great experience so far. i have got to obtain reimbursements of money,bitext,refund_request,none,pos_wrap,positive,False,False,False,B4,False
+GF-0092,Great experience so far. i have a question about canceling order #2577926,bitext,cancellation,none,pos_wrap,positive,False,False,False,B3,False
+GF-0093,Thanks so much! i need an $19.99 account,bitext,account_access,none,pos_wrap,positive,False,False,False,B4,False
+GF-0094,can i inform of sign-up problems,bitext,account_access,none,none,neutral,False,False,False,B3,False
+GF-0095,can i place an order from #6350779,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0096,I'm caalling to check how soon can i expect the damn order,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0097,"May I ask why my parcel never arrived, even though tracking says delivered?",injected_polite_complaint,shipping_delivery,polite_complaint,none,negative,True,False,True,B4,True
+GF-0098,want help sending feedback for a product,bitext,feedback_complaints,none,none,neutral,False,False,True,B4,True
+GF-0099,I'm trying to earn a product,bitext,order_changes,none,none,neutral,False,False,False,B2,False
+GF-0100,Thanks so much! i do not know what I need to do to download my bill #85632,bitext,billing_payments,none,pos_wrap,positive,False,False,False,B4,False
+GF-0101,is there a method to leave some feedback for a product?,bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0102,rebate #1866995#5936436,bitext,refund_request,none,none,neutral,False,False,False,B3,False
+GF-0103,help me file a consumer complaint against ur company,bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0104,what do i have to do to sign up to ur company newslettee,bitext,other_contact,none,none,neutral,False,False,False,B1,False
+GF-0105,I need assistanc canceling the newsletter subscription,bitext,other_contact,none,none,neutral,True,False,False,B3,True
+GF-0106,Unacceptable. Cancel order #5791940 immediately.,injected_tone_trap,cancellation,tone_trap,none,negative,True,False,False,B3,True
+GF-0107,I can't enter a different shipping address,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0108,i want help to check the early exit penalties,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0109,I'm getting tired of this awful runaround. need assistance to purchase several of your article,bitext,order_changes,none,neg_wrap,negative,False,False,False,B2,False
+GF-0110,how do I check the current status of my restitution?,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0111,can I use the gold profile?,bitext,account_access,none,none,neutral,False,False,False,B1,False
+GF-0112,do uship to #3897973,bitext,shipping_delivery,none,none,neutral,False,False,True,B4,True
+GF-0113,"I cannot pay, I want to report bloody problems with payment",bitext,billing_payments,none,none,negative,False,False,False,B2,False
+GF-0114,how can i ask for a ocmpensation of my money,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0115,could I reset my account PIN?,bitext,account_access,none,none,neutral,False,True,False,B4,True
+GF-0116,I don't know what I need to do to close a #8649800 account,bitext,account_access,none,none,neutral,False,False,False,B2,False
+GF-0117,I want assistance acquiring several of your product,bitext,order_changes,none,none,neutral,False,False,False,B3,False
+GF-0118,need to demand revates of my money,bitext,refund_request,none,none,neutral,False,False,False,B3,False
+GF-0119,Frustrated customer here. can you help me see what options for delivery I have?,bitext,shipping_delivery,none,neg_wrap,negative,False,True,False,B4,True
+GF-0120,"you aren't helpful, how can I chat wiuth someone?",bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0121,I need assistance making a customer claim,bitext,feedback_complaints,none,none,neutral,False,False,True,B4,True
+GF-0122,"I have paid #4777192$25 for this item, how to get my money back?",bitext,refund_request,none,none,neutral,True,False,False,B4,True
+GF-0123,You guys are awesome. Quick question: i am waiting for a reimbursement of #2595573$120,bitext,refund_request,none,pos_wrap,positive,False,True,False,B1,True
+GF-0124,"I want to check how long refunds take, I need assistance",bitext,other_contact,none,none,neutral,False,False,True,B4,True
+GF-0125,want help filing a consumer cliam against your company,bitext,feedback_complaints,none,none,neutral,False,False,False,B4,False
+GF-0126,help me tracking my compensation,bitext,refund_request,none,none,neutral,True,False,False,B4,True
+GF-0127,filing consumer claim against your business,bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0128,what do I need to do to download my invoice #37777?,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0129,Fantastic service as always: the app crashes every time I log in.,injected_sarcasm,account_access,sarcasm,none,negative,True,False,True,B3,True
+GF-0130,"I have to enter my new delivery address, could you help m?",bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0131,I need to see in which cases can I request the damn refunds,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0132,"Thanks so much! i have got to download the bill from #1076493, help me",bitext,billing_payments,none,pos_wrap,positive,False,False,False,B2,False
+GF-0133,show me the eta of the order #6350779,bitext,shipping_delivery,none,none,neutral,False,False,False,B3,False
+GF-0134,I don't know how I could check the early termination charges,bitext,cancellation,none,none,neutral,False,False,True,B3,True
+GF-0135,"I have paid #1938488#6803434 for this order, I want my reimbursement",bitext,refund_request,none,none,neutral,True,False,False,B1,False
+GF-0136,Frustrated customer here. i need help to file a customer claim against ur company,bitext,feedback_complaints,none,neg_wrap,negative,False,False,False,B1,False
+GF-0137,"I have to leave feedback for a product, I need help",bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0138,"I would like to list the payment methods, how to do it?",bitext,billing_payments,none,none,neutral,False,True,False,B1,True
+GF-0139,i need help changing several articles of purchase $14.5,bitext,order_changes,none,none,neutral,False,True,False,B1,True
+GF-0140,"I have got to see how long refunds usually take, I need help",bitext,other_contact,none,none,neutral,False,False,False,B4,False
+GF-0141,is it possible to check the ETA of order $49.99?,bitext,shipping_delivery,none,none,neutral,False,False,False,B3,False
+GF-0142,Where's my money?,injected_short_fragment,refund_request,short_fragment,none,negative,True,False,False,B3,True
+GF-0143,Thanks so much! how do I acquire several articles?,bitext,order_changes,none,pos_wrap,positive,False,False,False,B2,False
+GF-0144,i try to get a rebate of money,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0145,I'm extremely unhapp with ur services help to make a claim,bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0146,need assistance tonotify of a trouble with payments,bitext,billing_payments,none,none,neutral,False,False,False,B2,False
+GF-0147,is it possible to place an order from $120,bitext,shipping_delivery,none,none,neutral,False,False,False,B3,False
+GF-0148,Honestly quite annoyed — how do i see when will my purchase arrive,bitext,shipping_delivery,none,neg_wrap,negative,False,False,False,B2,False
+GF-0149,This whole thing is a scam. Refund #3336109 today or I'm disputing the charge.,injected_tone_trap,refund_request,tone_trap,none,negative,True,True,False,B4,True
+GF-0150,I'm getting tired of this awful runaround. assistance filing a customer reclamation against ur business,bitext,feedback_complaints,none,neg_wrap,negative,False,False,False,B2,True
+GF-0151,rebating #1168557#9231276,bitext,refund_request,none,none,neutral,False,False,False,B4,True
+GF-0152,I do not know how I can correct my shgipping address,bitext,shipping_delivery,none,none,neutral,False,False,False,B1,False
+GF-0153,i have to sede the cancellation charge,bitext,cancellation,none,none,neutral,True,False,False,B1,False
+GF-0154,can you help me submit feedback for a service?,bitext,feedback_complaints,none,none,neutral,False,False,False,B1,False
+GF-0155,I want help to change the delivery address,bitext,shipping_delivery,none,none,neutral,False,True,False,B2,True
+GF-0156,have a problem with cancelling purchase $89.99,bitext,cancellation,none,none,neutral,False,False,False,B2,False
+GF-0157,I have to create a premium account for my fiance,bitext,account_access,none,none,neutral,False,False,False,B3,False
+GF-0158,i want assistance seeing the compensation current status,bitext,refund_request,none,none,neutral,False,False,False,B2,False
+GF-0159,Honestly quite annoyed — modifying details on #8757008 account,bitext,account_access,none,neg_wrap,negative,False,False,True,B4,True
+GF-0160,opening $32.75 account,bitext,account_access,none,none,neutral,False,False,False,B3,True
+GF-0161,how can I get the invoices from #9912776?,bitext,billing_payments,none,none,neutral,False,True,False,B4,True
+GF-0162,"Love the new site, by the way! i need to see the reimbursement status, how can I do it?",bitext,refund_request,none,pos_wrap,positive,False,False,False,B3,False
+GF-0163,where to sign up to the newsleter,bitext,other_contact,none,none,neutral,False,False,False,B3,False
+GF-0164,I do not know how to download the bill #85632,bitext,billing_payments,none,none,neutral,False,True,False,B2,True
+GF-0165,I have got to send feedback for a product,bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0166,there are errors trying to correct my address,bitext,shipping_delivery,none,none,neutral,False,False,False,B1,False
+GF-0167,can you help me cancel order #7023839?,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0168,I don't know what to do to restore my PIN code,bitext,account_access,none,none,neutral,False,False,False,B3,False
+GF-0169,Please issue a refund for #4241087 — I've already cancelled it.,injected_mixed_intent,refund_request,mixed_intent,none,neutral,True,False,True,B1,True
+GF-0170,want help to use the standard profile,bitext,account_access,none,none,neutral,False,False,True,B3,True
+GF-0171,Great experience so far. i need help to call customer assistance,bitext,other_contact,none,pos_wrap,positive,False,False,False,B4,False
+GF-0172,help me seeing what hours customer service available is,bitext,other_contact,none,none,neutral,False,False,False,B3,False
+GF-0173,I have to check in which cases can I request a refund,bitext,other_contact,none,none,neutral,False,False,False,B1,False
+GF-0174,I'm calling to make a complaint against ur company,bitext,feedback_complaints,none,none,neutral,False,False,False,B1,False
+GF-0175,I'm getting tired of this awful runaround. i do not knwo what I need to do to cancel order $25,bitext,cancellation,none,neg_wrap,negative,False,True,False,B1,True
+GF-0176,i do not know how to cancel order #2176675,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0177,how do I use the pro account?,bitext,account_access,none,none,neutral,False,False,False,B3,False
+GF-0178,I can't see the status of my subscription to your newsletter,bitext,other_contact,none,none,neutral,False,False,False,B1,False
+GF-0179,"I lost the access key of my account, help me reset it",bitext,account_access,none,none,neutral,False,True,False,B1,True
+GF-0180,could you help me to solve payment errors?,bitext,billing_payments,none,none,neutral,False,False,False,B2,False
+GF-0181,Honestly quite annoyed — can I take a quick look at the bill #00108?,bitext,billing_payments,none,neg_wrap,negative,False,False,False,B2,False
+GF-0182,check bill #00108,bitext,billing_payments,none,none,neutral,False,False,False,B2,False
+GF-0183,Refund my $64.2 and cancel the second order (#4241087) while you're at it.,injected_mixed_intent,refund_request,mixed_intent,none,neutral,True,False,True,B1,True
+GF-0184,I want assistance writing an opinion for a product,bitext,feedback_complaints,none,none,neutral,False,False,False,B4,False
+GF-0185,I need to look for the fucking invoices from #2526539,bitext,billing_payments,none,none,neutral,False,False,False,B2,True
+GF-0186,i want assistance to send feedback for ur company,bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0187,I do not know what to do to speak with customer service,bitext,other_contact,none,none,neutral,False,False,False,B3,False
+GF-0188,I have to see in what situations can I ask to be reimbursed,bitext,other_contact,none,none,neutral,False,False,False,B1,True
+GF-0189,can you help me to list your paymnet modalities?,bitext,billing_payments,none,none,neutral,False,False,False,B4,True
+GF-0190,I don't know what to do to talk to customer service,bitext,other_contact,none,none,neutral,False,True,False,B4,True
+GF-0191,is it possible to purchase some articles?,bitext,order_changes,none,none,neutral,False,False,False,B3,False
+GF-0192,Fantastic service as always: my card got charged twice.,injected_sarcasm,billing_payments,sarcasm,none,negative,True,False,True,B1,True
+GF-0193,showing reimbursement status,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0194,editing #6818269 account,bitext,account_access,none,none,neutral,False,False,False,B4,False
+GF-0195,"Love the new site, by the way! i want assistance entering my delivery address",bitext,shipping_delivery,none,pos_wrap,positive,False,False,False,B3,False
+GF-0196,where do i see if there are any news on the rebate,bitext,refund_request,none,none,neutral,False,False,True,B1,True
+GF-0197,cancelling purchase #4661544,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0198,This company is a nightmare. Refund my $40 for #2577926 immediately.,injected_tone_trap,refund_request,tone_trap,none,negative,True,True,False,B1,True
+GF-0199,ho do i get a refund,bitext,refund_request,none,none,neutral,False,False,True,B2,True
+GF-0200,wanna file a custome complaint,bitext,feedback_complaints,none,none,neutral,False,False,False,B4,False
+GF-0201,I want assistance to notify of an error with sign-up,bitext,account_access,none,none,neutral,False,False,False,B1,False
+GF-0202,Cancel order #9351146 immediately and I expect a full refund of $64.2.,injected_mixed_intent,refund_request,mixed_intent,none,neutral,True,False,True,B2,True
+GF-0203,could you help me to see how soon can I expect the item?,bitext,shipping_delivery,none,none,neutral,False,False,True,B2,True
+GF-0204,how do I see your money back policy?,bitext,other_contact,none,none,neutral,False,False,False,B3,False
+GF-0205,Fantastic service as always: my package is a week late.,injected_sarcasm,shipping_delivery,sarcasm,none,negative,True,False,False,B2,True
+GF-0206,Honestly quite annoyed — can yahelp me getting a compensation,bitext,refund_request,none,neg_wrap,negative,False,False,False,B1,False
+GF-0207,"Excuse me, I think there's a small mistake on my invoice — a duplicate charge.",injected_polite_complaint,billing_payments,polite_complaint,none,negative,True,False,True,B4,True
+GF-0208,You guys are awesome. Quick question: i dont know how i can get refunds,bitext,refund_request,none,pos_wrap,positive,False,False,False,B3,False
+GF-0209,Fantastic service as always: my refund has vanished into thin air.,injected_sarcasm,refund_request,sarcasm,none,negative,True,False,False,B3,True
+GF-0210,Very upsetting situation. how do I shop a few of your item?,bitext,order_changes,none,neg_wrap,negative,False,False,False,B1,False
+GF-0211,i do not know how i can see the current status of the rebate,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0212,You guys are awesome. Quick question: how can i check purchase #6658042 current status,bitext,shipping_delivery,none,pos_wrap,positive,False,False,False,B1,False
+GF-0213,I want information about the termination of a $120 account,bitext,account_access,none,none,neutral,False,False,False,B1,False
+GF-0214,is it possible to cancel purchase #7471523,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0215,I try to inform of a trouble with online payment,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0216,My card was charged $58 for an order I want cancelled (#2595573).,injected_mixed_intent,cancellation,mixed_intent,none,neutral,True,False,False,B3,False
+GF-0217,Why is my card charged?,injected_short_fragment,billing_payments,short_fragment,none,neutral,True,True,False,B1,True
+GF-0218,Thanks so much! delete freemium acvount,bitext,account_access,none,pos_wrap,positive,False,False,False,B1,False
+GF-0219,Frustrated customer here. see the withdrawal penalties,bitext,cancellation,none,neg_wrap,negative,False,False,False,B3,False
+GF-0220,add something to order $120,bitext,order_changes,none,none,neutral,False,True,False,B1,True
+GF-0221,I expect an reimbursement of $58#8919350,bitext,refund_request,none,none,neutral,False,True,False,B3,True
+GF-0222,wanna leave some feedback about a service,bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0223,can I place an ordewr from $64.2?,bitext,shipping_delivery,none,none,neutral,False,False,False,B1,False
+GF-0224,"Love the new site, by the way! i would like to switch something of order #7023839",bitext,order_changes,none,pos_wrap,positive,False,False,False,B1,False
+GF-0225,how can i check ur money back guarantee,bitext,other_contact,none,none,neutral,False,False,False,B4,False
+GF-0226,I'm waiting for a refund of #8649800#8757008,bitext,refund_request,none,none,neutral,False,False,False,B2,False
+GF-0227,where to cancel my subscription to the company newsletter,bitext,other_contact,none,none,neutral,True,False,False,B1,False
+GF-0228,i have got to check the cvancellation penalty how to do it,bitext,cancellation,none,none,neutral,False,False,False,B2,False
+GF-0229,i dont know what i need to do to lodge a consumer complaint,bitext,feedback_complaints,none,none,neutral,False,False,False,B1,False
+GF-0230,"Love the new site, by the way! find my bill from #9912776",bitext,billing_payments,none,pos_wrap,positive,False,False,False,B2,False
+GF-0231,I have troubles trying to update the address,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0232,how long till I receive a refund of money?,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0233,ened assistance downloading the bill from $40,bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0234,Honestly quite annoyed — support correcting my address,bitext,shipping_delivery,none,neg_wrap,negative,False,False,False,B4,False
+GF-0235,"Love the new site, by the way! i have got to check the withdrawal charge",bitext,cancellation,none,pos_wrap,positive,False,False,False,B2,False
+GF-0236,I call to download bill #00108,bitext,billing_payments,none,none,neutral,False,False,True,B1,True
+GF-0237,i have to see in which cases can i askfor my money back,bitext,other_contact,none,none,neutral,False,False,False,B1,False
+GF-0238,can you help me contacting a person?,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0239,I am waiting for a reimbursement of $120#2526539,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0240,want help to see in what cases can I request reimbursements,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0241,help me seeing the early exit fee,bitext,cancellation,none,none,neutral,False,False,False,B2,False
+GF-0242,help to list the available payment modalities,bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0243,help me to cancel purchase #8757008,bitext,cancellation,none,none,neutral,False,True,False,B2,True
+GF-0244,"Love the new site, by the way! directing to agent",bitext,other_contact,none,pos_wrap,positive,False,True,False,B2,True
+GF-0245,I want help to see your available payment modalities,bitext,billing_payments,none,none,neutral,False,False,False,B2,False
+GF-0246,Honestly quite annoyed — is it possible to create a freemium account?,bitext,account_access,none,neg_wrap,negative,False,False,False,B4,False
+GF-0247,"I paid #2176675 dollars for an item, I need to receive a rebate",bitext,refund_request,none,none,neutral,True,False,False,B3,True
+GF-0248,I need assistance ordering some of your article,bitext,order_changes,none,none,neutral,False,False,False,B4,False
+GF-0249,i cannot check ur money back guarantee,bitext,other_contact,none,none,neutral,False,False,True,B2,True
+GF-0250,i have a questioln about my standard account cancellation,bitext,account_access,none,none,neutral,True,False,False,B2,True
+GF-0251,where could I inform of issues with payment?,bitext,billing_payments,none,none,neutral,False,False,False,B2,False
+GF-0252,I want help trying to edit my shipping address,bitext,shipping_delivery,none,none,neutral,False,False,False,B1,False
+GF-0253,"Thanks so much! i have got to see the cancellation penalties, help me",bitext,cancellation,none,pos_wrap,positive,False,True,False,B2,True
+GF-0254,I'm trying to check in which cases can i ask for a refund,bitext,other_contact,none,none,neutral,False,False,False,B4,False
+GF-0255,"Love the new site, by the way! i paid #1636773$19.99 for these articles, I have to obtain a rebate",bitext,refund_request,none,pos_wrap,positive,True,False,False,B2,False
+GF-0256,assistance subscriving to the company newsletter,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0257,help talking with customer service,bitext,other_contact,none,none,neutral,False,False,False,B4,False
+GF-0258,I don't know how to create a premium account for my fiance,bitext,account_access,none,none,neutral,False,False,False,B4,False
+GF-0259,is it possible to lodge a customer claim,bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0260,Great experience so far. opening new premium account,bitext,account_access,none,pos_wrap,positive,False,False,False,B1,False
+GF-0261,I can no longer afford purchase #5936436,bitext,cancellation,none,none,neutral,False,False,False,B4,True
+GF-0262,I'm waiting for a  compensation of #1866995#2275152,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0263,How do I get a human on the line?,injected_short_fragment,other_contact,short_fragment,none,neutral,True,False,False,B4,False
+GF-0264,"Love the new site, by the way! check payment modalities",bitext,billing_payments,none,pos_wrap,positive,False,False,False,B4,False
+GF-0265,Very upsetting situation. i can no longer pay for order #4072634,bitext,cancellation,none,neg_wrap,negative,False,False,False,B2,False
+GF-0266,can ushow me the accepted payment metyods,bitext,billing_payments,none,none,neutral,False,True,False,B4,True
+GF-0267,help me to change a goddamn product of order $58,bitext,order_changes,none,none,neutral,False,False,True,B1,True
+GF-0268,want help to request a compensation of my money,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0269,You guys are awesome. Quick question: see in which cases can I request a reimbursement,bitext,other_contact,none,pos_wrap,positive,False,False,False,B1,False
+GF-0270,help me canceling purchase $89.99,bitext,cancellation,none,none,neutral,False,False,False,B2,False
+GF-0271,"Wow, amazing — the app crashes every time I log in. What a wonderful experience.",injected_sarcasm,account_access,sarcasm,none,negative,True,False,False,B1,False
+GF-0272,"Love the new site, by the way! is it possible to order from #6860249?",bitext,shipping_delivery,none,pos_wrap,positive,False,False,False,B2,False
+GF-0273,assistance to cancel purchase #8291293,bitext,cancellation,none,none,neutral,False,True,False,B2,True
+GF-0274,"I purchased some product, cancel order #7055261",bitext,cancellation,none,none,neutral,False,False,False,B2,False
+GF-0275,Would you mind telling me why my delivery is three days late?,injected_polite_complaint,shipping_delivery,polite_complaint,none,negative,True,False,False,B2,True
+GF-0276,Money back now.,injected_short_fragment,refund_request,short_fragment,none,negative,True,True,False,B3,True
+GF-0277,can ya help me to see what payment options ya accept,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0278,I need help to recover my profile key,bitext,account_access,none,none,neutral,False,False,False,B4,False
+GF-0279,"Hello, it seems my refund is taking longer than the promised 5 days.",injected_polite_complaint,refund_request,polite_complaint,none,negative,True,False,False,B3,True
+GF-0280,Sort out the duplicate charge on my card and refund $89.99 for order #9912776.,injected_mixed_intent,refund_request,mixed_intent,none,negative,True,False,False,B4,True
+GF-0281,Very upsetting situation. where to check the termination charges?,bitext,cancellation,none,neg_wrap,negative,False,False,True,B3,True
+GF-0282,"I can't afford this item, I try to cancel order $64.2",bitext,cancellation,none,none,neutral,False,False,False,B4,False
+GF-0283,switching user,bitext,account_access,none,none,neutral,False,False,False,B1,False
+GF-0284,modify purchase #3045073,bitext,order_changes,none,none,neutral,False,False,False,B3,False
+GF-0285,I'm trying to set up another shipping address,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0286,i have to write an opinion for a service,bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0287,help me change the address,bitext,shipping_delivery,none,none,neutral,False,False,False,B1,False
+GF-0288,I am trying to see when my package is going to arrive,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0289,I want help to purchase some items,bitext,order_changes,none,none,neutral,False,False,False,B3,False
+GF-0290,i have to check the eta of the purchase #7023839,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0291,Brilliant — I still don't have my refund. You never disappoint.,injected_sarcasm,refund_request,sarcasm,none,negative,True,False,False,B2,True
+GF-0292,I have got to check what delivery methods are there,bitext,shipping_delivery,none,none,neutral,False,True,False,B2,True
+GF-0293,Honestly quite annoyed — i do not know how I can notify of an error with payments,bitext,billing_payments,none,neg_wrap,negative,False,False,False,B3,False
+GF-0294,I'm getting tired of this awful runaround. i have tl see how soon can I expect my shipment,bitext,shipping_delivery,none,neg_wrap,negative,False,False,False,B4,False
+GF-0295,You guys are awesome. Quick question: i want help adding some products to purchase #8291293,bitext,order_changes,none,pos_wrap,positive,False,True,False,B1,True
+GF-0296,I'm getting tired of this awful runaround. i don't know how to inform of issues with online payment,bitext,billing_payments,none,neg_wrap,negative,False,False,False,B3,False
+GF-0297,I want assistance submitting my delivery address,bitext,shipping_delivery,none,none,neutral,False,False,False,B3,False
+GF-0298,Beyond angry. Process the refund for #4267341 or I'm going to my card provider.,injected_tone_trap,refund_request,tone_trap,none,negative,True,False,False,B3,True
+GF-0299,i need help to delete something from order $49.99,bitext,order_changes,none,none,neutral,False,False,True,B1,True
+GF-0300,Great experience so far. i call to see the shipping methods,bitext,shipping_delivery,none,pos_wrap,positive,False,False,False,B2,False
+GF-0301,help me reporting an issue wigh online payment,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0302,i need assistance swapping an article of order $120,bitext,order_changes,none,none,neutral,False,False,False,B3,False
+GF-0303,I'm waiting for a reimbjrsement of #4661544$40,bitext,refund_request,none,none,neutral,False,False,False,B3,False
+GF-0304,Great experience so far. getting bill from $89.99,bitext,billing_payments,none,pos_wrap,positive,False,False,False,B3,False
+GF-0305,want help filing a claim,bitext,feedback_complaints,none,none,neutral,False,False,False,B4,False
+GF-0306,Honestly quite annoyed — could you help me to write an opinion for your company?,bitext,feedback_complaints,none,neg_wrap,negative,False,False,False,B3,False
+GF-0307,I want help speaking to goddamn customer service,bitext,other_contact,none,none,neutral,False,False,False,B3,False
+GF-0308,Thanks so much! i do not know how I can check the status of my compensation,bitext,refund_request,none,pos_wrap,positive,False,False,False,B2,False
+GF-0309,Thanks so much! contact agent,bitext,other_contact,none,pos_wrap,positive,False,False,False,B2,False
+GF-0310,I want help to submit the new delivery address,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0311,I need to create a gold account,bitext,account_access,none,none,neutral,False,False,False,B1,False
+GF-0312,how to submit my feedback about your company?,bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0313,how doI see the early termination penalty?,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0314,how can i get information about updating order #6818269,bitext,order_changes,none,none,neutral,False,False,False,B3,False
+GF-0315,help me seeing the termination fees,bitext,cancellation,none,none,neutral,False,False,False,B1,False
+GF-0316,need to notify of an issue with registrations,bitext,account_access,none,none,neutral,False,False,False,B3,False
+GF-0317,can you help me to see the current status of my refund?,bitext,refund_request,none,none,neutral,False,False,False,B2,False
+GF-0318,Thanks so much! i need help checking the termination fee,bitext,cancellation,none,pos_wrap,positive,True,False,False,B1,True
+GF-0319,i need assistance canceling roder $120,bitext,cancellation,none,none,neutral,False,True,False,B2,True
+GF-0320,help lodging a consumer reclamation against your business,bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0321,I want assistance seeing when will my item arrive,bitext,shipping_delivery,none,none,neutral,False,False,True,B2,True
+GF-0322,I do not know how I can see the early termination penalty,bitext,cancellation,none,none,neutral,False,False,False,B1,False
+GF-0323,i have troubles entering the new shipping address,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0324,Refund please for #3623354. Oh and cancel any repeat orders on my account.,injected_mixed_intent,refund_request,mixed_intent,none,neutral,True,False,False,B2,True
+GF-0325,i try to change my shipping address,bitext,shipping_delivery,none,none,neutral,False,True,False,B1,True
+GF-0326,where do I get invoice #00108?,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0327,looking for invoice from $120,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0328,I want help filing a consumer complaint,bitext,feedback_complaints,none,none,neutral,False,False,False,B1,False
+GF-0329,Very upsetting situation. could you help me file a reclamation ?,bitext,feedback_complaints,none,neg_wrap,negative,False,False,False,B4,False
+GF-0330,what do I need to do to request a fucking refund?,bitext,refund_request,none,none,neutral,False,False,False,B3,False
+GF-0331,need assistance to talk with an agent,bitext,other_contact,none,none,neutral,False,False,False,B3,False
+GF-0332,I want to know more about the subscription to the newsletter,bitext,other_contact,none,none,neutral,False,True,False,B3,True
+GF-0333,"I have made a mistake, help me change purchase #8438443",bitext,order_changes,none,none,neutral,False,False,False,B4,False
+GF-0334,see purchase $120 status,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,True
+GF-0335,uhave a free number to get in touch with customer assistance,bitext,other_contact,none,none,neutral,False,False,False,B3,False
+GF-0336,"Oh great, my delivery went to the wrong address again. Exactly what I needed today.",injected_sarcasm,shipping_delivery,sarcasm,none,negative,True,False,True,B4,True
+GF-0337,You guys are awesome. Quick question: open premium cacount for wife,bitext,account_access,none,pos_wrap,positive,False,False,False,B4,False
+GF-0338,Very upsetting situation. i do not know how I can submit my feedback for your products,bitext,feedback_complaints,none,neg_wrap,negative,False,True,False,B3,True
+GF-0339,Could someone explain why I was charged twice this month?,injected_polite_complaint,billing_payments,polite_complaint,none,negative,True,False,False,B1,True
+GF-0340,I don't know how to see what delivery methods I have,bitext,shipping_delivery,none,none,neutral,False,False,False,B3,False
+GF-0341,I need to know if there is anything new on the restitution,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0342,help solving a goddamn error with online payments,bitext,billing_payments,none,none,negative,False,False,False,B3,False
+GF-0343,help me downloading my invoice #37777,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0344,I try to set  up my goddamn shipping address,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0345,I have problems with canceling purchase #4241087,bitext,cancellation,none,none,neutral,False,False,True,B4,True
+GF-0346,I need help unsubscribing to the company newsletter,bitext,other_contact,none,none,neutral,False,False,False,B4,False
+GF-0347,I am trying to leave fewedback about a service,bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0348,want assistance cancelling order #1938488,bitext,cancellation,none,none,neutral,False,False,False,B2,False
+GF-0349,uhave a free number to talk with customer assistance,bitext,other_contact,none,none,neutral,False,False,False,B3,False
+GF-0350,Honestly quite annoyed — canceling order #3298645,bitext,cancellation,none,neg_wrap,negative,False,False,False,B1,False
+GF-0351,i want help to update order #2526539,bitext,order_changes,none,none,neutral,False,False,False,B3,False
+GF-0352,get money back,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0353,i have a tyrouble modifying my address,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0354,assistance checking the fucking early exit penalties,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0355,"my experience with you was too bad, help making a complaint",bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0356,I am trying to leave an opinion about your company,bitext,feedback_complaints,none,none,neutral,False,True,False,B2,True
+GF-0357,Never shopping here again. Cancel #7471523.,injected_tone_trap,cancellation,tone_trap,none,negative,True,True,False,B3,True
+GF-0358,Frustrated customer here. need help to swap an item of order #3336109,bitext,order_changes,none,neg_wrap,negative,False,False,False,B4,False
+GF-0359,Great experience so far. can you help me cancelling my newsletter subscription?,bitext,other_contact,none,pos_wrap,positive,True,False,False,B1,True
+GF-0360,"Love how I still don't have my refund. Really top-notch stuff, guys.",injected_sarcasm,refund_request,sarcasm,none,negative,True,False,False,B2,True
+GF-0361,I want help buying some of your product,bitext,order_changes,none,none,neutral,False,True,False,B3,True
+GF-0362,i want help requesting a reimbursement of moey,bitext,refund_request,none,none,neutral,False,False,False,B3,False
+GF-0363,I'm getting tired of this awful runaround. where could I check the current status of my restitution?,bitext,refund_request,none,neg_wrap,negative,False,False,False,B2,False
+GF-0364,lodging consuer complaint,bitext,feedback_complaints,none,none,neutral,False,True,False,B3,True
+GF-0365,can i talk to an agent,bitext,other_contact,none,none,neutral,False,True,False,B2,True
+GF-0366,Package. Late. Again.,injected_short_fragment,shipping_delivery,short_fragment,none,negative,True,False,True,B1,True
+GF-0367,"Love the new site, by the way! i don't know what I have to do to see the withdrawal charges",bitext,cancellation,none,pos_wrap,positive,False,False,False,B3,False
+GF-0368,"Oh great, my card got charged twice again. Exactly what I needed today.",injected_sarcasm,billing_payments,sarcasm,none,negative,True,False,False,B3,False
+GF-0369,I'm getting tired of this awful runaround. changing to pro account,bitext,account_access,none,neg_wrap,negative,False,True,False,B2,True
+GF-0370,This is ridiculous. Refund my card for order #3045073 NOW.,injected_tone_trap,refund_request,tone_trap,none,negative,True,False,True,B1,True
+GF-0371,can i get the bill #12588,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0372,can you help me filing a claim against your organization?,bitext,feedback_complaints,none,none,neutral,False,False,False,B4,False
+GF-0373,"Could you let me know the status of my refund, please? It seems delayed.",injected_polite_complaint,refund_request,polite_complaint,none,negative,True,True,False,B4,True
+GF-0374,Great experience so far. help me to download the bill #37777,bitext,billing_payments,none,pos_wrap,positive,False,True,False,B1,True
+GF-0375,help to see the current status of purchase #7167086,bitext,shipping_delivery,none,none,neutral,False,False,False,B1,False
+GF-0376,Totally outrageous. I want #7167086 cancelled before it ships.,injected_tone_trap,cancellation,tone_trap,none,negative,True,False,True,B4,True
+GF-0377,This is the second time I'm asking: cancel #4267341 and return my $14.5.,injected_mixed_intent,refund_request,mixed_intent,none,negative,True,True,False,B1,True
+GF-0378,how to check at what time i can reach customer assistance,bitext,other_contact,none,none,neutral,False,False,False,B4,False
+GF-0379,could you help me canceling purchase $58?,bitext,cancellation,none,none,neutral,False,False,False,B4,False
+GF-0380,You guys are awesome. Quick question: in which cases can I request refunds?,bitext,other_contact,none,pos_wrap,positive,False,False,False,B1,False
+GF-0381,I'm waiting for a restitution of $49.99#3336109,bitext,refund_request,none,none,neutral,False,True,False,B3,True
+GF-0382,I can't see if there is anything wrong with the restitution,bitext,refund_request,none,none,negative,False,False,False,B4,False
+GF-0383,i have a question about creating a #8919350 account,bitext,account_access,none,none,neutral,False,False,False,B4,False
+GF-0384,is it possible to list ur accepted payment modalities,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0385,order a few of your article,bitext,order_changes,none,none,neutral,False,False,False,B3,False
+GF-0386,is it possible to get rebates of money?,bitext,refund_request,none,none,neutral,False,False,False,B2,False
+GF-0387,Frustrated customer here. i am trying to see the accepted payment methods,bitext,billing_payments,none,neg_wrap,negative,False,True,False,B3,True
+GF-0388,I cannot receive the corporate newsletter,bitext,other_contact,none,none,neutral,False,False,False,B1,False
+GF-0389,cancel purchase  $89.99,bitext,cancellation,none,none,neutral,False,False,False,B2,False
+GF-0390,"Just perfect. My refund has vanished into thin air, and nobody even told me.",injected_sarcasm,refund_request,sarcasm,none,negative,True,False,False,B2,True
+GF-0391,how to use the premium profile,bitext,account_access,none,none,neutral,False,False,False,B4,False
+GF-0392,i expect a compensation of #4661544 dollars was it processed,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0393,help me see in what situations can i request to be refunded,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0394,I have to see what payment payment modalities are accepted,bitext,billing_payments,none,none,neutral,False,False,False,B1,True
+GF-0395,"I want to see the methods for delivery, can you help me?",bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0396,Very upsetting situation. can i place an oeder from $14.5,bitext,shipping_delivery,none,neg_wrap,negative,False,False,False,B3,False
+GF-0397,Great experience so far. question about canceling purchase #5556096,bitext,cancellation,none,pos_wrap,positive,False,False,False,B4,False
+GF-0398,I  need assistance to download invoice #85632,bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0399,I'm getting tired of this awful runaround. locating order #1938488,bitext,shipping_delivery,none,neg_wrap,negative,False,False,False,B1,False
+GF-0400,Thanks so much! help receiving reinbursements of my money,bitext,refund_request,none,pos_wrap,positive,False,False,False,B4,True
+GF-0401,Charged twice??,injected_short_fragment,billing_payments,short_fragment,none,negative,True,False,False,B2,True
+GF-0402,I have a problem with the deletion of my #2526539 account,bitext,account_access,none,none,neutral,False,False,False,B2,False
+GF-0403,I would like to recover the key of my user account,bitext,account_access,none,none,neutral,False,False,False,B3,False
+GF-0404,could you help me see purchase #2705718 current status?,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0405,What a disgrace. Cancel my order #3070817 right now.,injected_tone_trap,cancellation,tone_trap,none,negative,True,False,True,B4,True
+GF-0406,I'm getting tired of this awful runaround. where can I cancel my subscription to the newsletter?,bitext,other_contact,none,neg_wrap,negative,True,False,False,B3,True
+GF-0407,assistance obtaining a refund of money,bitext,refund_request,none,none,neutral,False,False,False,B2,False
+GF-0408,I do not know what I have to do to get my invoice #37777,bitext,billing_payments,none,none,neutral,False,False,True,B4,True
+GF-0409,how long until i get my money back,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0410,I have a problem submitting a different delivery address,bitext,shipping_delivery,none,none,neutral,False,False,False,B1,False
+GF-0411,i have got to notify of ah issue with a registration,bitext,account_access,none,none,neutral,False,False,False,B1,True
+GF-0412,I'm getting tired of this awful runaround. i expect a restitution of #5791940$89.99 has it been prcoessed,bitext,refund_request,none,neg_wrap,negative,False,False,False,B2,False
+GF-0413,I've had it with you people — refund the $89.99 for #5270877.,injected_tone_trap,refund_request,tone_trap,none,negative,True,False,True,B4,True
+GF-0414,"Frustrated customer here. i want to set up a secondary delivery address, how to do it?",bitext,shipping_delivery,none,neg_wrap,negative,False,False,False,B4,False
+GF-0415,Honestly quite annoyed — find information about subscribing to your newsletter,bitext,other_contact,none,neg_wrap,negative,False,False,True,B2,True
+GF-0416,I'm getting tired of this awful runaround. can ya help me to solve probelms with payment,bitext,billing_payments,none,neg_wrap,negative,False,False,False,B1,False
+GF-0417,how do I see the status of the reimbursement?,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0418,I do not know what I have to do to edit the address,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0419,Fantastic service as always: you billed me for an order I never got.,injected_sarcasm,billing_payments,sarcasm,none,negative,True,True,False,B1,True
+GF-0420,You guys are awesome. Quick question: change to the standard account,bitext,account_access,none,pos_wrap,positive,False,True,False,B4,True
+GF-0421,I don't know what to do to get a reimbursement,bitext,refund_request,none,none,neutral,False,False,False,B2,False
+GF-0422,I can't remove some articles from purchase #8649800,bitext,order_changes,none,none,neutral,False,False,False,B2,False
+GF-0423,I need assistance trying to correct my delivery address,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0424,I want help to modify the address,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0425,"Great job, really: the app crashes every time I log in. So happy I chose you.",injected_sarcasm,account_access,sarcasm,none,negative,True,True,False,B1,True
+GF-0426,I don't know how to speak with an assistan,bitext,other_contact,none,none,neutral,False,False,False,B1,False
+GF-0427,Would it be possible to check why my card was billed twice for one order?,injected_polite_complaint,billing_payments,polite_complaint,none,negative,True,False,False,B3,False
+GF-0428,Frustrated customer here. assistance removing something from purchase #7023839,bitext,order_changes,none,neg_wrap,negative,False,False,False,B4,False
+GF-0429,i dont know how to cancel purchase #3336109,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0430,I'm a little concerned my refund hasn't reached my account yet.,injected_polite_complaint,refund_request,polite_complaint,none,negative,True,True,False,B1,True
+GF-0431,i want help removing a product from order #2705718,bitext,order_changes,none,none,neutral,False,False,False,B4,False
+GF-0432,I try to ask for a compensation of my money,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0433,I don't know what I have to do to do a pucrhase,bitext,order_changes,none,none,neutral,False,False,False,B1,False
+GF-0434,help me to leave feedback for ur services,bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0435,You should be ashamed. Cancel order #5791940 and confirm it in writing.,injected_tone_trap,cancellation,tone_trap,none,negative,True,False,False,B2,True
+GF-0436,how do I see the early exit fee?,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0437,I am calling to file a complaint against your organization,bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0438,I'm trying to request rebates of my money,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0439,help me get my bill from $120,bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0440,Can you cancel #7055261? And the pending charge of $14.5 needs to come off my card.,injected_mixed_intent,cancellation,mixed_intent,none,neutral,True,True,False,B1,True
+GF-0441,"I have ordered some article, cancel purchase #4072634",bitext,cancellation,none,none,neutral,False,False,False,B1,False
+GF-0442,I need help to retrieev my user PIN,bitext,account_access,none,none,neutral,False,True,False,B2,True
+GF-0443,I need assistance canceling purchase $58,bitext,cancellation,none,none,neutral,False,False,False,B1,True
+GF-0444,"Great job, really: you billed me for an order I never got. So happy I chose you.",injected_sarcasm,billing_payments,sarcasm,none,negative,True,False,False,B3,False
+GF-0445,i try to make a bloody consumer complaint against ur company,bitext,feedback_complaints,none,none,neutral,False,False,False,B4,False
+GF-0446,I need to cancel #8757008 — also why was I billed $64.2 twice?,injected_mixed_intent,cancellation,mixed_intent,none,neutral,True,False,False,B2,True
+GF-0447,I'm getting tired of this awful runaround. i try to file a complaint against your organization,bitext,feedback_complaints,none,neg_wrap,negative,False,False,False,B1,False
+GF-0448,is it possible to receive fucking refunds of my money?,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0449,I don't know how I can change to the #3897973 account,bitext,account_access,none,none,neutral,False,False,False,B1,False
+GF-0450,i have to inform of problems with signup can i get some help,bitext,account_access,none,none,neutral,False,False,False,B3,False
+GF-0451,Great experience so far. mldifying $58 account,bitext,account_access,none,pos_wrap,positive,False,False,False,B1,False
+GF-0452,can you help me to file a fucking customer reclamation?,bitext,feedback_complaints,none,none,neutral,False,False,False,B4,False
+GF-0453,i have problems setting up my delivery address,bitext,shipping_delivery,none,none,neutral,False,False,False,B1,False
+GF-0454,can I inform of issues with signup?,bitext,account_access,none,none,neutral,False,False,False,B3,False
+GF-0455,want help to notify of troubles with online payment,bitext,billing_payments,none,none,neutral,False,False,False,B2,False
+GF-0456,I'm getting tired of this awful runaround. assistance seeing in what casew can i ask to be refunded,bitext,other_contact,none,neg_wrap,negative,False,False,False,B4,False
+GF-0457,I need assistance to give a quick look at the bill #37777,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0458,Thanks so much! is there a way to leave an opinion about a service?,bitext,feedback_complaints,none,pos_wrap,positive,False,False,False,B2,False
+GF-0459,I need to order some articles,bitext,order_changes,none,none,neutral,False,False,False,B1,False
+GF-0460,"Great job, really: I still don't have my refund. So happy I chose you.",injected_sarcasm,refund_request,sarcasm,none,negative,True,False,True,B3,True
+GF-0461,"I ain't happy with your work, I need to make a claim",bitext,feedback_complaints,none,none,positive,False,False,False,B3,False
+GF-0462,i dont khow how to cancel order $89.99,bitext,cancellation,none,none,neutral,False,False,False,B2,False
+GF-0463,I'm slightly worried: my delivery shows no movement for six days.,injected_polite_complaint,shipping_delivery,polite_complaint,none,negative,True,False,True,B1,True
+GF-0464,need assistance checking the ETA of the purchase #4267341,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0465,I'd like to edit the data included on my user i need help,bitext,account_access,none,none,neutral,False,False,True,B2,True
+GF-0466,Could anyone clarify this unexpected charge on my invoice?,injected_polite_complaint,billing_payments,polite_complaint,none,negative,True,True,False,B1,True
+GF-0467,how to shop a few of ur article,bitext,order_changes,none,none,neutral,False,False,False,B2,True
+GF-0468,see bill from #5823065,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0469,I need help checking the early termination penalties,bitext,cancellation,none,none,neutral,False,False,False,B2,False
+GF-0470,i do not know what to do to see the options for shipping,bitext,shipping_delivery,none,none,neutral,False,True,False,B1,True
+GF-0471,I want help byying some bloody products,bitext,order_changes,none,none,neutral,False,False,False,B1,False
+GF-0472,Very upsetting situation. i want aswistance to set up the new delivery address,bitext,shipping_delivery,none,neg_wrap,negative,False,False,False,B4,False
+GF-0473,need help with creating my #3336109 account,bitext,account_access,none,none,neutral,False,False,True,B1,True
+GF-0474,where can I see when my damn package is going to arrive?,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0475,I have a problem with cancelling purchase #8649800,bitext,cancellation,none,none,neutral,False,False,False,B4,False
+GF-0476,i do not know how i can unubscribe to the newsletter,bitext,other_contact,none,none,neutral,False,False,True,B1,True
+GF-0477,"Yeah, because you billed me for an order I never got is totally my favorite thing.",injected_sarcasm,billing_payments,sarcasm,none,negative,True,False,False,B4,True
+GF-0478,I have got to download my invoices from #6818269,bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0479,how can I see the early exit penalies?,bitext,cancellation,none,none,neutral,False,False,False,B1,False
+GF-0480,Honestly quite annoyed — i need help calling customer assistance,bitext,other_contact,none,neg_wrap,negative,False,False,False,B2,False
+GF-0481,what do I need to do to write an opinion for your products?,bitext,feedback_complaints,none,none,neutral,False,False,False,B4,False
+GF-0482,Speak to someone please.,injected_short_fragment,other_contact,short_fragment,none,neutral,True,False,True,B2,True
+GF-0483,I do not know how I could get the bill from #8630833,bitext,billing_payments,none,none,neutral,False,False,False,B2,False
+GF-0484,tell me what hours customer support available is,bitext,other_contact,none,none,neutral,False,False,False,B4,False
+GF-0485,You guys are awesome. Quick question: where to check  the termination fee?,bitext,cancellation,none,pos_wrap,positive,True,False,False,B3,True
+GF-0486,correct details on gold account,bitext,account_access,none,none,neutral,False,False,False,B2,False
+GF-0487,I have to leave feedback about a product,bitext,feedback_complaints,none,none,neutral,False,False,False,B1,False
+GF-0488,Honestly quite annoyed — i do not know how I can see the current status of my refund,bitext,refund_request,none,neg_wrap,negative,False,False,False,B1,False
+GF-0489,Very upsetting situation. could you help me to open a #6860249 account?,bitext,account_access,none,neg_wrap,negative,False,False,False,B1,False
+GF-0490,what do I need to do to see the compensation current status?,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0491,Frustrated customer here. can uhelp me check if there are any updates on the rebate,bitext,refund_request,none,neg_wrap,negative,False,True,False,B2,True
+GF-0492,is it possible to place na order from #6818269,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0493,want help to talk to someone,bitext,other_contact,none,none,neutral,False,False,False,B3,False
+GF-0494,"Love how my card got charged twice. Really top-notch stuff, guys.",injected_sarcasm,billing_payments,sarcasm,none,negative,True,False,False,B2,True
+GF-0495,i cannot switch a product of purchase #4267341,bitext,order_changes,none,none,neutral,False,False,False,B3,False
+GF-0496,where to see the early termination fees?,bitext,cancellation,none,none,neutral,False,False,False,B2,False
+GF-0497,"I bought the same item twice, cancel order #6658042",bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0498,"I have got to leave some feedback for your products, help me",bitext,feedback_complaints,none,none,neutral,False,False,False,B1,False
+GF-0499,"Thanks so much! the experience with you was too bad, make a bloody claim",bitext,feedback_complaints,none,pos_wrap,positive,False,False,False,B4,False
+GF-0500,can uhelp me speak tyo somebody,bitext,other_contact,none,none,neutral,False,True,False,B1,True
+GF-0501,i have lost the invoice #00108 could umail it to me,bitext,billing_payments,none,none,neutral,False,False,False,B2,False
+GF-0502,how do I get a rebate?,bitext,refund_request,none,none,neutral,False,True,False,B1,True
+GF-0503,could you help me see what damn shipment methods you offer?,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0504,"I have entered a wrong fucking delivery address, correct it",bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0505,"I need to check the payment modalities, can you help me?",bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0506,when will purchase $120 arrive,bitext,shipping_delivery,none,none,neutral,False,False,False,B2,False
+GF-0507,iwant a freemium account for my husband open it,bitext,account_access,none,none,neutral,False,False,False,B4,False
+GF-0508,I need assistance using the #1938488 preofile,bitext,account_access,none,none,neutral,False,False,False,B1,False
+GF-0509,I expect a reimbursement of $89.99#2275152,bitext,refund_request,none,none,neutral,False,False,False,B3,False
+GF-0510,want help reporting issues with online payments,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0511,can ya help me subscribing to ur company newsletter,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0512,i want assistance seeing the accepted payment modalities,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0513,termination charges,bitext,cancellation,none,none,neutral,False,False,False,B4,False
+GF-0514,need help to get the bill from $64.2,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0515,help me speaking to customer support,bitext,other_contact,none,none,neutral,False,False,False,B3,False
+GF-0516,Your refund policy is a joke — I want my $40 back today. Refund order #9351146.,injected_tone_trap,refund_request,tone_trap,none,negative,True,False,True,B3,True
+GF-0517,Honestly quite annoyed — can I change a product of order #3897973?,bitext,order_changes,none,neg_wrap,negative,False,False,False,B4,False
+GF-0518,"Love the new site, by the way! want assistance seeing your reimbursement policy",bitext,other_contact,none,pos_wrap,positive,False,False,False,B4,False
+GF-0519,I do not know how to send feedback about your services,bitext,feedback_complaints,none,none,neutral,False,False,False,B2,False
+GF-0520,can you help me looking for my invoice #12588?,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0521,can ya help me seeing if there is anything new on the refund,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0522,is there a way to send a review for ur services,bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0523,checking status of order $58,bitext,shipping_delivery,none,none,neutral,False,False,False,B3,False
+GF-0524,tell me at what time I can reach customer support,bitext,other_contact,none,none,neutral,False,False,False,B1,False
+GF-0525,transfer to me an agent,bitext,other_contact,none,none,neutral,False,False,False,B4,False
+GF-0526,"I have to see when will my item arrive, I need help",bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0527,Great experience so far. what do I need to do to see my compensation current status?,bitext,refund_request,none,pos_wrap,positive,False,False,False,B4,False
+GF-0528,mldifying pro account,bitext,account_access,none,none,neutral,False,False,False,B3,False
+GF-0529,purchase #6803434 status,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0530,I need help to leave a review about your products,bitext,feedback_complaints,none,none,neutral,False,False,False,B4,False
+GF-0531,I'm getting tired of this awful runaround. what do i need to do to see the early terminaion charges,bitext,cancellation,none,neg_wrap,negative,False,False,False,B4,False
+GF-0532,"I was charged twice for #2526539, so refund one payment and cancel the duplicate order.",injected_mixed_intent,refund_request,mixed_intent,none,negative,True,False,False,B2,False
+GF-0533,Brilliant — my package is a week late. You never disappoint.,injected_sarcasm,shipping_delivery,sarcasm,none,negative,True,True,False,B3,True
+GF-0534,I am waiting for a compensation of #4777192#7167086,bitext,refund_request,none,none,neutral,False,False,True,B3,True
+GF-0535,were do i report damn troubles with payment,bitext,billing_payments,none,none,negative,False,False,False,B3,False
+GF-0536,I'm waiting for a restitution oof #7055261#1636773,bitext,refund_request,none,none,neutral,False,False,False,B2,False
+GF-0537,You guys are awesome. Quick question: wanna lodge a consumer reclamation against ur company,bitext,feedback_complaints,none,pos_wrap,positive,True,False,False,B4,True
+GF-0538,Honestly quite annoyed — i need help to see the termination fee,bitext,cancellation,none,neg_wrap,negative,True,False,False,B1,True
+GF-0539,I need to see the fucking bill from $75,bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0540,how to sends some feedback for ur products,bitext,feedback_complaints,none,none,neutral,False,True,False,B4,True
+GF-0541,assistance with opening a standard account,bitext,account_access,none,none,neutral,False,False,False,B1,False
+GF-0542,how can I check the termination charge?,bitext,cancellation,none,none,neutral,False,False,False,B4,False
+GF-0543,is it possible to demand a rebate of my money?,bitext,refund_request,none,none,neutral,False,False,False,B4,False
+GF-0544,Very upsetting situation. i need someone,bitext,other_contact,none,neg_wrap,negative,False,True,False,B3,True
+GF-0545,i want assistance asking for a restitution of my money,bitext,refund_request,none,none,neutral,False,False,False,B1,False
+GF-0546,"My refund for #9912776 hasn't shown up, so just cancel my other order too.",injected_mixed_intent,refund_request,mixed_intent,none,neutral,True,False,True,B2,True
+GF-0547,You guys are awesome. Quick question: how couldi see how long it takes for my package to arrive,bitext,shipping_delivery,none,pos_wrap,positive,False,True,False,B3,True
+GF-0548,Frustrated customer here. want help to get in touch with customer assistance,bitext,other_contact,none,neg_wrap,negative,False,False,False,B3,False
+GF-0549,i dont know how i can buy a few of ur product,bitext,order_changes,none,none,neutral,False,False,False,B4,False
+GF-0550,i need help checking when my package is gonna arrive,bitext,shipping_delivery,none,none,neutral,False,False,False,B3,False
+GF-0551,I have got to cancel purchase #7167086,bitext,cancellation,none,none,neutral,False,False,False,B3,False
+GF-0552,check invoice from last purchase,bitext,billing_payments,none,none,neutral,False,False,True,B2,True
+GF-0553,Worst experience ever. I demand a full refund of $64.2 for #3070817.,injected_tone_trap,refund_request,tone_trap,none,negative,True,False,False,B1,True
+GF-0554,I want assistance to notify of a sign-up error,bitext,account_access,none,none,neutral,False,False,False,B1,False
+GF-0555,need help lodging a cutomer claim against your organization,bitext,feedback_complaints,none,none,neutral,False,False,False,B1,False
+GF-0556,"Great job, really: my delivery went to the wrong address. So happy I chose you.",injected_sarcasm,shipping_delivery,sarcasm,none,negative,True,False,False,B3,False
+GF-0557,need to submit a secondary shipping address how to do it,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0558,want assistanfe to shop several damn articles,bitext,order_changes,none,none,neutral,False,False,False,B1,False
+GF-0559,need assistance to order some itemsx,bitext,order_changes,none,none,neutral,False,False,False,B1,False
+GF-0560,is there a way to send my feedback,bitext,feedback_complaints,none,none,neutral,False,False,False,B1,False
+GF-0561,where do I see when my package is going to arrive?,bitext,shipping_delivery,none,none,neutral,False,False,False,B4,False
+GF-0562,Frustrated customer here. how to see the early termination charges?,bitext,cancellation,none,neg_wrap,negative,False,False,False,B1,False
+GF-0563,can you help me giving a quick look at my invoice #12588?,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0564,i dont know what i need to do to speak to a person,bitext,other_contact,none,none,neutral,False,False,False,B1,False
+GF-0565,I call to download the invoice #37777,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0566,help me cancelling my newsletter subscription,bitext,other_contact,none,none,neutral,True,False,False,B4,False
+GF-0567,I never authorized order #1076493: cancel it and refund the $64.2 now.,injected_mixed_intent,refund_request,mixed_intent,none,negative,True,True,False,B2,True
+GF-0568,want help speaking with somebody,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0569,help solving troubles with online payment,bitext,billing_payments,none,none,neutral,False,False,False,B4,False
+GF-0570,can ya help me to open a #4072634 account for my dad,bitext,account_access,none,none,neutral,False,False,False,B4,False
+GF-0571,I don't know how to inform of an issue with sign-up,bitext,account_access,none,none,neutral,False,False,False,B4,False
+GF-0572,how do I notify of payment problems?,bitext,billing_payments,none,none,neutral,False,False,True,B1,True
+GF-0573,I have a question about canceling purchase $49.99,bitext,cancellation,none,none,neutral,False,False,False,B1,False
+GF-0574,I need hepl to report an error with online payment,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0575,report payment issue,bitext,billing_payments,none,none,neutral,False,False,False,B3,False
+GF-0576,is it possible to create a standard account?,bitext,account_access,none,none,neutral,False,False,False,B2,False
+GF-0577,want help to get my money back,bitext,refund_request,none,none,neutral,False,True,False,B2,True
+GF-0578,do ya have an e-mail to leave some feedback about ur company,bitext,feedback_complaints,none,none,neutral,False,False,False,B3,False
+GF-0579,i expect a refund of $120 dollars,bitext,refund_request,none,none,neutral,False,False,False,B2,False
+GF-0580,is it possible to check how soon can i expect my article,bitext,shipping_delivery,none,none,neutral,False,False,False,B3,False
+GF-0581,I want help cancellkng purchase #7055261,bitext,cancellation,none,none,neutral,False,True,False,B1,True
+GF-0582,help me see in what cases can I request to be reimbursed,bitext,other_contact,none,none,neutral,False,False,False,B2,False
+GF-0583,can ya help me to lodge a consumer claim,bitext,feedback_complaints,none,none,neutral,False,True,False,B2,True
+GF-0584,i try to make a complaint against ur company,bitext,feedback_complaints,none,none,neutral,False,False,False,B4,False
+GF-0585,could you help me get compensations of my money?,bitext,refund_request,none,none,neutral,False,False,False,B2,False
+GF-0586,how can I notify of problems with online payments?,bitext,billing_payments,none,none,neutral,False,False,False,B2,False
+GF-0587,Wrong item shipped for #8430866: refund my $40 and cancel the replacement you sent.,injected_mixed_intent,refund_request,mixed_intent,none,negative,True,True,False,B1,True
+GF-0588,is it possible to buy several items,bitext,order_changes,none,none,neutral,False,True,False,B2,True
+GF-0589,I need assistance purchasing several products,bitext,order_changes,none,none,neutral,False,False,True,B3,True
+GF-0590,Furious. Cancel #7055261 and never email me again.,injected_tone_trap,cancellation,tone_trap,none,negative,True,True,False,B3,True
+GF-0591,Brilliant — my card got charged twice. You never disappoint.,injected_sarcasm,billing_payments,sarcasm,none,negative,True,True,False,B1,True
+GF-0592,want assistance sending some feedback about a product,bitext,feedback_complaints,none,none,neutral,False,False,True,B3,True
+GF-0593,Very upsetting situation. i do not know what to do to inform of problems with payments,bitext,billing_payments,none,neg_wrap,negative,False,False,False,B4,False
+GF-0594,i made an mistake could i modify order #6860249,bitext,order_changes,none,none,neutral,False,False,False,B1,False
+GF-0595,support editing the delivery address,bitext,shipping_delivery,none,none,neutral,False,False,False,B1,False
+GF-0596,I'm sick of this company. Give me my $64.2 back for #6658042 before I call my bank.,injected_tone_trap,refund_request,tone_trap,none,negative,True,True,False,B3,True
+GF-0597,how to speak to a live agent,bitext,other_contact,none,none,neutral,False,False,False,B1,False
+GF-0598,"Wow, amazing — I can't reset my password because your site is down. What a wonderful experience.",injected_sarcasm,account_access,sarcasm,none,negative,True,False,False,B1,True
+GF-0599,I need assistamce to inform of a payment issue,bitext,billing_payments,none,none,neutral,False,False,False,B1,False
+GF-0600,want assistance notifying of payment issues,bitext,billing_payments,none,none,neutral,False,False,False,B4,False

@@ -1,0 +1,73 @@
+ticket_id,text,gold_intent,gold_sentiment,ambiguity_type
+GF-0007,how do I use the #6658042 profile?,account_access,neutral,none
+GF-0012,Your support is useless. Just give me my money back for order #1866995.,refund_request,negative,tone_trap
+GF-0022,Brilliant — I can't reset my password because your site is down. You never disappoint.,account_access,negative,sarcasm
+GF-0024,Billed $14.5 after I already cancelled (#7471523). Refund it.,refund_request,negative,mixed_intent
+GF-0031,Cancel my order #3045073 and refund the $120 to my card today.,refund_request,neutral,mixed_intent
+GF-0054,"Love how my delivery went to the wrong address. Really top-notch stuff, guys.",shipping_delivery,negative,sarcasm
+GF-0071,I'd appreciate an update on my refund; it's been two weeks now.,refund_request,negative,polite_complaint
+GF-0072,I want help to remove some products from order $75,order_changes,neutral,none
+GF-0082,Great experience so far. want help ot write a review for a service,feedback_complaints,positive,none
+GF-0115,could I reset my account PIN?,account_access,neutral,none
+GF-0119,Frustrated customer here. can you help me see what options for delivery I have?,shipping_delivery,negative,none
+GF-0123,You guys are awesome. Quick question: i am waiting for a reimbursement of #2595573$120,refund_request,positive,none
+GF-0138,"I would like to list the payment methods, how to do it?",billing_payments,neutral,none
+GF-0139,i need help changing several articles of purchase $14.5,order_changes,neutral,none
+GF-0149,This whole thing is a scam. Refund #3336109 today or I'm disputing the charge.,refund_request,negative,tone_trap
+GF-0155,I want help to change the delivery address,shipping_delivery,neutral,none
+GF-0161,how can I get the invoices from #9912776?,billing_payments,neutral,none
+GF-0164,I do not know how to download the bill #85632,billing_payments,neutral,none
+GF-0175,I'm getting tired of this awful runaround. i do not knwo what I need to do to cancel order $25,cancellation,negative,none
+GF-0179,"I lost the access key of my account, help me reset it",account_access,neutral,none
+GF-0190,I don't know what to do to talk to customer service,other_contact,neutral,none
+GF-0198,This company is a nightmare. Refund my $40 for #2577926 immediately.,refund_request,negative,tone_trap
+GF-0217,Why is my card charged?,billing_payments,neutral,short_fragment
+GF-0220,add something to order $120,order_changes,neutral,none
+GF-0221,I expect an reimbursement of $58#8919350,refund_request,neutral,none
+GF-0243,help me to cancel purchase #8757008,cancellation,neutral,none
+GF-0244,"Love the new site, by the way! directing to agent",other_contact,positive,none
+GF-0253,"Thanks so much! i have got to see the cancellation penalties, help me",cancellation,positive,none
+GF-0266,can ushow me the accepted payment metyods,billing_payments,neutral,none
+GF-0273,assistance to cancel purchase #8291293,cancellation,neutral,none
+GF-0276,Money back now.,refund_request,negative,short_fragment
+GF-0292,I have got to check what delivery methods are there,shipping_delivery,neutral,none
+GF-0295,You guys are awesome. Quick question: i want help adding some products to purchase #8291293,order_changes,positive,none
+GF-0319,i need assistance canceling roder $120,cancellation,neutral,none
+GF-0325,i try to change my shipping address,shipping_delivery,neutral,none
+GF-0332,I want to know more about the subscription to the newsletter,other_contact,neutral,none
+GF-0338,Very upsetting situation. i do not know how I can submit my feedback for your products,feedback_complaints,negative,none
+GF-0356,I am trying to leave an opinion about your company,feedback_complaints,neutral,none
+GF-0357,Never shopping here again. Cancel #7471523.,cancellation,negative,tone_trap
+GF-0361,I want help buying some of your product,order_changes,neutral,none
+GF-0364,lodging consuer complaint,feedback_complaints,neutral,none
+GF-0365,can i talk to an agent,other_contact,neutral,none
+GF-0369,I'm getting tired of this awful runaround. changing to pro account,account_access,negative,none
+GF-0373,"Could you let me know the status of my refund, please? It seems delayed.",refund_request,negative,polite_complaint
+GF-0374,Great experience so far. help me to download the bill #37777,billing_payments,positive,none
+GF-0377,This is the second time I'm asking: cancel #4267341 and return my $14.5.,refund_request,negative,mixed_intent
+GF-0381,I'm waiting for a restitution of $49.99#3336109,refund_request,neutral,none
+GF-0387,Frustrated customer here. i am trying to see the accepted payment methods,billing_payments,negative,none
+GF-0419,Fantastic service as always: you billed me for an order I never got.,billing_payments,negative,sarcasm
+GF-0420,You guys are awesome. Quick question: change to the standard account,account_access,positive,none
+GF-0425,"Great job, really: the app crashes every time I log in. So happy I chose you.",account_access,negative,sarcasm
+GF-0430,I'm a little concerned my refund hasn't reached my account yet.,refund_request,negative,polite_complaint
+GF-0440,Can you cancel #7055261? And the pending charge of $14.5 needs to come off my card.,cancellation,neutral,mixed_intent
+GF-0442,I need help to retrieev my user PIN,account_access,neutral,none
+GF-0466,Could anyone clarify this unexpected charge on my invoice?,billing_payments,negative,polite_complaint
+GF-0470,i do not know what to do to see the options for shipping,shipping_delivery,neutral,none
+GF-0491,Frustrated customer here. can uhelp me check if there are any updates on the rebate,refund_request,negative,none
+GF-0500,can uhelp me speak tyo somebody,other_contact,neutral,none
+GF-0502,how do I get a rebate?,refund_request,neutral,none
+GF-0533,Brilliant — my package is a week late. You never disappoint.,shipping_delivery,negative,sarcasm
+GF-0540,how to sends some feedback for ur products,feedback_complaints,neutral,none
+GF-0544,Very upsetting situation. i need someone,other_contact,negative,none
+GF-0547,You guys are awesome. Quick question: how couldi see how long it takes for my package to arrive,shipping_delivery,positive,none
+GF-0567,I never authorized order #1076493: cancel it and refund the $64.2 now.,refund_request,negative,mixed_intent
+GF-0577,want help to get my money back,refund_request,neutral,none
+GF-0581,I want help cancellkng purchase #7055261,cancellation,neutral,none
+GF-0583,can ya help me to lodge a consumer claim,feedback_complaints,neutral,none
+GF-0587,Wrong item shipped for #8430866: refund my $40 and cancel the replacement you sent.,refund_request,negative,mixed_intent
+GF-0588,is it possible to buy several items,order_changes,neutral,none
+GF-0590,Furious. Cancel #7055261 and never email me again.,cancellation,negative,tone_trap
+GF-0591,Brilliant — my card got charged twice. You never disappoint.,billing_payments,negative,sarcasm
+GF-0596,I'm sick of this company. Give me my $64.2 back for #6658042 before I call my bank.,refund_request,negative,tone_trap
