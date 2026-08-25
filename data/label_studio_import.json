@@ -1,0 +1,4202 @@
+[
+ {
+  "id": 1,
+  "data": {
+   "ticket_id": "GF-0001",
+   "text": "I have got to locate order #4661544"
+  }
+ },
+ {
+  "id": 2,
+  "data": {
+   "ticket_id": "GF-0002",
+   "text": "could you help me notify of payment problems?"
+  }
+ },
+ {
+  "id": 3,
+  "data": {
+   "ticket_id": "GF-0003",
+   "text": "I don't mean to trouble you, but the payment went through twice."
+  }
+ },
+ {
+  "id": 4,
+  "data": {
+   "ticket_id": "GF-0004",
+   "text": "Very upsetting situation. tell me about canceling the subscription to ur newsletter"
+  }
+ },
+ {
+  "id": 5,
+  "data": {
+   "ticket_id": "GF-0005",
+   "text": "i cannot sign up i need to notify of signup proiblems"
+  }
+ },
+ {
+  "id": 6,
+  "data": {
+   "ticket_id": "GF-0006",
+   "text": "Absolutely pathetic service. Issue the refund for #2176675 like you promised."
+  }
+ },
+ {
+  "id": 7,
+  "data": {
+   "ticket_id": "GF-0007",
+   "text": "how do I use the #6658042 profile?"
+  }
+ },
+ {
+  "id": 8,
+  "data": {
+   "ticket_id": "GF-0008",
+   "text": "I want to write a comment about a product, how can I do it?"
+  }
+ },
+ {
+  "id": 9,
+  "data": {
+   "ticket_id": "GF-0009",
+   "text": "Very upsetting situation. rebating $40 dollars"
+  }
+ },
+ {
+  "id": 10,
+  "data": {
+   "ticket_id": "GF-0010",
+   "text": "I want help to file a reclamation against your business"
+  }
+ },
+ {
+  "id": 11,
+  "data": {
+   "ticket_id": "GF-0011",
+   "text": "I have to see the status of the rebate, will you help me?"
+  }
+ },
+ {
+  "id": 12,
+  "data": {
+   "ticket_id": "GF-0012",
+   "text": "Your support is useless. Just give me my money back for order #1866995."
+  }
+ },
+ {
+  "id": 13,
+  "data": {
+   "ticket_id": "GF-0013",
+   "text": "need help to see what hours i can contact customer support"
+  }
+ },
+ {
+  "id": 14,
+  "data": {
+   "ticket_id": "GF-0014",
+   "text": "can you help me check what shipment methods are there?"
+  }
+ },
+ {
+  "id": 15,
+  "data": {
+   "ticket_id": "GF-0015",
+   "text": "I want to locate purchase #6658042"
+  }
+ },
+ {
+  "id": 16,
+  "data": {
+   "ticket_id": "GF-0016",
+   "text": "i have got to se how long the shipment takes how to do it"
+  }
+ },
+ {
+  "id": 17,
+  "data": {
+   "ticket_id": "GF-0017",
+   "text": "Frustrated customer here. is there an e-mail to submit a comment for your services?"
+  }
+ },
+ {
+  "id": 18,
+  "data": {
+   "ticket_id": "GF-0018",
+   "text": "You guys are awesome. Quick question: i want assistance to swap something of purchase #8438443"
+  }
+ },
+ {
+  "id": 19,
+  "data": {
+   "ticket_id": "GF-0019",
+   "text": "I need to earn a goddamn article, could you help me?"
+  }
+ },
+ {
+  "id": 20,
+  "data": {
+   "ticket_id": "GF-0020",
+   "text": "help me creating a freemium account"
+  }
+ },
+ {
+  "id": 21,
+  "data": {
+   "ticket_id": "GF-0021",
+   "text": "want help modifying my address"
+  }
+ },
+ {
+  "id": 22,
+  "data": {
+   "ticket_id": "GF-0022",
+   "text": "Brilliant \u2014 I can't reset my password because your site is down. You never disappoint."
+  }
+ },
+ {
+  "id": 23,
+  "data": {
+   "ticket_id": "GF-0023",
+   "text": "how to make a consumer claim against ur company"
+  }
+ },
+ {
+  "id": 24,
+  "data": {
+   "ticket_id": "GF-0024",
+   "text": "Billed $14.5 after I already cancelled (#7471523). Refund it."
+  }
+ },
+ {
+  "id": 25,
+  "data": {
+   "ticket_id": "GF-0025",
+   "text": "can uhelp me cancelling purchase #8757008"
+  }
+ },
+ {
+  "id": 26,
+  "data": {
+   "ticket_id": "GF-0026",
+   "text": "Either cancel #6648298 today or refund my money \u2014 your pick."
+  }
+ },
+ {
+  "id": 27,
+  "data": {
+   "ticket_id": "GF-0027",
+   "text": "what time can I get in touch with customer support?"
+  }
+ },
+ {
+  "id": 28,
+  "data": {
+   "ticket_id": "GF-0028",
+   "text": "Love the new site, by the way! i call to lodge a customer complaint against ur organization"
+  }
+ },
+ {
+  "id": 29,
+  "data": {
+   "ticket_id": "GF-0029",
+   "text": "where can i shop some articles"
+  }
+ },
+ {
+  "id": 30,
+  "data": {
+   "ticket_id": "GF-0030",
+   "text": "Cancel #1168557 and explain this mystery $49.99 charge on my statement."
+  }
+ },
+ {
+  "id": 31,
+  "data": {
+   "ticket_id": "GF-0031",
+   "text": "Cancel my order #3045073 and refund the $120 to my card today."
+  }
+ },
+ {
+  "id": 32,
+  "data": {
+   "ticket_id": "GF-0032",
+   "text": "i nee help to cancel order $25"
+  }
+ },
+ {
+  "id": 33,
+  "data": {
+   "ticket_id": "GF-0033",
+   "text": "Yeah, because I still don't have my refund is totally my favorite thing."
+  }
+ },
+ {
+  "id": 34,
+  "data": {
+   "ticket_id": "GF-0034",
+   "text": "I'm getting tired of this awful runaround. could utell me more abouut creating a #1866995 account"
+  }
+ },
+ {
+  "id": 35,
+  "data": {
+   "ticket_id": "GF-0035",
+   "text": "I want to see the allowed payment methods, can you help me?"
+  }
+ },
+ {
+  "id": 36,
+  "data": {
+   "ticket_id": "GF-0036",
+   "text": "Still no package."
+  }
+ },
+ {
+  "id": 37,
+  "data": {
+   "ticket_id": "GF-0037",
+   "text": "I need to talk to a operator"
+  }
+ },
+ {
+  "id": 38,
+  "data": {
+   "ticket_id": "GF-0038",
+   "text": "is it possible to notify of a problem with a signup?"
+  }
+ },
+ {
+  "id": 39,
+  "data": {
+   "ticket_id": "GF-0039",
+   "text": "You guys are awesome. Quick question: i need help to leave some feedback about ur services"
+  }
+ },
+ {
+  "id": 40,
+  "data": {
+   "ticket_id": "GF-0040",
+   "text": "solve a trouble with payment"
+  }
+ },
+ {
+  "id": 41,
+  "data": {
+   "ticket_id": "GF-0041",
+   "text": "Very upsetting situation. i am experiencing a problem with the sign-up"
+  }
+ },
+ {
+  "id": 42,
+  "data": {
+   "ticket_id": "GF-0042",
+   "text": "I have to unsubscribe from the company newsletter"
+  }
+ },
+ {
+  "id": 43,
+  "data": {
+   "ticket_id": "GF-0043",
+   "text": "Frustrated customer here. i am trying to retrieve the key of my user account"
+  }
+ },
+ {
+  "id": 44,
+  "data": {
+   "ticket_id": "GF-0044",
+   "text": "Frustrated customer here. swithcing to $120 account"
+  }
+ },
+ {
+  "id": 45,
+  "data": {
+   "ticket_id": "GF-0045",
+   "text": "Fantastic service as always: I can't reset my password because your site is down."
+  }
+ },
+ {
+  "id": 46,
+  "data": {
+   "ticket_id": "GF-0046",
+   "text": "help to inform of troubles with online payments"
+  }
+ },
+ {
+  "id": 47,
+  "data": {
+   "ticket_id": "GF-0047",
+   "text": "I want assistance deleting my #1471645 account"
+  }
+ },
+ {
+  "id": 48,
+  "data": {
+   "ticket_id": "GF-0048",
+   "text": "can I check if there are any news on my reimbursement?"
+  }
+ },
+ {
+  "id": 49,
+  "data": {
+   "ticket_id": "GF-0049",
+   "text": "I have to sde in what cases can I request a refund"
+  }
+ },
+ {
+  "id": 50,
+  "data": {
+   "ticket_id": "GF-0050",
+   "text": "where do I receive rebates of my money?"
+  }
+ },
+ {
+  "id": 51,
+  "data": {
+   "ticket_id": "GF-0051",
+   "text": "is it possible to check the early termination charges?"
+  }
+ },
+ {
+  "id": 52,
+  "data": {
+   "ticket_id": "GF-0052",
+   "text": "Frustrated customer here. i'm trying to get in touch with bloody customer service"
+  }
+ },
+ {
+  "id": 53,
+  "data": {
+   "ticket_id": "GF-0053",
+   "text": "Thanks so much! i don't know how to see the shipping methods"
+  }
+ },
+ {
+  "id": 54,
+  "data": {
+   "ticket_id": "GF-0054",
+   "text": "Love how my delivery went to the wrong address. Really top-notch stuff, guys."
+  }
+ },
+ {
+  "id": 55,
+  "data": {
+   "ticket_id": "GF-0055",
+   "text": "I want to cancel order #8178526. When do I get my money back?"
+  }
+ },
+ {
+  "id": 56,
+  "data": {
+   "ticket_id": "GF-0056",
+   "text": "wana correct order #2275152"
+  }
+ },
+ {
+  "id": 57,
+  "data": {
+   "ticket_id": "GF-0057",
+   "text": "wanna change my fucking address"
+  }
+ },
+ {
+  "id": 58,
+  "data": {
+   "ticket_id": "GF-0058",
+   "text": "I want to know if there is anything wrong with my rebate"
+  }
+ },
+ {
+  "id": 59,
+  "data": {
+   "ticket_id": "GF-0059",
+   "text": "I have got to see the delivery methods, how to do it?"
+  }
+ },
+ {
+  "id": 60,
+  "data": {
+   "ticket_id": "GF-0060",
+   "text": "ya have a method to send a comment about a product"
+  }
+ },
+ {
+  "id": 61,
+  "data": {
+   "ticket_id": "GF-0061",
+   "text": "i need assistance solving errors with payments"
+  }
+ },
+ {
+  "id": 62,
+  "data": {
+   "ticket_id": "GF-0062",
+   "text": "can i place an order frim $58"
+  }
+ },
+ {
+  "id": 63,
+  "data": {
+   "ticket_id": "GF-0063",
+   "text": "can you help me check my restitution status?"
+  }
+ },
+ {
+  "id": 64,
+  "data": {
+   "ticket_id": "GF-0064",
+   "text": "Would you be able to tell me why the package is still in transit after a week?"
+  }
+ },
+ {
+  "id": 65,
+  "data": {
+   "ticket_id": "GF-0065",
+   "text": "Frustrated customer here. tell me ur alowed payment options"
+  }
+ },
+ {
+  "id": 66,
+  "data": {
+   "ticket_id": "GF-0066",
+   "text": "I do not know how to retrieve my bloody account PIN code"
+  }
+ },
+ {
+  "id": 67,
+  "data": {
+   "ticket_id": "GF-0067",
+   "text": "help to file a consumer complaint"
+  }
+ },
+ {
+  "id": 68,
+  "data": {
+   "ticket_id": "GF-0068",
+   "text": "can I cancel my subscription to your corporate newsletter?"
+  }
+ },
+ {
+  "id": 69,
+  "data": {
+   "ticket_id": "GF-0069",
+   "text": "i have to request a compensation of my money"
+  }
+ },
+ {
+  "id": 70,
+  "data": {
+   "ticket_id": "GF-0070",
+   "text": "Thanks so much! i have got to earn some of your article"
+  }
+ },
+ {
+  "id": 71,
+  "data": {
+   "ticket_id": "GF-0071",
+   "text": "I'd appreciate an update on my refund; it's been two weeks now."
+  }
+ },
+ {
+  "id": 72,
+  "data": {
+   "ticket_id": "GF-0072",
+   "text": "I want help to remove some products from order $75"
+  }
+ },
+ {
+  "id": 73,
+  "data": {
+   "ticket_id": "GF-0073",
+   "text": "where could I get information about shipping period?"
+  }
+ },
+ {
+  "id": 74,
+  "data": {
+   "ticket_id": "GF-0074",
+   "text": "I have got to see the early exit penalpties"
+  }
+ },
+ {
+  "id": 75,
+  "data": {
+   "ticket_id": "GF-0075",
+   "text": "Love the new site, by the way! how tolodge a customer complaint"
+  }
+ },
+ {
+  "id": 76,
+  "data": {
+   "ticket_id": "GF-0076",
+   "text": "Very upsetting situation. i have paid $64.2#8178526 for an item help me receive a compensation"
+  }
+ },
+ {
+  "id": 77,
+  "data": {
+   "ticket_id": "GF-0077",
+   "text": "need help to cancel purchase #5936436"
+  }
+ },
+ {
+  "id": 78,
+  "data": {
+   "ticket_id": "GF-0078",
+   "text": "I was wondering why my order still hasn't shipped after ten days."
+  }
+ },
+ {
+  "id": 79,
+  "data": {
+   "ticket_id": "GF-0079",
+   "text": "i cant make payments help to report issues with payments"
+  }
+ },
+ {
+  "id": 80,
+  "data": {
+   "ticket_id": "GF-0080",
+   "text": "help to solve an error withonline payments"
+  }
+ },
+ {
+  "id": 81,
+  "data": {
+   "ticket_id": "GF-0081",
+   "text": "Very upsetting situation. acn you help me changing something of purchase #4072634?"
+  }
+ },
+ {
+  "id": 82,
+  "data": {
+   "ticket_id": "GF-0082",
+   "text": "Great experience so far. want help ot write a review for a service"
+  }
+ },
+ {
+  "id": 83,
+  "data": {
+   "ticket_id": "GF-0083",
+   "text": "checking bill from #6818269"
+  }
+ },
+ {
+  "id": 84,
+  "data": {
+   "ticket_id": "GF-0084",
+   "text": "have a problem with the deletio of my premium account"
+  }
+ },
+ {
+  "id": 85,
+  "data": {
+   "ticket_id": "GF-0085",
+   "text": "Honestly quite annoyed \u2014 updating order $64.2"
+  }
+ },
+ {
+  "id": 86,
+  "data": {
+   "ticket_id": "GF-0086",
+   "text": "what do I need to do to call customer assistance?"
+  }
+ },
+ {
+  "id": 87,
+  "data": {
+   "ticket_id": "GF-0087",
+   "text": "I lost bill #37777, mail it to me"
+  }
+ },
+ {
+  "id": 88,
+  "data": {
+   "ticket_id": "GF-0088",
+   "text": "Great experience so far. help me make a claim against your business"
+  }
+ },
+ {
+  "id": 89,
+  "data": {
+   "ticket_id": "GF-0089",
+   "text": "I try to check in which cases can I ask to be reimbursed"
+  }
+ },
+ {
+  "id": 90,
+  "data": {
+   "ticket_id": "GF-0090",
+   "text": "I need help to find my damn invoice from #8178526"
+  }
+ },
+ {
+  "id": 91,
+  "data": {
+   "ticket_id": "GF-0091",
+   "text": "Great experience so far. i have got to obtain reimbursements of money"
+  }
+ },
+ {
+  "id": 92,
+  "data": {
+   "ticket_id": "GF-0092",
+   "text": "Great experience so far. i have a question about canceling order #2577926"
+  }
+ },
+ {
+  "id": 93,
+  "data": {
+   "ticket_id": "GF-0093",
+   "text": "Thanks so much! i need an $19.99 account"
+  }
+ },
+ {
+  "id": 94,
+  "data": {
+   "ticket_id": "GF-0094",
+   "text": "can i inform of sign-up problems"
+  }
+ },
+ {
+  "id": 95,
+  "data": {
+   "ticket_id": "GF-0095",
+   "text": "can i place an order from #6350779"
+  }
+ },
+ {
+  "id": 96,
+  "data": {
+   "ticket_id": "GF-0096",
+   "text": "I'm caalling to check how soon can i expect the damn order"
+  }
+ },
+ {
+  "id": 97,
+  "data": {
+   "ticket_id": "GF-0097",
+   "text": "May I ask why my parcel never arrived, even though tracking says delivered?"
+  }
+ },
+ {
+  "id": 98,
+  "data": {
+   "ticket_id": "GF-0098",
+   "text": "want help sending feedback for a product"
+  }
+ },
+ {
+  "id": 99,
+  "data": {
+   "ticket_id": "GF-0099",
+   "text": "I'm trying to earn a product"
+  }
+ },
+ {
+  "id": 100,
+  "data": {
+   "ticket_id": "GF-0100",
+   "text": "Thanks so much! i do not know what I need to do to download my bill #85632"
+  }
+ },
+ {
+  "id": 101,
+  "data": {
+   "ticket_id": "GF-0101",
+   "text": "is there a method to leave some feedback for a product?"
+  }
+ },
+ {
+  "id": 102,
+  "data": {
+   "ticket_id": "GF-0102",
+   "text": "rebate #1866995#5936436"
+  }
+ },
+ {
+  "id": 103,
+  "data": {
+   "ticket_id": "GF-0103",
+   "text": "help me file a consumer complaint against ur company"
+  }
+ },
+ {
+  "id": 104,
+  "data": {
+   "ticket_id": "GF-0104",
+   "text": "what do i have to do to sign up to ur company newslettee"
+  }
+ },
+ {
+  "id": 105,
+  "data": {
+   "ticket_id": "GF-0105",
+   "text": "I need assistanc canceling the newsletter subscription"
+  }
+ },
+ {
+  "id": 106,
+  "data": {
+   "ticket_id": "GF-0106",
+   "text": "Unacceptable. Cancel order #5791940 immediately."
+  }
+ },
+ {
+  "id": 107,
+  "data": {
+   "ticket_id": "GF-0107",
+   "text": "I can't enter a different shipping address"
+  }
+ },
+ {
+  "id": 108,
+  "data": {
+   "ticket_id": "GF-0108",
+   "text": "i want help to check the early exit penalties"
+  }
+ },
+ {
+  "id": 109,
+  "data": {
+   "ticket_id": "GF-0109",
+   "text": "I'm getting tired of this awful runaround. need assistance to purchase several of your article"
+  }
+ },
+ {
+  "id": 110,
+  "data": {
+   "ticket_id": "GF-0110",
+   "text": "how do I check the current status of my restitution?"
+  }
+ },
+ {
+  "id": 111,
+  "data": {
+   "ticket_id": "GF-0111",
+   "text": "can I use the gold profile?"
+  }
+ },
+ {
+  "id": 112,
+  "data": {
+   "ticket_id": "GF-0112",
+   "text": "do uship to #3897973"
+  }
+ },
+ {
+  "id": 113,
+  "data": {
+   "ticket_id": "GF-0113",
+   "text": "I cannot pay, I want to report bloody problems with payment"
+  }
+ },
+ {
+  "id": 114,
+  "data": {
+   "ticket_id": "GF-0114",
+   "text": "how can i ask for a ocmpensation of my money"
+  }
+ },
+ {
+  "id": 115,
+  "data": {
+   "ticket_id": "GF-0115",
+   "text": "could I reset my account PIN?"
+  }
+ },
+ {
+  "id": 116,
+  "data": {
+   "ticket_id": "GF-0116",
+   "text": "I don't know what I need to do to close a #8649800 account"
+  }
+ },
+ {
+  "id": 117,
+  "data": {
+   "ticket_id": "GF-0117",
+   "text": "I want assistance acquiring several of your product"
+  }
+ },
+ {
+  "id": 118,
+  "data": {
+   "ticket_id": "GF-0118",
+   "text": "need to demand revates of my money"
+  }
+ },
+ {
+  "id": 119,
+  "data": {
+   "ticket_id": "GF-0119",
+   "text": "Frustrated customer here. can you help me see what options for delivery I have?"
+  }
+ },
+ {
+  "id": 120,
+  "data": {
+   "ticket_id": "GF-0120",
+   "text": "you aren't helpful, how can I chat wiuth someone?"
+  }
+ },
+ {
+  "id": 121,
+  "data": {
+   "ticket_id": "GF-0121",
+   "text": "I need assistance making a customer claim"
+  }
+ },
+ {
+  "id": 122,
+  "data": {
+   "ticket_id": "GF-0122",
+   "text": "I have paid #4777192$25 for this item, how to get my money back?"
+  }
+ },
+ {
+  "id": 123,
+  "data": {
+   "ticket_id": "GF-0123",
+   "text": "You guys are awesome. Quick question: i am waiting for a reimbursement of #2595573$120"
+  }
+ },
+ {
+  "id": 124,
+  "data": {
+   "ticket_id": "GF-0124",
+   "text": "I want to check how long refunds take, I need assistance"
+  }
+ },
+ {
+  "id": 125,
+  "data": {
+   "ticket_id": "GF-0125",
+   "text": "want help filing a consumer cliam against your company"
+  }
+ },
+ {
+  "id": 126,
+  "data": {
+   "ticket_id": "GF-0126",
+   "text": "help me tracking my compensation"
+  }
+ },
+ {
+  "id": 127,
+  "data": {
+   "ticket_id": "GF-0127",
+   "text": "filing consumer claim against your business"
+  }
+ },
+ {
+  "id": 128,
+  "data": {
+   "ticket_id": "GF-0128",
+   "text": "what do I need to do to download my invoice #37777?"
+  }
+ },
+ {
+  "id": 129,
+  "data": {
+   "ticket_id": "GF-0129",
+   "text": "Fantastic service as always: the app crashes every time I log in."
+  }
+ },
+ {
+  "id": 130,
+  "data": {
+   "ticket_id": "GF-0130",
+   "text": "I have to enter my new delivery address, could you help m?"
+  }
+ },
+ {
+  "id": 131,
+  "data": {
+   "ticket_id": "GF-0131",
+   "text": "I need to see in which cases can I request the damn refunds"
+  }
+ },
+ {
+  "id": 132,
+  "data": {
+   "ticket_id": "GF-0132",
+   "text": "Thanks so much! i have got to download the bill from #1076493, help me"
+  }
+ },
+ {
+  "id": 133,
+  "data": {
+   "ticket_id": "GF-0133",
+   "text": "show me the eta of the order #6350779"
+  }
+ },
+ {
+  "id": 134,
+  "data": {
+   "ticket_id": "GF-0134",
+   "text": "I don't know how I could check the early termination charges"
+  }
+ },
+ {
+  "id": 135,
+  "data": {
+   "ticket_id": "GF-0135",
+   "text": "I have paid #1938488#6803434 for this order, I want my reimbursement"
+  }
+ },
+ {
+  "id": 136,
+  "data": {
+   "ticket_id": "GF-0136",
+   "text": "Frustrated customer here. i need help to file a customer claim against ur company"
+  }
+ },
+ {
+  "id": 137,
+  "data": {
+   "ticket_id": "GF-0137",
+   "text": "I have to leave feedback for a product, I need help"
+  }
+ },
+ {
+  "id": 138,
+  "data": {
+   "ticket_id": "GF-0138",
+   "text": "I would like to list the payment methods, how to do it?"
+  }
+ },
+ {
+  "id": 139,
+  "data": {
+   "ticket_id": "GF-0139",
+   "text": "i need help changing several articles of purchase $14.5"
+  }
+ },
+ {
+  "id": 140,
+  "data": {
+   "ticket_id": "GF-0140",
+   "text": "I have got to see how long refunds usually take, I need help"
+  }
+ },
+ {
+  "id": 141,
+  "data": {
+   "ticket_id": "GF-0141",
+   "text": "is it possible to check the ETA of order $49.99?"
+  }
+ },
+ {
+  "id": 142,
+  "data": {
+   "ticket_id": "GF-0142",
+   "text": "Where's my money?"
+  }
+ },
+ {
+  "id": 143,
+  "data": {
+   "ticket_id": "GF-0143",
+   "text": "Thanks so much! how do I acquire several articles?"
+  }
+ },
+ {
+  "id": 144,
+  "data": {
+   "ticket_id": "GF-0144",
+   "text": "i try to get a rebate of money"
+  }
+ },
+ {
+  "id": 145,
+  "data": {
+   "ticket_id": "GF-0145",
+   "text": "I'm extremely unhapp with ur services help to make a claim"
+  }
+ },
+ {
+  "id": 146,
+  "data": {
+   "ticket_id": "GF-0146",
+   "text": "need assistance tonotify of a trouble with payments"
+  }
+ },
+ {
+  "id": 147,
+  "data": {
+   "ticket_id": "GF-0147",
+   "text": "is it possible to place an order from $120"
+  }
+ },
+ {
+  "id": 148,
+  "data": {
+   "ticket_id": "GF-0148",
+   "text": "Honestly quite annoyed \u2014 how do i see when will my purchase arrive"
+  }
+ },
+ {
+  "id": 149,
+  "data": {
+   "ticket_id": "GF-0149",
+   "text": "This whole thing is a scam. Refund #3336109 today or I'm disputing the charge."
+  }
+ },
+ {
+  "id": 150,
+  "data": {
+   "ticket_id": "GF-0150",
+   "text": "I'm getting tired of this awful runaround. assistance filing a customer reclamation against ur business"
+  }
+ },
+ {
+  "id": 151,
+  "data": {
+   "ticket_id": "GF-0151",
+   "text": "rebating #1168557#9231276"
+  }
+ },
+ {
+  "id": 152,
+  "data": {
+   "ticket_id": "GF-0152",
+   "text": "I do not know how I can correct my shgipping address"
+  }
+ },
+ {
+  "id": 153,
+  "data": {
+   "ticket_id": "GF-0153",
+   "text": "i have to sede the cancellation charge"
+  }
+ },
+ {
+  "id": 154,
+  "data": {
+   "ticket_id": "GF-0154",
+   "text": "can you help me submit feedback for a service?"
+  }
+ },
+ {
+  "id": 155,
+  "data": {
+   "ticket_id": "GF-0155",
+   "text": "I want help to change the delivery address"
+  }
+ },
+ {
+  "id": 156,
+  "data": {
+   "ticket_id": "GF-0156",
+   "text": "have a problem with cancelling purchase $89.99"
+  }
+ },
+ {
+  "id": 157,
+  "data": {
+   "ticket_id": "GF-0157",
+   "text": "I have to create a premium account for my fiance"
+  }
+ },
+ {
+  "id": 158,
+  "data": {
+   "ticket_id": "GF-0158",
+   "text": "i want assistance seeing the compensation current status"
+  }
+ },
+ {
+  "id": 159,
+  "data": {
+   "ticket_id": "GF-0159",
+   "text": "Honestly quite annoyed \u2014 modifying details on #8757008 account"
+  }
+ },
+ {
+  "id": 160,
+  "data": {
+   "ticket_id": "GF-0160",
+   "text": "opening $32.75 account"
+  }
+ },
+ {
+  "id": 161,
+  "data": {
+   "ticket_id": "GF-0161",
+   "text": "how can I get the invoices from #9912776?"
+  }
+ },
+ {
+  "id": 162,
+  "data": {
+   "ticket_id": "GF-0162",
+   "text": "Love the new site, by the way! i need to see the reimbursement status, how can I do it?"
+  }
+ },
+ {
+  "id": 163,
+  "data": {
+   "ticket_id": "GF-0163",
+   "text": "where to sign up to the newsleter"
+  }
+ },
+ {
+  "id": 164,
+  "data": {
+   "ticket_id": "GF-0164",
+   "text": "I do not know how to download the bill #85632"
+  }
+ },
+ {
+  "id": 165,
+  "data": {
+   "ticket_id": "GF-0165",
+   "text": "I have got to send feedback for a product"
+  }
+ },
+ {
+  "id": 166,
+  "data": {
+   "ticket_id": "GF-0166",
+   "text": "there are errors trying to correct my address"
+  }
+ },
+ {
+  "id": 167,
+  "data": {
+   "ticket_id": "GF-0167",
+   "text": "can you help me cancel order #7023839?"
+  }
+ },
+ {
+  "id": 168,
+  "data": {
+   "ticket_id": "GF-0168",
+   "text": "I don't know what to do to restore my PIN code"
+  }
+ },
+ {
+  "id": 169,
+  "data": {
+   "ticket_id": "GF-0169",
+   "text": "Please issue a refund for #4241087 \u2014 I've already cancelled it."
+  }
+ },
+ {
+  "id": 170,
+  "data": {
+   "ticket_id": "GF-0170",
+   "text": "want help to use the standard profile"
+  }
+ },
+ {
+  "id": 171,
+  "data": {
+   "ticket_id": "GF-0171",
+   "text": "Great experience so far. i need help to call customer assistance"
+  }
+ },
+ {
+  "id": 172,
+  "data": {
+   "ticket_id": "GF-0172",
+   "text": "help me seeing what hours customer service available is"
+  }
+ },
+ {
+  "id": 173,
+  "data": {
+   "ticket_id": "GF-0173",
+   "text": "I have to check in which cases can I request a refund"
+  }
+ },
+ {
+  "id": 174,
+  "data": {
+   "ticket_id": "GF-0174",
+   "text": "I'm calling to make a complaint against ur company"
+  }
+ },
+ {
+  "id": 175,
+  "data": {
+   "ticket_id": "GF-0175",
+   "text": "I'm getting tired of this awful runaround. i do not knwo what I need to do to cancel order $25"
+  }
+ },
+ {
+  "id": 176,
+  "data": {
+   "ticket_id": "GF-0176",
+   "text": "i do not know how to cancel order #2176675"
+  }
+ },
+ {
+  "id": 177,
+  "data": {
+   "ticket_id": "GF-0177",
+   "text": "how do I use the pro account?"
+  }
+ },
+ {
+  "id": 178,
+  "data": {
+   "ticket_id": "GF-0178",
+   "text": "I can't see the status of my subscription to your newsletter"
+  }
+ },
+ {
+  "id": 179,
+  "data": {
+   "ticket_id": "GF-0179",
+   "text": "I lost the access key of my account, help me reset it"
+  }
+ },
+ {
+  "id": 180,
+  "data": {
+   "ticket_id": "GF-0180",
+   "text": "could you help me to solve payment errors?"
+  }
+ },
+ {
+  "id": 181,
+  "data": {
+   "ticket_id": "GF-0181",
+   "text": "Honestly quite annoyed \u2014 can I take a quick look at the bill #00108?"
+  }
+ },
+ {
+  "id": 182,
+  "data": {
+   "ticket_id": "GF-0182",
+   "text": "check bill #00108"
+  }
+ },
+ {
+  "id": 183,
+  "data": {
+   "ticket_id": "GF-0183",
+   "text": "Refund my $64.2 and cancel the second order (#4241087) while you're at it."
+  }
+ },
+ {
+  "id": 184,
+  "data": {
+   "ticket_id": "GF-0184",
+   "text": "I want assistance writing an opinion for a product"
+  }
+ },
+ {
+  "id": 185,
+  "data": {
+   "ticket_id": "GF-0185",
+   "text": "I need to look for the fucking invoices from #2526539"
+  }
+ },
+ {
+  "id": 186,
+  "data": {
+   "ticket_id": "GF-0186",
+   "text": "i want assistance to send feedback for ur company"
+  }
+ },
+ {
+  "id": 187,
+  "data": {
+   "ticket_id": "GF-0187",
+   "text": "I do not know what to do to speak with customer service"
+  }
+ },
+ {
+  "id": 188,
+  "data": {
+   "ticket_id": "GF-0188",
+   "text": "I have to see in what situations can I ask to be reimbursed"
+  }
+ },
+ {
+  "id": 189,
+  "data": {
+   "ticket_id": "GF-0189",
+   "text": "can you help me to list your paymnet modalities?"
+  }
+ },
+ {
+  "id": 190,
+  "data": {
+   "ticket_id": "GF-0190",
+   "text": "I don't know what to do to talk to customer service"
+  }
+ },
+ {
+  "id": 191,
+  "data": {
+   "ticket_id": "GF-0191",
+   "text": "is it possible to purchase some articles?"
+  }
+ },
+ {
+  "id": 192,
+  "data": {
+   "ticket_id": "GF-0192",
+   "text": "Fantastic service as always: my card got charged twice."
+  }
+ },
+ {
+  "id": 193,
+  "data": {
+   "ticket_id": "GF-0193",
+   "text": "showing reimbursement status"
+  }
+ },
+ {
+  "id": 194,
+  "data": {
+   "ticket_id": "GF-0194",
+   "text": "editing #6818269 account"
+  }
+ },
+ {
+  "id": 195,
+  "data": {
+   "ticket_id": "GF-0195",
+   "text": "Love the new site, by the way! i want assistance entering my delivery address"
+  }
+ },
+ {
+  "id": 196,
+  "data": {
+   "ticket_id": "GF-0196",
+   "text": "where do i see if there are any news on the rebate"
+  }
+ },
+ {
+  "id": 197,
+  "data": {
+   "ticket_id": "GF-0197",
+   "text": "cancelling purchase #4661544"
+  }
+ },
+ {
+  "id": 198,
+  "data": {
+   "ticket_id": "GF-0198",
+   "text": "This company is a nightmare. Refund my $40 for #2577926 immediately."
+  }
+ },
+ {
+  "id": 199,
+  "data": {
+   "ticket_id": "GF-0199",
+   "text": "ho do i get a refund"
+  }
+ },
+ {
+  "id": 200,
+  "data": {
+   "ticket_id": "GF-0200",
+   "text": "wanna file a custome complaint"
+  }
+ },
+ {
+  "id": 201,
+  "data": {
+   "ticket_id": "GF-0201",
+   "text": "I want assistance to notify of an error with sign-up"
+  }
+ },
+ {
+  "id": 202,
+  "data": {
+   "ticket_id": "GF-0202",
+   "text": "Cancel order #9351146 immediately and I expect a full refund of $64.2."
+  }
+ },
+ {
+  "id": 203,
+  "data": {
+   "ticket_id": "GF-0203",
+   "text": "could you help me to see how soon can I expect the item?"
+  }
+ },
+ {
+  "id": 204,
+  "data": {
+   "ticket_id": "GF-0204",
+   "text": "how do I see your money back policy?"
+  }
+ },
+ {
+  "id": 205,
+  "data": {
+   "ticket_id": "GF-0205",
+   "text": "Fantastic service as always: my package is a week late."
+  }
+ },
+ {
+  "id": 206,
+  "data": {
+   "ticket_id": "GF-0206",
+   "text": "Honestly quite annoyed \u2014 can yahelp me getting a compensation"
+  }
+ },
+ {
+  "id": 207,
+  "data": {
+   "ticket_id": "GF-0207",
+   "text": "Excuse me, I think there's a small mistake on my invoice \u2014 a duplicate charge."
+  }
+ },
+ {
+  "id": 208,
+  "data": {
+   "ticket_id": "GF-0208",
+   "text": "You guys are awesome. Quick question: i dont know how i can get refunds"
+  }
+ },
+ {
+  "id": 209,
+  "data": {
+   "ticket_id": "GF-0209",
+   "text": "Fantastic service as always: my refund has vanished into thin air."
+  }
+ },
+ {
+  "id": 210,
+  "data": {
+   "ticket_id": "GF-0210",
+   "text": "Very upsetting situation. how do I shop a few of your item?"
+  }
+ },
+ {
+  "id": 211,
+  "data": {
+   "ticket_id": "GF-0211",
+   "text": "i do not know how i can see the current status of the rebate"
+  }
+ },
+ {
+  "id": 212,
+  "data": {
+   "ticket_id": "GF-0212",
+   "text": "You guys are awesome. Quick question: how can i check purchase #6658042 current status"
+  }
+ },
+ {
+  "id": 213,
+  "data": {
+   "ticket_id": "GF-0213",
+   "text": "I want information about the termination of a $120 account"
+  }
+ },
+ {
+  "id": 214,
+  "data": {
+   "ticket_id": "GF-0214",
+   "text": "is it possible to cancel purchase #7471523"
+  }
+ },
+ {
+  "id": 215,
+  "data": {
+   "ticket_id": "GF-0215",
+   "text": "I try to inform of a trouble with online payment"
+  }
+ },
+ {
+  "id": 216,
+  "data": {
+   "ticket_id": "GF-0216",
+   "text": "My card was charged $58 for an order I want cancelled (#2595573)."
+  }
+ },
+ {
+  "id": 217,
+  "data": {
+   "ticket_id": "GF-0217",
+   "text": "Why is my card charged?"
+  }
+ },
+ {
+  "id": 218,
+  "data": {
+   "ticket_id": "GF-0218",
+   "text": "Thanks so much! delete freemium acvount"
+  }
+ },
+ {
+  "id": 219,
+  "data": {
+   "ticket_id": "GF-0219",
+   "text": "Frustrated customer here. see the withdrawal penalties"
+  }
+ },
+ {
+  "id": 220,
+  "data": {
+   "ticket_id": "GF-0220",
+   "text": "add something to order $120"
+  }
+ },
+ {
+  "id": 221,
+  "data": {
+   "ticket_id": "GF-0221",
+   "text": "I expect an reimbursement of $58#8919350"
+  }
+ },
+ {
+  "id": 222,
+  "data": {
+   "ticket_id": "GF-0222",
+   "text": "wanna leave some feedback about a service"
+  }
+ },
+ {
+  "id": 223,
+  "data": {
+   "ticket_id": "GF-0223",
+   "text": "can I place an ordewr from $64.2?"
+  }
+ },
+ {
+  "id": 224,
+  "data": {
+   "ticket_id": "GF-0224",
+   "text": "Love the new site, by the way! i would like to switch something of order #7023839"
+  }
+ },
+ {
+  "id": 225,
+  "data": {
+   "ticket_id": "GF-0225",
+   "text": "how can i check ur money back guarantee"
+  }
+ },
+ {
+  "id": 226,
+  "data": {
+   "ticket_id": "GF-0226",
+   "text": "I'm waiting for a refund of #8649800#8757008"
+  }
+ },
+ {
+  "id": 227,
+  "data": {
+   "ticket_id": "GF-0227",
+   "text": "where to cancel my subscription to the company newsletter"
+  }
+ },
+ {
+  "id": 228,
+  "data": {
+   "ticket_id": "GF-0228",
+   "text": "i have got to check the cvancellation penalty how to do it"
+  }
+ },
+ {
+  "id": 229,
+  "data": {
+   "ticket_id": "GF-0229",
+   "text": "i dont know what i need to do to lodge a consumer complaint"
+  }
+ },
+ {
+  "id": 230,
+  "data": {
+   "ticket_id": "GF-0230",
+   "text": "Love the new site, by the way! find my bill from #9912776"
+  }
+ },
+ {
+  "id": 231,
+  "data": {
+   "ticket_id": "GF-0231",
+   "text": "I have troubles trying to update the address"
+  }
+ },
+ {
+  "id": 232,
+  "data": {
+   "ticket_id": "GF-0232",
+   "text": "how long till I receive a refund of money?"
+  }
+ },
+ {
+  "id": 233,
+  "data": {
+   "ticket_id": "GF-0233",
+   "text": "ened assistance downloading the bill from $40"
+  }
+ },
+ {
+  "id": 234,
+  "data": {
+   "ticket_id": "GF-0234",
+   "text": "Honestly quite annoyed \u2014 support correcting my address"
+  }
+ },
+ {
+  "id": 235,
+  "data": {
+   "ticket_id": "GF-0235",
+   "text": "Love the new site, by the way! i have got to check the withdrawal charge"
+  }
+ },
+ {
+  "id": 236,
+  "data": {
+   "ticket_id": "GF-0236",
+   "text": "I call to download bill #00108"
+  }
+ },
+ {
+  "id": 237,
+  "data": {
+   "ticket_id": "GF-0237",
+   "text": "i have to see in which cases can i askfor my money back"
+  }
+ },
+ {
+  "id": 238,
+  "data": {
+   "ticket_id": "GF-0238",
+   "text": "can you help me contacting a person?"
+  }
+ },
+ {
+  "id": 239,
+  "data": {
+   "ticket_id": "GF-0239",
+   "text": "I am waiting for a reimbursement of $120#2526539"
+  }
+ },
+ {
+  "id": 240,
+  "data": {
+   "ticket_id": "GF-0240",
+   "text": "want help to see in what cases can I request reimbursements"
+  }
+ },
+ {
+  "id": 241,
+  "data": {
+   "ticket_id": "GF-0241",
+   "text": "help me seeing the early exit fee"
+  }
+ },
+ {
+  "id": 242,
+  "data": {
+   "ticket_id": "GF-0242",
+   "text": "help to list the available payment modalities"
+  }
+ },
+ {
+  "id": 243,
+  "data": {
+   "ticket_id": "GF-0243",
+   "text": "help me to cancel purchase #8757008"
+  }
+ },
+ {
+  "id": 244,
+  "data": {
+   "ticket_id": "GF-0244",
+   "text": "Love the new site, by the way! directing to agent"
+  }
+ },
+ {
+  "id": 245,
+  "data": {
+   "ticket_id": "GF-0245",
+   "text": "I want help to see your available payment modalities"
+  }
+ },
+ {
+  "id": 246,
+  "data": {
+   "ticket_id": "GF-0246",
+   "text": "Honestly quite annoyed \u2014 is it possible to create a freemium account?"
+  }
+ },
+ {
+  "id": 247,
+  "data": {
+   "ticket_id": "GF-0247",
+   "text": "I paid #2176675 dollars for an item, I need to receive a rebate"
+  }
+ },
+ {
+  "id": 248,
+  "data": {
+   "ticket_id": "GF-0248",
+   "text": "I need assistance ordering some of your article"
+  }
+ },
+ {
+  "id": 249,
+  "data": {
+   "ticket_id": "GF-0249",
+   "text": "i cannot check ur money back guarantee"
+  }
+ },
+ {
+  "id": 250,
+  "data": {
+   "ticket_id": "GF-0250",
+   "text": "i have a questioln about my standard account cancellation"
+  }
+ },
+ {
+  "id": 251,
+  "data": {
+   "ticket_id": "GF-0251",
+   "text": "where could I inform of issues with payment?"
+  }
+ },
+ {
+  "id": 252,
+  "data": {
+   "ticket_id": "GF-0252",
+   "text": "I want help trying to edit my shipping address"
+  }
+ },
+ {
+  "id": 253,
+  "data": {
+   "ticket_id": "GF-0253",
+   "text": "Thanks so much! i have got to see the cancellation penalties, help me"
+  }
+ },
+ {
+  "id": 254,
+  "data": {
+   "ticket_id": "GF-0254",
+   "text": "I'm trying to check in which cases can i ask for a refund"
+  }
+ },
+ {
+  "id": 255,
+  "data": {
+   "ticket_id": "GF-0255",
+   "text": "Love the new site, by the way! i paid #1636773$19.99 for these articles, I have to obtain a rebate"
+  }
+ },
+ {
+  "id": 256,
+  "data": {
+   "ticket_id": "GF-0256",
+   "text": "assistance subscriving to the company newsletter"
+  }
+ },
+ {
+  "id": 257,
+  "data": {
+   "ticket_id": "GF-0257",
+   "text": "help talking with customer service"
+  }
+ },
+ {
+  "id": 258,
+  "data": {
+   "ticket_id": "GF-0258",
+   "text": "I don't know how to create a premium account for my fiance"
+  }
+ },
+ {
+  "id": 259,
+  "data": {
+   "ticket_id": "GF-0259",
+   "text": "is it possible to lodge a customer claim"
+  }
+ },
+ {
+  "id": 260,
+  "data": {
+   "ticket_id": "GF-0260",
+   "text": "Great experience so far. opening new premium account"
+  }
+ },
+ {
+  "id": 261,
+  "data": {
+   "ticket_id": "GF-0261",
+   "text": "I can no longer afford purchase #5936436"
+  }
+ },
+ {
+  "id": 262,
+  "data": {
+   "ticket_id": "GF-0262",
+   "text": "I'm waiting for a  compensation of #1866995#2275152"
+  }
+ },
+ {
+  "id": 263,
+  "data": {
+   "ticket_id": "GF-0263",
+   "text": "How do I get a human on the line?"
+  }
+ },
+ {
+  "id": 264,
+  "data": {
+   "ticket_id": "GF-0264",
+   "text": "Love the new site, by the way! check payment modalities"
+  }
+ },
+ {
+  "id": 265,
+  "data": {
+   "ticket_id": "GF-0265",
+   "text": "Very upsetting situation. i can no longer pay for order #4072634"
+  }
+ },
+ {
+  "id": 266,
+  "data": {
+   "ticket_id": "GF-0266",
+   "text": "can ushow me the accepted payment metyods"
+  }
+ },
+ {
+  "id": 267,
+  "data": {
+   "ticket_id": "GF-0267",
+   "text": "help me to change a goddamn product of order $58"
+  }
+ },
+ {
+  "id": 268,
+  "data": {
+   "ticket_id": "GF-0268",
+   "text": "want help to request a compensation of my money"
+  }
+ },
+ {
+  "id": 269,
+  "data": {
+   "ticket_id": "GF-0269",
+   "text": "You guys are awesome. Quick question: see in which cases can I request a reimbursement"
+  }
+ },
+ {
+  "id": 270,
+  "data": {
+   "ticket_id": "GF-0270",
+   "text": "help me canceling purchase $89.99"
+  }
+ },
+ {
+  "id": 271,
+  "data": {
+   "ticket_id": "GF-0271",
+   "text": "Wow, amazing \u2014 the app crashes every time I log in. What a wonderful experience."
+  }
+ },
+ {
+  "id": 272,
+  "data": {
+   "ticket_id": "GF-0272",
+   "text": "Love the new site, by the way! is it possible to order from #6860249?"
+  }
+ },
+ {
+  "id": 273,
+  "data": {
+   "ticket_id": "GF-0273",
+   "text": "assistance to cancel purchase #8291293"
+  }
+ },
+ {
+  "id": 274,
+  "data": {
+   "ticket_id": "GF-0274",
+   "text": "I purchased some product, cancel order #7055261"
+  }
+ },
+ {
+  "id": 275,
+  "data": {
+   "ticket_id": "GF-0275",
+   "text": "Would you mind telling me why my delivery is three days late?"
+  }
+ },
+ {
+  "id": 276,
+  "data": {
+   "ticket_id": "GF-0276",
+   "text": "Money back now."
+  }
+ },
+ {
+  "id": 277,
+  "data": {
+   "ticket_id": "GF-0277",
+   "text": "can ya help me to see what payment options ya accept"
+  }
+ },
+ {
+  "id": 278,
+  "data": {
+   "ticket_id": "GF-0278",
+   "text": "I need help to recover my profile key"
+  }
+ },
+ {
+  "id": 279,
+  "data": {
+   "ticket_id": "GF-0279",
+   "text": "Hello, it seems my refund is taking longer than the promised 5 days."
+  }
+ },
+ {
+  "id": 280,
+  "data": {
+   "ticket_id": "GF-0280",
+   "text": "Sort out the duplicate charge on my card and refund $89.99 for order #9912776."
+  }
+ },
+ {
+  "id": 281,
+  "data": {
+   "ticket_id": "GF-0281",
+   "text": "Very upsetting situation. where to check the termination charges?"
+  }
+ },
+ {
+  "id": 282,
+  "data": {
+   "ticket_id": "GF-0282",
+   "text": "I can't afford this item, I try to cancel order $64.2"
+  }
+ },
+ {
+  "id": 283,
+  "data": {
+   "ticket_id": "GF-0283",
+   "text": "switching user"
+  }
+ },
+ {
+  "id": 284,
+  "data": {
+   "ticket_id": "GF-0284",
+   "text": "modify purchase #3045073"
+  }
+ },
+ {
+  "id": 285,
+  "data": {
+   "ticket_id": "GF-0285",
+   "text": "I'm trying to set up another shipping address"
+  }
+ },
+ {
+  "id": 286,
+  "data": {
+   "ticket_id": "GF-0286",
+   "text": "i have to write an opinion for a service"
+  }
+ },
+ {
+  "id": 287,
+  "data": {
+   "ticket_id": "GF-0287",
+   "text": "help me change the address"
+  }
+ },
+ {
+  "id": 288,
+  "data": {
+   "ticket_id": "GF-0288",
+   "text": "I am trying to see when my package is going to arrive"
+  }
+ },
+ {
+  "id": 289,
+  "data": {
+   "ticket_id": "GF-0289",
+   "text": "I want help to purchase some items"
+  }
+ },
+ {
+  "id": 290,
+  "data": {
+   "ticket_id": "GF-0290",
+   "text": "i have to check the eta of the purchase #7023839"
+  }
+ },
+ {
+  "id": 291,
+  "data": {
+   "ticket_id": "GF-0291",
+   "text": "Brilliant \u2014 I still don't have my refund. You never disappoint."
+  }
+ },
+ {
+  "id": 292,
+  "data": {
+   "ticket_id": "GF-0292",
+   "text": "I have got to check what delivery methods are there"
+  }
+ },
+ {
+  "id": 293,
+  "data": {
+   "ticket_id": "GF-0293",
+   "text": "Honestly quite annoyed \u2014 i do not know how I can notify of an error with payments"
+  }
+ },
+ {
+  "id": 294,
+  "data": {
+   "ticket_id": "GF-0294",
+   "text": "I'm getting tired of this awful runaround. i have tl see how soon can I expect my shipment"
+  }
+ },
+ {
+  "id": 295,
+  "data": {
+   "ticket_id": "GF-0295",
+   "text": "You guys are awesome. Quick question: i want help adding some products to purchase #8291293"
+  }
+ },
+ {
+  "id": 296,
+  "data": {
+   "ticket_id": "GF-0296",
+   "text": "I'm getting tired of this awful runaround. i don't know how to inform of issues with online payment"
+  }
+ },
+ {
+  "id": 297,
+  "data": {
+   "ticket_id": "GF-0297",
+   "text": "I want assistance submitting my delivery address"
+  }
+ },
+ {
+  "id": 298,
+  "data": {
+   "ticket_id": "GF-0298",
+   "text": "Beyond angry. Process the refund for #4267341 or I'm going to my card provider."
+  }
+ },
+ {
+  "id": 299,
+  "data": {
+   "ticket_id": "GF-0299",
+   "text": "i need help to delete something from order $49.99"
+  }
+ },
+ {
+  "id": 300,
+  "data": {
+   "ticket_id": "GF-0300",
+   "text": "Great experience so far. i call to see the shipping methods"
+  }
+ },
+ {
+  "id": 301,
+  "data": {
+   "ticket_id": "GF-0301",
+   "text": "help me reporting an issue wigh online payment"
+  }
+ },
+ {
+  "id": 302,
+  "data": {
+   "ticket_id": "GF-0302",
+   "text": "i need assistance swapping an article of order $120"
+  }
+ },
+ {
+  "id": 303,
+  "data": {
+   "ticket_id": "GF-0303",
+   "text": "I'm waiting for a reimbjrsement of #4661544$40"
+  }
+ },
+ {
+  "id": 304,
+  "data": {
+   "ticket_id": "GF-0304",
+   "text": "Great experience so far. getting bill from $89.99"
+  }
+ },
+ {
+  "id": 305,
+  "data": {
+   "ticket_id": "GF-0305",
+   "text": "want help filing a claim"
+  }
+ },
+ {
+  "id": 306,
+  "data": {
+   "ticket_id": "GF-0306",
+   "text": "Honestly quite annoyed \u2014 could you help me to write an opinion for your company?"
+  }
+ },
+ {
+  "id": 307,
+  "data": {
+   "ticket_id": "GF-0307",
+   "text": "I want help speaking to goddamn customer service"
+  }
+ },
+ {
+  "id": 308,
+  "data": {
+   "ticket_id": "GF-0308",
+   "text": "Thanks so much! i do not know how I can check the status of my compensation"
+  }
+ },
+ {
+  "id": 309,
+  "data": {
+   "ticket_id": "GF-0309",
+   "text": "Thanks so much! contact agent"
+  }
+ },
+ {
+  "id": 310,
+  "data": {
+   "ticket_id": "GF-0310",
+   "text": "I want help to submit the new delivery address"
+  }
+ },
+ {
+  "id": 311,
+  "data": {
+   "ticket_id": "GF-0311",
+   "text": "I need to create a gold account"
+  }
+ },
+ {
+  "id": 312,
+  "data": {
+   "ticket_id": "GF-0312",
+   "text": "how to submit my feedback about your company?"
+  }
+ },
+ {
+  "id": 313,
+  "data": {
+   "ticket_id": "GF-0313",
+   "text": "how doI see the early termination penalty?"
+  }
+ },
+ {
+  "id": 314,
+  "data": {
+   "ticket_id": "GF-0314",
+   "text": "how can i get information about updating order #6818269"
+  }
+ },
+ {
+  "id": 315,
+  "data": {
+   "ticket_id": "GF-0315",
+   "text": "help me seeing the termination fees"
+  }
+ },
+ {
+  "id": 316,
+  "data": {
+   "ticket_id": "GF-0316",
+   "text": "need to notify of an issue with registrations"
+  }
+ },
+ {
+  "id": 317,
+  "data": {
+   "ticket_id": "GF-0317",
+   "text": "can you help me to see the current status of my refund?"
+  }
+ },
+ {
+  "id": 318,
+  "data": {
+   "ticket_id": "GF-0318",
+   "text": "Thanks so much! i need help checking the termination fee"
+  }
+ },
+ {
+  "id": 319,
+  "data": {
+   "ticket_id": "GF-0319",
+   "text": "i need assistance canceling roder $120"
+  }
+ },
+ {
+  "id": 320,
+  "data": {
+   "ticket_id": "GF-0320",
+   "text": "help lodging a consumer reclamation against your business"
+  }
+ },
+ {
+  "id": 321,
+  "data": {
+   "ticket_id": "GF-0321",
+   "text": "I want assistance seeing when will my item arrive"
+  }
+ },
+ {
+  "id": 322,
+  "data": {
+   "ticket_id": "GF-0322",
+   "text": "I do not know how I can see the early termination penalty"
+  }
+ },
+ {
+  "id": 323,
+  "data": {
+   "ticket_id": "GF-0323",
+   "text": "i have troubles entering the new shipping address"
+  }
+ },
+ {
+  "id": 324,
+  "data": {
+   "ticket_id": "GF-0324",
+   "text": "Refund please for #3623354. Oh and cancel any repeat orders on my account."
+  }
+ },
+ {
+  "id": 325,
+  "data": {
+   "ticket_id": "GF-0325",
+   "text": "i try to change my shipping address"
+  }
+ },
+ {
+  "id": 326,
+  "data": {
+   "ticket_id": "GF-0326",
+   "text": "where do I get invoice #00108?"
+  }
+ },
+ {
+  "id": 327,
+  "data": {
+   "ticket_id": "GF-0327",
+   "text": "looking for invoice from $120"
+  }
+ },
+ {
+  "id": 328,
+  "data": {
+   "ticket_id": "GF-0328",
+   "text": "I want help filing a consumer complaint"
+  }
+ },
+ {
+  "id": 329,
+  "data": {
+   "ticket_id": "GF-0329",
+   "text": "Very upsetting situation. could you help me file a reclamation ?"
+  }
+ },
+ {
+  "id": 330,
+  "data": {
+   "ticket_id": "GF-0330",
+   "text": "what do I need to do to request a fucking refund?"
+  }
+ },
+ {
+  "id": 331,
+  "data": {
+   "ticket_id": "GF-0331",
+   "text": "need assistance to talk with an agent"
+  }
+ },
+ {
+  "id": 332,
+  "data": {
+   "ticket_id": "GF-0332",
+   "text": "I want to know more about the subscription to the newsletter"
+  }
+ },
+ {
+  "id": 333,
+  "data": {
+   "ticket_id": "GF-0333",
+   "text": "I have made a mistake, help me change purchase #8438443"
+  }
+ },
+ {
+  "id": 334,
+  "data": {
+   "ticket_id": "GF-0334",
+   "text": "see purchase $120 status"
+  }
+ },
+ {
+  "id": 335,
+  "data": {
+   "ticket_id": "GF-0335",
+   "text": "uhave a free number to get in touch with customer assistance"
+  }
+ },
+ {
+  "id": 336,
+  "data": {
+   "ticket_id": "GF-0336",
+   "text": "Oh great, my delivery went to the wrong address again. Exactly what I needed today."
+  }
+ },
+ {
+  "id": 337,
+  "data": {
+   "ticket_id": "GF-0337",
+   "text": "You guys are awesome. Quick question: open premium cacount for wife"
+  }
+ },
+ {
+  "id": 338,
+  "data": {
+   "ticket_id": "GF-0338",
+   "text": "Very upsetting situation. i do not know how I can submit my feedback for your products"
+  }
+ },
+ {
+  "id": 339,
+  "data": {
+   "ticket_id": "GF-0339",
+   "text": "Could someone explain why I was charged twice this month?"
+  }
+ },
+ {
+  "id": 340,
+  "data": {
+   "ticket_id": "GF-0340",
+   "text": "I don't know how to see what delivery methods I have"
+  }
+ },
+ {
+  "id": 341,
+  "data": {
+   "ticket_id": "GF-0341",
+   "text": "I need to know if there is anything new on the restitution"
+  }
+ },
+ {
+  "id": 342,
+  "data": {
+   "ticket_id": "GF-0342",
+   "text": "help solving a goddamn error with online payments"
+  }
+ },
+ {
+  "id": 343,
+  "data": {
+   "ticket_id": "GF-0343",
+   "text": "help me downloading my invoice #37777"
+  }
+ },
+ {
+  "id": 344,
+  "data": {
+   "ticket_id": "GF-0344",
+   "text": "I try to set  up my goddamn shipping address"
+  }
+ },
+ {
+  "id": 345,
+  "data": {
+   "ticket_id": "GF-0345",
+   "text": "I have problems with canceling purchase #4241087"
+  }
+ },
+ {
+  "id": 346,
+  "data": {
+   "ticket_id": "GF-0346",
+   "text": "I need help unsubscribing to the company newsletter"
+  }
+ },
+ {
+  "id": 347,
+  "data": {
+   "ticket_id": "GF-0347",
+   "text": "I am trying to leave fewedback about a service"
+  }
+ },
+ {
+  "id": 348,
+  "data": {
+   "ticket_id": "GF-0348",
+   "text": "want assistance cancelling order #1938488"
+  }
+ },
+ {
+  "id": 349,
+  "data": {
+   "ticket_id": "GF-0349",
+   "text": "uhave a free number to talk with customer assistance"
+  }
+ },
+ {
+  "id": 350,
+  "data": {
+   "ticket_id": "GF-0350",
+   "text": "Honestly quite annoyed \u2014 canceling order #3298645"
+  }
+ },
+ {
+  "id": 351,
+  "data": {
+   "ticket_id": "GF-0351",
+   "text": "i want help to update order #2526539"
+  }
+ },
+ {
+  "id": 352,
+  "data": {
+   "ticket_id": "GF-0352",
+   "text": "get money back"
+  }
+ },
+ {
+  "id": 353,
+  "data": {
+   "ticket_id": "GF-0353",
+   "text": "i have a tyrouble modifying my address"
+  }
+ },
+ {
+  "id": 354,
+  "data": {
+   "ticket_id": "GF-0354",
+   "text": "assistance checking the fucking early exit penalties"
+  }
+ },
+ {
+  "id": 355,
+  "data": {
+   "ticket_id": "GF-0355",
+   "text": "my experience with you was too bad, help making a complaint"
+  }
+ },
+ {
+  "id": 356,
+  "data": {
+   "ticket_id": "GF-0356",
+   "text": "I am trying to leave an opinion about your company"
+  }
+ },
+ {
+  "id": 357,
+  "data": {
+   "ticket_id": "GF-0357",
+   "text": "Never shopping here again. Cancel #7471523."
+  }
+ },
+ {
+  "id": 358,
+  "data": {
+   "ticket_id": "GF-0358",
+   "text": "Frustrated customer here. need help to swap an item of order #3336109"
+  }
+ },
+ {
+  "id": 359,
+  "data": {
+   "ticket_id": "GF-0359",
+   "text": "Great experience so far. can you help me cancelling my newsletter subscription?"
+  }
+ },
+ {
+  "id": 360,
+  "data": {
+   "ticket_id": "GF-0360",
+   "text": "Love how I still don't have my refund. Really top-notch stuff, guys."
+  }
+ },
+ {
+  "id": 361,
+  "data": {
+   "ticket_id": "GF-0361",
+   "text": "I want help buying some of your product"
+  }
+ },
+ {
+  "id": 362,
+  "data": {
+   "ticket_id": "GF-0362",
+   "text": "i want help requesting a reimbursement of moey"
+  }
+ },
+ {
+  "id": 363,
+  "data": {
+   "ticket_id": "GF-0363",
+   "text": "I'm getting tired of this awful runaround. where could I check the current status of my restitution?"
+  }
+ },
+ {
+  "id": 364,
+  "data": {
+   "ticket_id": "GF-0364",
+   "text": "lodging consuer complaint"
+  }
+ },
+ {
+  "id": 365,
+  "data": {
+   "ticket_id": "GF-0365",
+   "text": "can i talk to an agent"
+  }
+ },
+ {
+  "id": 366,
+  "data": {
+   "ticket_id": "GF-0366",
+   "text": "Package. Late. Again."
+  }
+ },
+ {
+  "id": 367,
+  "data": {
+   "ticket_id": "GF-0367",
+   "text": "Love the new site, by the way! i don't know what I have to do to see the withdrawal charges"
+  }
+ },
+ {
+  "id": 368,
+  "data": {
+   "ticket_id": "GF-0368",
+   "text": "Oh great, my card got charged twice again. Exactly what I needed today."
+  }
+ },
+ {
+  "id": 369,
+  "data": {
+   "ticket_id": "GF-0369",
+   "text": "I'm getting tired of this awful runaround. changing to pro account"
+  }
+ },
+ {
+  "id": 370,
+  "data": {
+   "ticket_id": "GF-0370",
+   "text": "This is ridiculous. Refund my card for order #3045073 NOW."
+  }
+ },
+ {
+  "id": 371,
+  "data": {
+   "ticket_id": "GF-0371",
+   "text": "can i get the bill #12588"
+  }
+ },
+ {
+  "id": 372,
+  "data": {
+   "ticket_id": "GF-0372",
+   "text": "can you help me filing a claim against your organization?"
+  }
+ },
+ {
+  "id": 373,
+  "data": {
+   "ticket_id": "GF-0373",
+   "text": "Could you let me know the status of my refund, please? It seems delayed."
+  }
+ },
+ {
+  "id": 374,
+  "data": {
+   "ticket_id": "GF-0374",
+   "text": "Great experience so far. help me to download the bill #37777"
+  }
+ },
+ {
+  "id": 375,
+  "data": {
+   "ticket_id": "GF-0375",
+   "text": "help to see the current status of purchase #7167086"
+  }
+ },
+ {
+  "id": 376,
+  "data": {
+   "ticket_id": "GF-0376",
+   "text": "Totally outrageous. I want #7167086 cancelled before it ships."
+  }
+ },
+ {
+  "id": 377,
+  "data": {
+   "ticket_id": "GF-0377",
+   "text": "This is the second time I'm asking: cancel #4267341 and return my $14.5."
+  }
+ },
+ {
+  "id": 378,
+  "data": {
+   "ticket_id": "GF-0378",
+   "text": "how to check at what time i can reach customer assistance"
+  }
+ },
+ {
+  "id": 379,
+  "data": {
+   "ticket_id": "GF-0379",
+   "text": "could you help me canceling purchase $58?"
+  }
+ },
+ {
+  "id": 380,
+  "data": {
+   "ticket_id": "GF-0380",
+   "text": "You guys are awesome. Quick question: in which cases can I request refunds?"
+  }
+ },
+ {
+  "id": 381,
+  "data": {
+   "ticket_id": "GF-0381",
+   "text": "I'm waiting for a restitution of $49.99#3336109"
+  }
+ },
+ {
+  "id": 382,
+  "data": {
+   "ticket_id": "GF-0382",
+   "text": "I can't see if there is anything wrong with the restitution"
+  }
+ },
+ {
+  "id": 383,
+  "data": {
+   "ticket_id": "GF-0383",
+   "text": "i have a question about creating a #8919350 account"
+  }
+ },
+ {
+  "id": 384,
+  "data": {
+   "ticket_id": "GF-0384",
+   "text": "is it possible to list ur accepted payment modalities"
+  }
+ },
+ {
+  "id": 385,
+  "data": {
+   "ticket_id": "GF-0385",
+   "text": "order a few of your article"
+  }
+ },
+ {
+  "id": 386,
+  "data": {
+   "ticket_id": "GF-0386",
+   "text": "is it possible to get rebates of money?"
+  }
+ },
+ {
+  "id": 387,
+  "data": {
+   "ticket_id": "GF-0387",
+   "text": "Frustrated customer here. i am trying to see the accepted payment methods"
+  }
+ },
+ {
+  "id": 388,
+  "data": {
+   "ticket_id": "GF-0388",
+   "text": "I cannot receive the corporate newsletter"
+  }
+ },
+ {
+  "id": 389,
+  "data": {
+   "ticket_id": "GF-0389",
+   "text": "cancel purchase  $89.99"
+  }
+ },
+ {
+  "id": 390,
+  "data": {
+   "ticket_id": "GF-0390",
+   "text": "Just perfect. My refund has vanished into thin air, and nobody even told me."
+  }
+ },
+ {
+  "id": 391,
+  "data": {
+   "ticket_id": "GF-0391",
+   "text": "how to use the premium profile"
+  }
+ },
+ {
+  "id": 392,
+  "data": {
+   "ticket_id": "GF-0392",
+   "text": "i expect a compensation of #4661544 dollars was it processed"
+  }
+ },
+ {
+  "id": 393,
+  "data": {
+   "ticket_id": "GF-0393",
+   "text": "help me see in what situations can i request to be refunded"
+  }
+ },
+ {
+  "id": 394,
+  "data": {
+   "ticket_id": "GF-0394",
+   "text": "I have to see what payment payment modalities are accepted"
+  }
+ },
+ {
+  "id": 395,
+  "data": {
+   "ticket_id": "GF-0395",
+   "text": "I want to see the methods for delivery, can you help me?"
+  }
+ },
+ {
+  "id": 396,
+  "data": {
+   "ticket_id": "GF-0396",
+   "text": "Very upsetting situation. can i place an oeder from $14.5"
+  }
+ },
+ {
+  "id": 397,
+  "data": {
+   "ticket_id": "GF-0397",
+   "text": "Great experience so far. question about canceling purchase #5556096"
+  }
+ },
+ {
+  "id": 398,
+  "data": {
+   "ticket_id": "GF-0398",
+   "text": "I  need assistance to download invoice #85632"
+  }
+ },
+ {
+  "id": 399,
+  "data": {
+   "ticket_id": "GF-0399",
+   "text": "I'm getting tired of this awful runaround. locating order #1938488"
+  }
+ },
+ {
+  "id": 400,
+  "data": {
+   "ticket_id": "GF-0400",
+   "text": "Thanks so much! help receiving reinbursements of my money"
+  }
+ },
+ {
+  "id": 401,
+  "data": {
+   "ticket_id": "GF-0401",
+   "text": "Charged twice??"
+  }
+ },
+ {
+  "id": 402,
+  "data": {
+   "ticket_id": "GF-0402",
+   "text": "I have a problem with the deletion of my #2526539 account"
+  }
+ },
+ {
+  "id": 403,
+  "data": {
+   "ticket_id": "GF-0403",
+   "text": "I would like to recover the key of my user account"
+  }
+ },
+ {
+  "id": 404,
+  "data": {
+   "ticket_id": "GF-0404",
+   "text": "could you help me see purchase #2705718 current status?"
+  }
+ },
+ {
+  "id": 405,
+  "data": {
+   "ticket_id": "GF-0405",
+   "text": "What a disgrace. Cancel my order #3070817 right now."
+  }
+ },
+ {
+  "id": 406,
+  "data": {
+   "ticket_id": "GF-0406",
+   "text": "I'm getting tired of this awful runaround. where can I cancel my subscription to the newsletter?"
+  }
+ },
+ {
+  "id": 407,
+  "data": {
+   "ticket_id": "GF-0407",
+   "text": "assistance obtaining a refund of money"
+  }
+ },
+ {
+  "id": 408,
+  "data": {
+   "ticket_id": "GF-0408",
+   "text": "I do not know what I have to do to get my invoice #37777"
+  }
+ },
+ {
+  "id": 409,
+  "data": {
+   "ticket_id": "GF-0409",
+   "text": "how long until i get my money back"
+  }
+ },
+ {
+  "id": 410,
+  "data": {
+   "ticket_id": "GF-0410",
+   "text": "I have a problem submitting a different delivery address"
+  }
+ },
+ {
+  "id": 411,
+  "data": {
+   "ticket_id": "GF-0411",
+   "text": "i have got to notify of ah issue with a registration"
+  }
+ },
+ {
+  "id": 412,
+  "data": {
+   "ticket_id": "GF-0412",
+   "text": "I'm getting tired of this awful runaround. i expect a restitution of #5791940$89.99 has it been prcoessed"
+  }
+ },
+ {
+  "id": 413,
+  "data": {
+   "ticket_id": "GF-0413",
+   "text": "I've had it with you people \u2014 refund the $89.99 for #5270877."
+  }
+ },
+ {
+  "id": 414,
+  "data": {
+   "ticket_id": "GF-0414",
+   "text": "Frustrated customer here. i want to set up a secondary delivery address, how to do it?"
+  }
+ },
+ {
+  "id": 415,
+  "data": {
+   "ticket_id": "GF-0415",
+   "text": "Honestly quite annoyed \u2014 find information about subscribing to your newsletter"
+  }
+ },
+ {
+  "id": 416,
+  "data": {
+   "ticket_id": "GF-0416",
+   "text": "I'm getting tired of this awful runaround. can ya help me to solve probelms with payment"
+  }
+ },
+ {
+  "id": 417,
+  "data": {
+   "ticket_id": "GF-0417",
+   "text": "how do I see the status of the reimbursement?"
+  }
+ },
+ {
+  "id": 418,
+  "data": {
+   "ticket_id": "GF-0418",
+   "text": "I do not know what I have to do to edit the address"
+  }
+ },
+ {
+  "id": 419,
+  "data": {
+   "ticket_id": "GF-0419",
+   "text": "Fantastic service as always: you billed me for an order I never got."
+  }
+ },
+ {
+  "id": 420,
+  "data": {
+   "ticket_id": "GF-0420",
+   "text": "You guys are awesome. Quick question: change to the standard account"
+  }
+ },
+ {
+  "id": 421,
+  "data": {
+   "ticket_id": "GF-0421",
+   "text": "I don't know what to do to get a reimbursement"
+  }
+ },
+ {
+  "id": 422,
+  "data": {
+   "ticket_id": "GF-0422",
+   "text": "I can't remove some articles from purchase #8649800"
+  }
+ },
+ {
+  "id": 423,
+  "data": {
+   "ticket_id": "GF-0423",
+   "text": "I need assistance trying to correct my delivery address"
+  }
+ },
+ {
+  "id": 424,
+  "data": {
+   "ticket_id": "GF-0424",
+   "text": "I want help to modify the address"
+  }
+ },
+ {
+  "id": 425,
+  "data": {
+   "ticket_id": "GF-0425",
+   "text": "Great job, really: the app crashes every time I log in. So happy I chose you."
+  }
+ },
+ {
+  "id": 426,
+  "data": {
+   "ticket_id": "GF-0426",
+   "text": "I don't know how to speak with an assistan"
+  }
+ },
+ {
+  "id": 427,
+  "data": {
+   "ticket_id": "GF-0427",
+   "text": "Would it be possible to check why my card was billed twice for one order?"
+  }
+ },
+ {
+  "id": 428,
+  "data": {
+   "ticket_id": "GF-0428",
+   "text": "Frustrated customer here. assistance removing something from purchase #7023839"
+  }
+ },
+ {
+  "id": 429,
+  "data": {
+   "ticket_id": "GF-0429",
+   "text": "i dont know how to cancel purchase #3336109"
+  }
+ },
+ {
+  "id": 430,
+  "data": {
+   "ticket_id": "GF-0430",
+   "text": "I'm a little concerned my refund hasn't reached my account yet."
+  }
+ },
+ {
+  "id": 431,
+  "data": {
+   "ticket_id": "GF-0431",
+   "text": "i want help removing a product from order #2705718"
+  }
+ },
+ {
+  "id": 432,
+  "data": {
+   "ticket_id": "GF-0432",
+   "text": "I try to ask for a compensation of my money"
+  }
+ },
+ {
+  "id": 433,
+  "data": {
+   "ticket_id": "GF-0433",
+   "text": "I don't know what I have to do to do a pucrhase"
+  }
+ },
+ {
+  "id": 434,
+  "data": {
+   "ticket_id": "GF-0434",
+   "text": "help me to leave feedback for ur services"
+  }
+ },
+ {
+  "id": 435,
+  "data": {
+   "ticket_id": "GF-0435",
+   "text": "You should be ashamed. Cancel order #5791940 and confirm it in writing."
+  }
+ },
+ {
+  "id": 436,
+  "data": {
+   "ticket_id": "GF-0436",
+   "text": "how do I see the early exit fee?"
+  }
+ },
+ {
+  "id": 437,
+  "data": {
+   "ticket_id": "GF-0437",
+   "text": "I am calling to file a complaint against your organization"
+  }
+ },
+ {
+  "id": 438,
+  "data": {
+   "ticket_id": "GF-0438",
+   "text": "I'm trying to request rebates of my money"
+  }
+ },
+ {
+  "id": 439,
+  "data": {
+   "ticket_id": "GF-0439",
+   "text": "help me get my bill from $120"
+  }
+ },
+ {
+  "id": 440,
+  "data": {
+   "ticket_id": "GF-0440",
+   "text": "Can you cancel #7055261? And the pending charge of $14.5 needs to come off my card."
+  }
+ },
+ {
+  "id": 441,
+  "data": {
+   "ticket_id": "GF-0441",
+   "text": "I have ordered some article, cancel purchase #4072634"
+  }
+ },
+ {
+  "id": 442,
+  "data": {
+   "ticket_id": "GF-0442",
+   "text": "I need help to retrieev my user PIN"
+  }
+ },
+ {
+  "id": 443,
+  "data": {
+   "ticket_id": "GF-0443",
+   "text": "I need assistance canceling purchase $58"
+  }
+ },
+ {
+  "id": 444,
+  "data": {
+   "ticket_id": "GF-0444",
+   "text": "Great job, really: you billed me for an order I never got. So happy I chose you."
+  }
+ },
+ {
+  "id": 445,
+  "data": {
+   "ticket_id": "GF-0445",
+   "text": "i try to make a bloody consumer complaint against ur company"
+  }
+ },
+ {
+  "id": 446,
+  "data": {
+   "ticket_id": "GF-0446",
+   "text": "I need to cancel #8757008 \u2014 also why was I billed $64.2 twice?"
+  }
+ },
+ {
+  "id": 447,
+  "data": {
+   "ticket_id": "GF-0447",
+   "text": "I'm getting tired of this awful runaround. i try to file a complaint against your organization"
+  }
+ },
+ {
+  "id": 448,
+  "data": {
+   "ticket_id": "GF-0448",
+   "text": "is it possible to receive fucking refunds of my money?"
+  }
+ },
+ {
+  "id": 449,
+  "data": {
+   "ticket_id": "GF-0449",
+   "text": "I don't know how I can change to the #3897973 account"
+  }
+ },
+ {
+  "id": 450,
+  "data": {
+   "ticket_id": "GF-0450",
+   "text": "i have to inform of problems with signup can i get some help"
+  }
+ },
+ {
+  "id": 451,
+  "data": {
+   "ticket_id": "GF-0451",
+   "text": "Great experience so far. mldifying $58 account"
+  }
+ },
+ {
+  "id": 452,
+  "data": {
+   "ticket_id": "GF-0452",
+   "text": "can you help me to file a fucking customer reclamation?"
+  }
+ },
+ {
+  "id": 453,
+  "data": {
+   "ticket_id": "GF-0453",
+   "text": "i have problems setting up my delivery address"
+  }
+ },
+ {
+  "id": 454,
+  "data": {
+   "ticket_id": "GF-0454",
+   "text": "can I inform of issues with signup?"
+  }
+ },
+ {
+  "id": 455,
+  "data": {
+   "ticket_id": "GF-0455",
+   "text": "want help to notify of troubles with online payment"
+  }
+ },
+ {
+  "id": 456,
+  "data": {
+   "ticket_id": "GF-0456",
+   "text": "I'm getting tired of this awful runaround. assistance seeing in what casew can i ask to be refunded"
+  }
+ },
+ {
+  "id": 457,
+  "data": {
+   "ticket_id": "GF-0457",
+   "text": "I need assistance to give a quick look at the bill #37777"
+  }
+ },
+ {
+  "id": 458,
+  "data": {
+   "ticket_id": "GF-0458",
+   "text": "Thanks so much! is there a way to leave an opinion about a service?"
+  }
+ },
+ {
+  "id": 459,
+  "data": {
+   "ticket_id": "GF-0459",
+   "text": "I need to order some articles"
+  }
+ },
+ {
+  "id": 460,
+  "data": {
+   "ticket_id": "GF-0460",
+   "text": "Great job, really: I still don't have my refund. So happy I chose you."
+  }
+ },
+ {
+  "id": 461,
+  "data": {
+   "ticket_id": "GF-0461",
+   "text": "I ain't happy with your work, I need to make a claim"
+  }
+ },
+ {
+  "id": 462,
+  "data": {
+   "ticket_id": "GF-0462",
+   "text": "i dont khow how to cancel order $89.99"
+  }
+ },
+ {
+  "id": 463,
+  "data": {
+   "ticket_id": "GF-0463",
+   "text": "I'm slightly worried: my delivery shows no movement for six days."
+  }
+ },
+ {
+  "id": 464,
+  "data": {
+   "ticket_id": "GF-0464",
+   "text": "need assistance checking the ETA of the purchase #4267341"
+  }
+ },
+ {
+  "id": 465,
+  "data": {
+   "ticket_id": "GF-0465",
+   "text": "I'd like to edit the data included on my user i need help"
+  }
+ },
+ {
+  "id": 466,
+  "data": {
+   "ticket_id": "GF-0466",
+   "text": "Could anyone clarify this unexpected charge on my invoice?"
+  }
+ },
+ {
+  "id": 467,
+  "data": {
+   "ticket_id": "GF-0467",
+   "text": "how to shop a few of ur article"
+  }
+ },
+ {
+  "id": 468,
+  "data": {
+   "ticket_id": "GF-0468",
+   "text": "see bill from #5823065"
+  }
+ },
+ {
+  "id": 469,
+  "data": {
+   "ticket_id": "GF-0469",
+   "text": "I need help checking the early termination penalties"
+  }
+ },
+ {
+  "id": 470,
+  "data": {
+   "ticket_id": "GF-0470",
+   "text": "i do not know what to do to see the options for shipping"
+  }
+ },
+ {
+  "id": 471,
+  "data": {
+   "ticket_id": "GF-0471",
+   "text": "I want help byying some bloody products"
+  }
+ },
+ {
+  "id": 472,
+  "data": {
+   "ticket_id": "GF-0472",
+   "text": "Very upsetting situation. i want aswistance to set up the new delivery address"
+  }
+ },
+ {
+  "id": 473,
+  "data": {
+   "ticket_id": "GF-0473",
+   "text": "need help with creating my #3336109 account"
+  }
+ },
+ {
+  "id": 474,
+  "data": {
+   "ticket_id": "GF-0474",
+   "text": "where can I see when my damn package is going to arrive?"
+  }
+ },
+ {
+  "id": 475,
+  "data": {
+   "ticket_id": "GF-0475",
+   "text": "I have a problem with cancelling purchase #8649800"
+  }
+ },
+ {
+  "id": 476,
+  "data": {
+   "ticket_id": "GF-0476",
+   "text": "i do not know how i can unubscribe to the newsletter"
+  }
+ },
+ {
+  "id": 477,
+  "data": {
+   "ticket_id": "GF-0477",
+   "text": "Yeah, because you billed me for an order I never got is totally my favorite thing."
+  }
+ },
+ {
+  "id": 478,
+  "data": {
+   "ticket_id": "GF-0478",
+   "text": "I have got to download my invoices from #6818269"
+  }
+ },
+ {
+  "id": 479,
+  "data": {
+   "ticket_id": "GF-0479",
+   "text": "how can I see the early exit penalies?"
+  }
+ },
+ {
+  "id": 480,
+  "data": {
+   "ticket_id": "GF-0480",
+   "text": "Honestly quite annoyed \u2014 i need help calling customer assistance"
+  }
+ },
+ {
+  "id": 481,
+  "data": {
+   "ticket_id": "GF-0481",
+   "text": "what do I need to do to write an opinion for your products?"
+  }
+ },
+ {
+  "id": 482,
+  "data": {
+   "ticket_id": "GF-0482",
+   "text": "Speak to someone please."
+  }
+ },
+ {
+  "id": 483,
+  "data": {
+   "ticket_id": "GF-0483",
+   "text": "I do not know how I could get the bill from #8630833"
+  }
+ },
+ {
+  "id": 484,
+  "data": {
+   "ticket_id": "GF-0484",
+   "text": "tell me what hours customer support available is"
+  }
+ },
+ {
+  "id": 485,
+  "data": {
+   "ticket_id": "GF-0485",
+   "text": "You guys are awesome. Quick question: where to check  the termination fee?"
+  }
+ },
+ {
+  "id": 486,
+  "data": {
+   "ticket_id": "GF-0486",
+   "text": "correct details on gold account"
+  }
+ },
+ {
+  "id": 487,
+  "data": {
+   "ticket_id": "GF-0487",
+   "text": "I have to leave feedback about a product"
+  }
+ },
+ {
+  "id": 488,
+  "data": {
+   "ticket_id": "GF-0488",
+   "text": "Honestly quite annoyed \u2014 i do not know how I can see the current status of my refund"
+  }
+ },
+ {
+  "id": 489,
+  "data": {
+   "ticket_id": "GF-0489",
+   "text": "Very upsetting situation. could you help me to open a #6860249 account?"
+  }
+ },
+ {
+  "id": 490,
+  "data": {
+   "ticket_id": "GF-0490",
+   "text": "what do I need to do to see the compensation current status?"
+  }
+ },
+ {
+  "id": 491,
+  "data": {
+   "ticket_id": "GF-0491",
+   "text": "Frustrated customer here. can uhelp me check if there are any updates on the rebate"
+  }
+ },
+ {
+  "id": 492,
+  "data": {
+   "ticket_id": "GF-0492",
+   "text": "is it possible to place na order from #6818269"
+  }
+ },
+ {
+  "id": 493,
+  "data": {
+   "ticket_id": "GF-0493",
+   "text": "want help to talk to someone"
+  }
+ },
+ {
+  "id": 494,
+  "data": {
+   "ticket_id": "GF-0494",
+   "text": "Love how my card got charged twice. Really top-notch stuff, guys."
+  }
+ },
+ {
+  "id": 495,
+  "data": {
+   "ticket_id": "GF-0495",
+   "text": "i cannot switch a product of purchase #4267341"
+  }
+ },
+ {
+  "id": 496,
+  "data": {
+   "ticket_id": "GF-0496",
+   "text": "where to see the early termination fees?"
+  }
+ },
+ {
+  "id": 497,
+  "data": {
+   "ticket_id": "GF-0497",
+   "text": "I bought the same item twice, cancel order #6658042"
+  }
+ },
+ {
+  "id": 498,
+  "data": {
+   "ticket_id": "GF-0498",
+   "text": "I have got to leave some feedback for your products, help me"
+  }
+ },
+ {
+  "id": 499,
+  "data": {
+   "ticket_id": "GF-0499",
+   "text": "Thanks so much! the experience with you was too bad, make a bloody claim"
+  }
+ },
+ {
+  "id": 500,
+  "data": {
+   "ticket_id": "GF-0500",
+   "text": "can uhelp me speak tyo somebody"
+  }
+ },
+ {
+  "id": 501,
+  "data": {
+   "ticket_id": "GF-0501",
+   "text": "i have lost the invoice #00108 could umail it to me"
+  }
+ },
+ {
+  "id": 502,
+  "data": {
+   "ticket_id": "GF-0502",
+   "text": "how do I get a rebate?"
+  }
+ },
+ {
+  "id": 503,
+  "data": {
+   "ticket_id": "GF-0503",
+   "text": "could you help me see what damn shipment methods you offer?"
+  }
+ },
+ {
+  "id": 504,
+  "data": {
+   "ticket_id": "GF-0504",
+   "text": "I have entered a wrong fucking delivery address, correct it"
+  }
+ },
+ {
+  "id": 505,
+  "data": {
+   "ticket_id": "GF-0505",
+   "text": "I need to check the payment modalities, can you help me?"
+  }
+ },
+ {
+  "id": 506,
+  "data": {
+   "ticket_id": "GF-0506",
+   "text": "when will purchase $120 arrive"
+  }
+ },
+ {
+  "id": 507,
+  "data": {
+   "ticket_id": "GF-0507",
+   "text": "iwant a freemium account for my husband open it"
+  }
+ },
+ {
+  "id": 508,
+  "data": {
+   "ticket_id": "GF-0508",
+   "text": "I need assistance using the #1938488 preofile"
+  }
+ },
+ {
+  "id": 509,
+  "data": {
+   "ticket_id": "GF-0509",
+   "text": "I expect a reimbursement of $89.99#2275152"
+  }
+ },
+ {
+  "id": 510,
+  "data": {
+   "ticket_id": "GF-0510",
+   "text": "want help reporting issues with online payments"
+  }
+ },
+ {
+  "id": 511,
+  "data": {
+   "ticket_id": "GF-0511",
+   "text": "can ya help me subscribing to ur company newsletter"
+  }
+ },
+ {
+  "id": 512,
+  "data": {
+   "ticket_id": "GF-0512",
+   "text": "i want assistance seeing the accepted payment modalities"
+  }
+ },
+ {
+  "id": 513,
+  "data": {
+   "ticket_id": "GF-0513",
+   "text": "termination charges"
+  }
+ },
+ {
+  "id": 514,
+  "data": {
+   "ticket_id": "GF-0514",
+   "text": "need help to get the bill from $64.2"
+  }
+ },
+ {
+  "id": 515,
+  "data": {
+   "ticket_id": "GF-0515",
+   "text": "help me speaking to customer support"
+  }
+ },
+ {
+  "id": 516,
+  "data": {
+   "ticket_id": "GF-0516",
+   "text": "Your refund policy is a joke \u2014 I want my $40 back today. Refund order #9351146."
+  }
+ },
+ {
+  "id": 517,
+  "data": {
+   "ticket_id": "GF-0517",
+   "text": "Honestly quite annoyed \u2014 can I change a product of order #3897973?"
+  }
+ },
+ {
+  "id": 518,
+  "data": {
+   "ticket_id": "GF-0518",
+   "text": "Love the new site, by the way! want assistance seeing your reimbursement policy"
+  }
+ },
+ {
+  "id": 519,
+  "data": {
+   "ticket_id": "GF-0519",
+   "text": "I do not know how to send feedback about your services"
+  }
+ },
+ {
+  "id": 520,
+  "data": {
+   "ticket_id": "GF-0520",
+   "text": "can you help me looking for my invoice #12588?"
+  }
+ },
+ {
+  "id": 521,
+  "data": {
+   "ticket_id": "GF-0521",
+   "text": "can ya help me seeing if there is anything new on the refund"
+  }
+ },
+ {
+  "id": 522,
+  "data": {
+   "ticket_id": "GF-0522",
+   "text": "is there a way to send a review for ur services"
+  }
+ },
+ {
+  "id": 523,
+  "data": {
+   "ticket_id": "GF-0523",
+   "text": "checking status of order $58"
+  }
+ },
+ {
+  "id": 524,
+  "data": {
+   "ticket_id": "GF-0524",
+   "text": "tell me at what time I can reach customer support"
+  }
+ },
+ {
+  "id": 525,
+  "data": {
+   "ticket_id": "GF-0525",
+   "text": "transfer to me an agent"
+  }
+ },
+ {
+  "id": 526,
+  "data": {
+   "ticket_id": "GF-0526",
+   "text": "I have to see when will my item arrive, I need help"
+  }
+ },
+ {
+  "id": 527,
+  "data": {
+   "ticket_id": "GF-0527",
+   "text": "Great experience so far. what do I need to do to see my compensation current status?"
+  }
+ },
+ {
+  "id": 528,
+  "data": {
+   "ticket_id": "GF-0528",
+   "text": "mldifying pro account"
+  }
+ },
+ {
+  "id": 529,
+  "data": {
+   "ticket_id": "GF-0529",
+   "text": "purchase #6803434 status"
+  }
+ },
+ {
+  "id": 530,
+  "data": {
+   "ticket_id": "GF-0530",
+   "text": "I need help to leave a review about your products"
+  }
+ },
+ {
+  "id": 531,
+  "data": {
+   "ticket_id": "GF-0531",
+   "text": "I'm getting tired of this awful runaround. what do i need to do to see the early terminaion charges"
+  }
+ },
+ {
+  "id": 532,
+  "data": {
+   "ticket_id": "GF-0532",
+   "text": "I was charged twice for #2526539, so refund one payment and cancel the duplicate order."
+  }
+ },
+ {
+  "id": 533,
+  "data": {
+   "ticket_id": "GF-0533",
+   "text": "Brilliant \u2014 my package is a week late. You never disappoint."
+  }
+ },
+ {
+  "id": 534,
+  "data": {
+   "ticket_id": "GF-0534",
+   "text": "I am waiting for a compensation of #4777192#7167086"
+  }
+ },
+ {
+  "id": 535,
+  "data": {
+   "ticket_id": "GF-0535",
+   "text": "were do i report damn troubles with payment"
+  }
+ },
+ {
+  "id": 536,
+  "data": {
+   "ticket_id": "GF-0536",
+   "text": "I'm waiting for a restitution oof #7055261#1636773"
+  }
+ },
+ {
+  "id": 537,
+  "data": {
+   "ticket_id": "GF-0537",
+   "text": "You guys are awesome. Quick question: wanna lodge a consumer reclamation against ur company"
+  }
+ },
+ {
+  "id": 538,
+  "data": {
+   "ticket_id": "GF-0538",
+   "text": "Honestly quite annoyed \u2014 i need help to see the termination fee"
+  }
+ },
+ {
+  "id": 539,
+  "data": {
+   "ticket_id": "GF-0539",
+   "text": "I need to see the fucking bill from $75"
+  }
+ },
+ {
+  "id": 540,
+  "data": {
+   "ticket_id": "GF-0540",
+   "text": "how to sends some feedback for ur products"
+  }
+ },
+ {
+  "id": 541,
+  "data": {
+   "ticket_id": "GF-0541",
+   "text": "assistance with opening a standard account"
+  }
+ },
+ {
+  "id": 542,
+  "data": {
+   "ticket_id": "GF-0542",
+   "text": "how can I check the termination charge?"
+  }
+ },
+ {
+  "id": 543,
+  "data": {
+   "ticket_id": "GF-0543",
+   "text": "is it possible to demand a rebate of my money?"
+  }
+ },
+ {
+  "id": 544,
+  "data": {
+   "ticket_id": "GF-0544",
+   "text": "Very upsetting situation. i need someone"
+  }
+ },
+ {
+  "id": 545,
+  "data": {
+   "ticket_id": "GF-0545",
+   "text": "i want assistance asking for a restitution of my money"
+  }
+ },
+ {
+  "id": 546,
+  "data": {
+   "ticket_id": "GF-0546",
+   "text": "My refund for #9912776 hasn't shown up, so just cancel my other order too."
+  }
+ },
+ {
+  "id": 547,
+  "data": {
+   "ticket_id": "GF-0547",
+   "text": "You guys are awesome. Quick question: how couldi see how long it takes for my package to arrive"
+  }
+ },
+ {
+  "id": 548,
+  "data": {
+   "ticket_id": "GF-0548",
+   "text": "Frustrated customer here. want help to get in touch with customer assistance"
+  }
+ },
+ {
+  "id": 549,
+  "data": {
+   "ticket_id": "GF-0549",
+   "text": "i dont know how i can buy a few of ur product"
+  }
+ },
+ {
+  "id": 550,
+  "data": {
+   "ticket_id": "GF-0550",
+   "text": "i need help checking when my package is gonna arrive"
+  }
+ },
+ {
+  "id": 551,
+  "data": {
+   "ticket_id": "GF-0551",
+   "text": "I have got to cancel purchase #7167086"
+  }
+ },
+ {
+  "id": 552,
+  "data": {
+   "ticket_id": "GF-0552",
+   "text": "check invoice from last purchase"
+  }
+ },
+ {
+  "id": 553,
+  "data": {
+   "ticket_id": "GF-0553",
+   "text": "Worst experience ever. I demand a full refund of $64.2 for #3070817."
+  }
+ },
+ {
+  "id": 554,
+  "data": {
+   "ticket_id": "GF-0554",
+   "text": "I want assistance to notify of a sign-up error"
+  }
+ },
+ {
+  "id": 555,
+  "data": {
+   "ticket_id": "GF-0555",
+   "text": "need help lodging a cutomer claim against your organization"
+  }
+ },
+ {
+  "id": 556,
+  "data": {
+   "ticket_id": "GF-0556",
+   "text": "Great job, really: my delivery went to the wrong address. So happy I chose you."
+  }
+ },
+ {
+  "id": 557,
+  "data": {
+   "ticket_id": "GF-0557",
+   "text": "need to submit a secondary shipping address how to do it"
+  }
+ },
+ {
+  "id": 558,
+  "data": {
+   "ticket_id": "GF-0558",
+   "text": "want assistanfe to shop several damn articles"
+  }
+ },
+ {
+  "id": 559,
+  "data": {
+   "ticket_id": "GF-0559",
+   "text": "need assistance to order some itemsx"
+  }
+ },
+ {
+  "id": 560,
+  "data": {
+   "ticket_id": "GF-0560",
+   "text": "is there a way to send my feedback"
+  }
+ },
+ {
+  "id": 561,
+  "data": {
+   "ticket_id": "GF-0561",
+   "text": "where do I see when my package is going to arrive?"
+  }
+ },
+ {
+  "id": 562,
+  "data": {
+   "ticket_id": "GF-0562",
+   "text": "Frustrated customer here. how to see the early termination charges?"
+  }
+ },
+ {
+  "id": 563,
+  "data": {
+   "ticket_id": "GF-0563",
+   "text": "can you help me giving a quick look at my invoice #12588?"
+  }
+ },
+ {
+  "id": 564,
+  "data": {
+   "ticket_id": "GF-0564",
+   "text": "i dont know what i need to do to speak to a person"
+  }
+ },
+ {
+  "id": 565,
+  "data": {
+   "ticket_id": "GF-0565",
+   "text": "I call to download the invoice #37777"
+  }
+ },
+ {
+  "id": 566,
+  "data": {
+   "ticket_id": "GF-0566",
+   "text": "help me cancelling my newsletter subscription"
+  }
+ },
+ {
+  "id": 567,
+  "data": {
+   "ticket_id": "GF-0567",
+   "text": "I never authorized order #1076493: cancel it and refund the $64.2 now."
+  }
+ },
+ {
+  "id": 568,
+  "data": {
+   "ticket_id": "GF-0568",
+   "text": "want help speaking with somebody"
+  }
+ },
+ {
+  "id": 569,
+  "data": {
+   "ticket_id": "GF-0569",
+   "text": "help solving troubles with online payment"
+  }
+ },
+ {
+  "id": 570,
+  "data": {
+   "ticket_id": "GF-0570",
+   "text": "can ya help me to open a #4072634 account for my dad"
+  }
+ },
+ {
+  "id": 571,
+  "data": {
+   "ticket_id": "GF-0571",
+   "text": "I don't know how to inform of an issue with sign-up"
+  }
+ },
+ {
+  "id": 572,
+  "data": {
+   "ticket_id": "GF-0572",
+   "text": "how do I notify of payment problems?"
+  }
+ },
+ {
+  "id": 573,
+  "data": {
+   "ticket_id": "GF-0573",
+   "text": "I have a question about canceling purchase $49.99"
+  }
+ },
+ {
+  "id": 574,
+  "data": {
+   "ticket_id": "GF-0574",
+   "text": "I need hepl to report an error with online payment"
+  }
+ },
+ {
+  "id": 575,
+  "data": {
+   "ticket_id": "GF-0575",
+   "text": "report payment issue"
+  }
+ },
+ {
+  "id": 576,
+  "data": {
+   "ticket_id": "GF-0576",
+   "text": "is it possible to create a standard account?"
+  }
+ },
+ {
+  "id": 577,
+  "data": {
+   "ticket_id": "GF-0577",
+   "text": "want help to get my money back"
+  }
+ },
+ {
+  "id": 578,
+  "data": {
+   "ticket_id": "GF-0578",
+   "text": "do ya have an e-mail to leave some feedback about ur company"
+  }
+ },
+ {
+  "id": 579,
+  "data": {
+   "ticket_id": "GF-0579",
+   "text": "i expect a refund of $120 dollars"
+  }
+ },
+ {
+  "id": 580,
+  "data": {
+   "ticket_id": "GF-0580",
+   "text": "is it possible to check how soon can i expect my article"
+  }
+ },
+ {
+  "id": 581,
+  "data": {
+   "ticket_id": "GF-0581",
+   "text": "I want help cancellkng purchase #7055261"
+  }
+ },
+ {
+  "id": 582,
+  "data": {
+   "ticket_id": "GF-0582",
+   "text": "help me see in what cases can I request to be reimbursed"
+  }
+ },
+ {
+  "id": 583,
+  "data": {
+   "ticket_id": "GF-0583",
+   "text": "can ya help me to lodge a consumer claim"
+  }
+ },
+ {
+  "id": 584,
+  "data": {
+   "ticket_id": "GF-0584",
+   "text": "i try to make a complaint against ur company"
+  }
+ },
+ {
+  "id": 585,
+  "data": {
+   "ticket_id": "GF-0585",
+   "text": "could you help me get compensations of my money?"
+  }
+ },
+ {
+  "id": 586,
+  "data": {
+   "ticket_id": "GF-0586",
+   "text": "how can I notify of problems with online payments?"
+  }
+ },
+ {
+  "id": 587,
+  "data": {
+   "ticket_id": "GF-0587",
+   "text": "Wrong item shipped for #8430866: refund my $40 and cancel the replacement you sent."
+  }
+ },
+ {
+  "id": 588,
+  "data": {
+   "ticket_id": "GF-0588",
+   "text": "is it possible to buy several items"
+  }
+ },
+ {
+  "id": 589,
+  "data": {
+   "ticket_id": "GF-0589",
+   "text": "I need assistance purchasing several products"
+  }
+ },
+ {
+  "id": 590,
+  "data": {
+   "ticket_id": "GF-0590",
+   "text": "Furious. Cancel #7055261 and never email me again."
+  }
+ },
+ {
+  "id": 591,
+  "data": {
+   "ticket_id": "GF-0591",
+   "text": "Brilliant \u2014 my card got charged twice. You never disappoint."
+  }
+ },
+ {
+  "id": 592,
+  "data": {
+   "ticket_id": "GF-0592",
+   "text": "want assistance sending some feedback about a product"
+  }
+ },
+ {
+  "id": 593,
+  "data": {
+   "ticket_id": "GF-0593",
+   "text": "Very upsetting situation. i do not know what to do to inform of problems with payments"
+  }
+ },
+ {
+  "id": 594,
+  "data": {
+   "ticket_id": "GF-0594",
+   "text": "i made an mistake could i modify order #6860249"
+  }
+ },
+ {
+  "id": 595,
+  "data": {
+   "ticket_id": "GF-0595",
+   "text": "support editing the delivery address"
+  }
+ },
+ {
+  "id": 596,
+  "data": {
+   "ticket_id": "GF-0596",
+   "text": "I'm sick of this company. Give me my $64.2 back for #6658042 before I call my bank."
+  }
+ },
+ {
+  "id": 597,
+  "data": {
+   "ticket_id": "GF-0597",
+   "text": "how to speak to a live agent"
+  }
+ },
+ {
+  "id": 598,
+  "data": {
+   "ticket_id": "GF-0598",
+   "text": "Wow, amazing \u2014 I can't reset my password because your site is down. What a wonderful experience."
+  }
+ },
+ {
+  "id": 599,
+  "data": {
+   "ticket_id": "GF-0599",
+   "text": "I need assistamce to inform of a payment issue"
+  }
+ },
+ {
+  "id": 600,
+  "data": {
+   "ticket_id": "GF-0600",
+   "text": "want assistance notifying of payment issues"
+  }
+ }
+]
