@@ -1,40 +1,42 @@
 from dataclasses import dataclass, field
 import random
+from typing import Any
 from text_features import featurize, V2_INTENT_PRIORITY
-CLASSES = ['refund_request', 'cancellation', 'billing_payments', 'shipping_delivery', 'order_changes', 'account_access', 'feedback_complaints', 'other_contact']
-SENTIMENTS = ['negative', 'neutral', 'positive']
-POLICY_CUES = ['policy', 'guarantee', 'in what situations', 'allowed to', 'what is your', 'how does your', 'money back guarantee', 'resititution', 'restitution policy']
+CLASSES: list[str] = ['refund_request', 'cancellation', 'billing_payments', 'shipping_delivery', 'order_changes', 'account_access', 'feedback_complaints', 'other_contact']
+SENTIMENTS: list[str] = ['negative', 'neutral', 'positive']
+POLICY_CUES: list[str] = ['policy', 'guarantee', 'in what situations', 'allowed to', 'what is your', 'how does your', 'money back guarantee', 'resititution', 'restitution policy']
 
 @dataclass
 class Persona:
     key: str
     display: str
     style: str
-    tone_p: dict
-    priority_p: dict
-    first_bonus: dict
-    priority_bonus: dict
-    refund_prior: dict
-    empathy_feedback: dict
-    clear_flip: dict
-    random_intent_p: dict
-    policy_p: dict
-    sarcasm_neg_p: dict
-    polite_neg_p: dict
-    failure_neg_p: dict
+    tone_p: dict[int, float]
+    priority_p: dict[int, float]
+    first_bonus: dict[int, float]
+    priority_bonus: dict[int, float]
+    refund_prior: dict[int, float]
+    empathy_feedback: dict[int, float]
+    clear_flip: dict[int, float]
+    random_intent_p: dict[int, float]
+    policy_p: dict[int, float]
+    sarcasm_neg_p: dict[int, float]
+    polite_neg_p: dict[int, float]
+    failure_neg_p: dict[int, float]
     pos_w: float = 1.0
     anger_w: float = 1.0
     nw_w: float = 0.55
-    sent_noise: dict = field(default_factory=lambda: {1: 0.02, 2: 0.02})
+    sent_noise: dict[int, float] = field(default_factory=lambda: {1: 0.02, 2: 0.02})
 
-    def p(self, table, rnd):
+    def p(self, table: dict[int, float], rnd: int) -> float:
         return table[rnd]
+
 PRIYA = Persona(key='A1', display='Priya', style='careful literalist', tone_p={1: 0.95, 2: 0.0}, priority_p={1: 0.0, 2: 0.97}, first_bonus={1: 1.0, 2: 0.3}, priority_bonus={1: 0.0, 2: 0.6}, refund_prior={1: 0.0, 2: 0.0}, empathy_feedback={1: 0.0, 2: 0.0}, clear_flip={1: 0.015, 2: 0.01}, random_intent_p={1: 0.0, 2: 0.0}, policy_p={1: 0.5, 2: 0.55}, sarcasm_neg_p={1: 0.12, 2: 0.88}, polite_neg_p={1: 0.0, 2: 0.0}, failure_neg_p={1: 0.0, 2: 0.92}, sent_noise={1: 0.02, 2: 0.02})
 MARCUS = Persona(key='A2', display='Marcus', style='empathetic reader', tone_p={1: 0.95, 2: 0.0}, priority_p={1: 0.0, 2: 0.96}, first_bonus={1: 0.0, 2: 0.2}, priority_bonus={1: 0.0, 2: 0.6}, refund_prior={1: 1.5, 2: 0.0}, empathy_feedback={1: 0.9, 2: 0.0}, clear_flip={1: 0.02, 2: 0.015}, random_intent_p={1: 0.0, 2: 0.0}, policy_p={1: 0.4, 2: 0.45}, sarcasm_neg_p={1: 0.6, 2: 0.93}, polite_neg_p={1: 0.55, 2: 0.0}, failure_neg_p={1: 0.0, 2: 0.97}, pos_w=0.9, anger_w=2.0, nw_w=0.9, sent_noise={1: 0.02, 2: 0.02})
 TOM = Persona(key='A3', display='Tom', style='high-throughput skimmer', tone_p={1: 0.9, 2: 0.0}, priority_p={1: 0.0, 2: 0.85}, first_bonus={1: 0.0, 2: 0.2}, priority_bonus={1: 0.0, 2: 0.4}, refund_prior={1: 0.0, 2: 0.0}, empathy_feedback={1: 0.0, 2: 0.0}, clear_flip={1: 0.07, 2: 0.035}, random_intent_p={1: 0.1, 2: 0.03}, policy_p={1: 0.2, 2: 0.35}, sarcasm_neg_p={1: 0.15, 2: 0.75}, polite_neg_p={1: 0.05, 2: 0.0}, failure_neg_p={1: 0.0, 2: 0.82}, pos_w=1.2, anger_w=1.0, nw_w=0.35, sent_noise={1: 0.1, 2: 0.05})
-PERSONAS = [PRIYA, MARCUS, TOM]
+PERSONAS: list[Persona] = [PRIYA, MARCUS, TOM]
 
-def label_intent(persona: Persona, text: str, rnd: int, rng: random.Random):
+def label_intent(persona: Persona, text: str, rnd: int, rng: random.Random) -> str:
     f = featurize(text)
     p = persona
     hits = f['intent_hits']
@@ -65,9 +67,9 @@ def label_intent(persona: Persona, text: str, rnd: int, rng: random.Random):
     if rng.random() < p.p(p.clear_flip, rnd):
         neighbors = [c for c in CLASSES if c != lab]
         lab = rng.choice(neighbors)
-    return lab
+    return str(lab)
 
-def label_sentiment(persona: Persona, text: str, rnd: int, rng: random.Random):
+def label_sentiment(persona: Persona, text: str, rnd: int, rng: random.Random) -> str:
     f = featurize(text)
     p = persona
     if f['sarcasm_cue'] and rng.random() < p.p(p.sarcasm_neg_p, rnd):
@@ -87,7 +89,7 @@ def label_sentiment(persona: Persona, text: str, rnd: int, rng: random.Random):
         lab = 'neutral'
     if rng.random() < p.p(p.sent_noise, rnd):
         lab = SENTIMENTS[rng.randrange(3)]
-    return lab
+    return str(lab)
 
-def label_ticket(persona: Persona, text: str, rnd: int, rng: random.Random):
+def label_ticket(persona: Persona, text: str, rnd: int, rng: random.Random) -> tuple[str, str]:
     return (label_intent(persona, text, rnd, rng), label_sentiment(persona, text, rnd, rng))

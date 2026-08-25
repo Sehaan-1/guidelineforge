@@ -1,15 +1,20 @@
 import argparse
 import json
 import pandas as pd
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / 'data'
 VALID_INTENTS = {'refund_request', 'cancellation', 'billing_payments', 'shipping_delivery', 'order_changes', 'account_access', 'feedback_complaints', 'other_contact'}
 VALID_SENTIMENTS = {'negative', 'neutral', 'positive'}
 
 def export_tasks():
-    corpus = pd.read_csv('data/raw/support_tickets.csv')
+    corpus = pd.read_csv(DATA_DIR / 'raw' / 'support_tickets.csv')
     tasks = [{'id': i + 1, 'data': {'ticket_id': r.ticket_id, 'text': r.text}} for i, r in enumerate(corpus.itertuples())]
-    with open('data/label_studio_import.json', 'w') as fh:
+    out_file = DATA_DIR / 'label_studio_import.json'
+    with open(out_file, 'w') as fh:
         json.dump(tasks, fh, indent=1)
-    print(f'wrote data/label_studio_import.json ({len(tasks)} tasks) — import into Label Studio via cloud storage URL or file upload')
+    print(f'wrote {out_file} ({len(tasks)} tasks) — import into Label Studio via cloud storage URL or file upload')
 
 def ingest(export_path, annotator, rnd):
     raw = json.load(open(export_path))
@@ -28,7 +33,8 @@ def ingest(export_path, annotator, rnd):
             continue
         rows.append({'round': f'R{rnd}', 'ticket_id': tid, 'annotator': annotator, 'intent': intent, 'sentiment': sent, 'role': 'label_studio'})
     df = pd.DataFrame(rows)
-    out = f'data/annotations/annotations_ls_{annotator}_round{rnd}.csv'
+    out = DATA_DIR / 'annotations' / f'annotations_ls_{annotator}_round{rnd}.csv'
+    out.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(out, index=False)
     print(f'wrote {out}: {len(df)} labels ingested, {skipped} skipped')
     print('→ point src/import_peer_labels.py at this CSV to recompute the full agreement battery')

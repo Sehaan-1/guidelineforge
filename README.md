@@ -45,6 +45,7 @@ The program evaluates a customer-support ticket corpus across two classification
 
 - **Language**: Python 3.10+
 - **Data & Numerical Computation**: NumPy, pandas
+- **Testing & Verification**: pytest (comprehensive statistical, feature extraction, and pipeline smoke suites)
 - **Visualization & Reporting**: Matplotlib, ReportLab (optional), Streamlit
 - **Notebook & Validation**: Jupyter, nbformat, nbclient, scikit-learn, NLTK
 - **Frontend / Dashboard**: Modern semantic HTML5, CSS custom properties, vanilla JavaScript (zero external CDN or runtime dependencies)
@@ -86,7 +87,21 @@ Install required Python packages:
 pip install -r requirements.txt
 ```
 
-### 3. Run the Complete Pipeline
+### 3. Run the Test Suite
+
+Run all automated unit, feature extraction, and pipeline smoke tests:
+
+```bash
+# On Linux / macOS:
+export PYTHONPATH=src
+pytest tests/ -v
+
+# On Windows (PowerShell):
+$env:PYTHONPATH="src"
+pytest tests/ -v
+```
+
+### 4. Run the Complete Pipeline
 
 Execute the end-to-end data preparation, simulation, validation, and figure generation workflow:
 
@@ -120,7 +135,7 @@ python src/make_static_dashboard.py
 python src/make_report.py
 ```
 
-### 4. Interactive Exploration
+### 5. Interactive Exploration
 
 Launch the dashboards or notebook interfaces:
 
@@ -155,6 +170,12 @@ guidelineforge/
 │   ├── annotation_guidelines_v2.0.md    # Revised guidelines resolving ambiguity patterns
 │   ├── CHANGELOG.md                     # Audit log connecting metric failures to specific rule changes
 │   └── calibration_notes.md             # Calibration meeting transcripts and recertification records
+│
+├── tests/
+│   ├── __init__.py                      # Test package definition
+│   ├── test_agreement.py                # Unit tests for Cohen, Fleiss, Krippendorff, Bootstrap & CI
+│   ├── test_features.py                 # Linguistic feature extraction and regex parser tests
+│   └── test_pipeline_smoke.py           # End-to-end simulation and schema smoke tests
 │
 ├── data/
 │   ├── raw/

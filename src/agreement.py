@@ -1,44 +1,59 @@
+from typing import Any, Callable, Sequence, Union
+import warnings
 import numpy as np
 
-def _to_rater_matrix(labels):
+def _to_rater_matrix(labels: Sequence[Sequence[Any]]) -> tuple[np.ndarray, list[Any]]:
+    if not labels or len(labels) == 0:
+        raise ValueError('labels matrix cannot be empty')
     cats = sorted({v for r in labels for v in r if v is not None})
     idx = {c: i for i, c in enumerate(cats)}
     M, N = (len(labels), len(labels[0]))
     mat = np.full((M, N), -1, dtype=int)
     for m, rater in enumerate(labels):
-        assert len(rater) == N, 'all raters must label all items here'
+        if len(rater) != N:
+            raise ValueError(f'all raters must label the same number of items; got {len(rater)}, expected {N}')
         for n, v in enumerate(rater):
             mat[m, n] = -1 if v is None else idx[v]
     return (mat, cats)
 
-def observed_agreement(y1, y2):
-    y1, y2 = (np.asarray(y1), np.asarray(y2))
-    return float(np.mean(y1 == y2))
+def observed_agreement(y1: Sequence[Any], y2: Sequence[Any]) -> float:
+    y1_arr, y2_arr = (np.asarray(y1), np.asarray(y2))
+    if len(y1_arr) != len(y2_arr):
+        raise ValueError(f'Length mismatch in observed_agreement: {len(y1_arr)} != {len(y2_arr)}')
+    if len(y1_arr) == 0:
+        return 1.0
+    return float(np.mean(y1_arr == y2_arr))
 
-def cohen_kappa(y1, y2):
-    cats = sorted(set(y1) | set(y2))
-    y1, y2 = (np.asarray(y1), np.asarray(y2))
-    n = len(y1)
-    ao = np.mean(y1 == y2)
-    p1 = np.array([np.mean(y1 == c) for c in cats])
-    p2 = np.array([np.mean(y2 == c) for c in cats])
+def cohen_kappa(y1: Sequence[Any], y2: Sequence[Any]) -> float:
+    y1_arr, y2_arr = (np.asarray(y1), np.asarray(y2))
+    if len(y1_arr) != len(y2_arr):
+        raise ValueError(f'Length mismatch in cohen_kappa: {len(y1_arr)} != {len(y2_arr)}')
+    if len(y1_arr) == 0:
+        return 1.0
+    cats = sorted(set(y1_arr) | set(y2_arr))
+    ao = np.mean(y1_arr == y2_arr)
+    p1 = np.array([np.mean(y1_arr == c) for c in cats])
+    p2 = np.array([np.mean(y2_arr == c) for c in cats])
     ae = float(p1 @ p2)
-    return (ao - ae) / (1 - ae) if ae < 1 else 1.0
+    return float((ao - ae) / (1 - ae)) if ae < 1.0 else 1.0
 
-def fleiss_kappa(labels):
+def fleiss_kappa(labels: Sequence[Sequence[Any]]) -> float:
     mat, cats = _to_rater_matrix(labels)
-    assert (mat >= 0).all(), 'fleiss_kappa: missing labels not supported'
+    if not (mat >= 0).all():
+        raise ValueError('fleiss_kappa: missing labels (None) are not supported')
     if len(cats) < 2:
         return 1.0
     M, N = mat.shape
+    if M < 2:
+        raise ValueError('fleiss_kappa requires at least 2 raters')
     n_ij = np.array([[np.sum(mat[:, i] == j) for j in range(len(cats))] for i in range(N)], dtype=float)
     P_i = ((n_ij ** 2).sum(axis=1) - M) / (M * (M - 1))
     P_bar = P_i.mean()
     p_j = n_ij.sum(axis=0) / (N * M)
     P_e = float(p_j @ p_j)
-    return (P_bar - P_e) / (1 - P_e) if P_e < 1 else 1.0
+    return float((P_bar - P_e) / (1 - P_e)) if P_e < 1.0 else 1.0
 
-def krippendorff_alpha(labels, level='nominal'):
+def krippendorff_alpha(labels: Sequence[Sequence[Any]], level: str = 'nominal') -> float:
     mat, cats = _to_rater_matrix(labels)
     K = len(cats)
     if K < 2:
@@ -68,24 +83,37 @@ def krippendorff_alpha(labels, level='nominal'):
         return 1.0
     Do = float((O * delta).sum() / n)
     De = float((np.outer(n_c, n_c) * delta).sum() / (n * (n - 1)))
-    return 1.0 - Do / De if De > 0 else 1.0
+    return float(1.0 - Do / De) if De > 0 else 1.0
 
-def bootstrap_ci(metric_fn, labels, n_boot=500, seed=13, **kw):
+def bootstrap_ci(
+    metric_fn: Callable[..., float],
+    labels: Sequence[Sequence[Any]],
+    n_boot: int = 500,
+    seed: int = 13,
+    **kw: Any,
+) -> tuple[float, float]:
     rng = np.random.default_rng(seed)
     mat, _ = _to_rater_matrix(labels)
     N = mat.shape[1]
-    stats = []
+    stats: list[float] = []
+    skipped = 0
     for _ in range(n_boot):
         cols = rng.integers(0, N, N)
         resample = [[row[c] for c in cols] for row in mat]
         try:
-            stats.append(metric_fn(resample, **kw) if kw else metric_fn(resample))
-        except Exception:
+            val = metric_fn(resample, **kw) if kw else metric_fn(resample)
+            stats.append(float(val))
+        except (ValueError, ZeroDivisionError, FloatingPointError):
+            skipped += 1
             continue
+    if skipped > n_boot * 0.1:
+        warnings.warn(f'bootstrap_ci: {skipped}/{n_boot} resamples skipped due to calculation errors', RuntimeWarning)
+    if len(stats) == 0:
+        return (1.0, 1.0)
     lo, hi = np.percentile(stats, [2.5, 97.5])
     return (float(lo), float(hi))
 
-def per_class_kappa(y1, y2, classes):
+def per_class_kappa(y1: Sequence[Any], y2: Sequence[Any], classes: Sequence[Any]) -> dict[Any, float]:
     out = {}
     for c in classes:
         b1 = [v == c for v in y1]
@@ -93,7 +121,7 @@ def per_class_kappa(y1, y2, classes):
         out[c] = cohen_kappa(b1, b2)
     return out
 
-def confusion_pairs(y1, y2):
+def confusion_pairs(y1: Sequence[Any], y2: Sequence[Any]) -> list[tuple[tuple[Any, Any], int]]:
     from collections import Counter
     c = Counter(((a, b) for a, b in zip(y1, y2) if a != b))
     return c.most_common()

@@ -28,11 +28,18 @@ code('display(Image("../results/figures/fig_headline.png"))\ndisplay(Image("../r
 md('## 6 · Tiered QA — rework and audit')
 code('qa = M["qa"]\nprint(f"Tier-2 review volume: {qa[\'tier2_review_volume\']}")\nprint(f"rework rate: intent {qa[\'rework_rate_intent\']:.1%} | "\n      f"sentiment {qa[\'rework_rate_sentiment\']:.1%} | either {qa[\'rework_rate_either\']:.1%}")\nprint(f"tier-3 audit: n={qa[\'tier3_audit\'][\'n\']}  pass {qa[\'tier3_audit\'][\'pass_rate_overall\']:.0%}")\nprint(f"final labels vs gold: intent {qa[\'final_gold_intent_acc\']:.3f}  "\n      f"sentiment {qa[\'final_gold_sentiment_acc\']:.3f}")\ncf = M["counterfactual_v1_cost"]\nprint(f"\\ncounterfactual cost of v1.0 (share of R1 production labels the v2 "\n      f"rules would have corrected):\\n  intents {cf[\'r1_production_intents_misrouted_under_v2\']:.1%}, "\n      f"sentiments {cf[\'r1_production_sentiments_corrected_under_v2\']:.1%}")\ndisplay(Image("../results/figures/fig_qa.png"))')
 md('## 7 · Conclusions\n\n1. **Overall agreement conceals; slices reveal.** Round-1 intent κ = 0.83\n   looked shippable while mixed intents ran at chance level (κ = 0.03).\n2. **Agreement ≠ correctness.** The anger-framed family agreed-and-wrong at\n   75% unanimity; only the gold set caught it.\n3. **Guidelines, not annotators, were the defect** — and the cheap fix was\n   a rule change (precedence hierarchy, sarcasm rule, politeness rule).\n   Intent κ 0.83 → **0.96**, ordinal α (sentiment) 0.61 → **0.89**.\n4. **QA economics:** steady-state rework ~2–5% (< 15–20% ceiling), audit\n   pass 100%, final gold accuracy 1.00 intent / 0.96 sentiment.\n5. **Known gap (v2.1 backlog):** statement-form policy questions\n   ("i cannot check ur money back guarantee" — no `?`, policy gate misses)\n   and keyword-invisible typos ("acvount") — logged with examples in the\n   QA writeup.')
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+nb_dir = ROOT / 'notebooks'
+nb_dir.mkdir(parents=True, exist_ok=True)
+path = str(nb_dir / 'agreement_analysis.ipynb')
+
 nb.cells = C
 nb.metadata = {'kernelspec': {'display_name': 'Python 3', 'language': 'python', 'name': 'python3'}, 'language_info': {'name': 'python', 'version': '3.13'}}
-path = 'notebooks/agreement_analysis.ipynb'
 nbf.write(nb, path)
-client = NotebookClient(nb, timeout=300, kernel_name='python3', resources={'metadata': {'path': 'notebooks'}})
+client = NotebookClient(nb, timeout=300, kernel_name='python3', resources={'metadata': {'path': str(nb_dir)}})
 client.execute()
 nbf.write(nb, path)
 print('notebooks/agreement_analysis.ipynb built and executed')
+

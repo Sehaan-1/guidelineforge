@@ -7,3 +7,5 @@ nbformat>=5.9
 nbclient>=0.9
 jupyter>=1.0
 streamlit>=1.32
+pytest>=8.0
+# reportlab>=4.0  # Optional: for make_report.py PDF generation

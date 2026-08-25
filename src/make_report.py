@@ -1,11 +1,14 @@
 import json
 import textwrap
+from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.image import imread
-M = json.load(open('results/metrics.json'))
+
+ROOT = Path(__file__).resolve().parent.parent
+M = json.load(open(ROOT / 'results' / 'metrics.json'))
 PW, PH = (8.27, 11.69)
 LS, LH_ = (8.27, 11.69)
 INK = '#1d1d1b'
@@ -64,7 +67,8 @@ def img_page(pdf, title, imgs, blurb=None, max_frac=0.62):
         para(fig, blurb, 0.9, fs=9.5, width=118)
     slot = top / n
     for k, im in enumerate(imgs):
-        img = imread(im)
+        img_path = ROOT / im if isinstance(im, str) and not Path(im).is_absolute() else im
+        img = imread(str(img_path))
         ax = fig.add_axes([0.06, top - slot * (k + 1) + 0.012, 0.88, slot - 0.024])
         ax.imshow(img)
         ax.axis('off')
@@ -87,7 +91,8 @@ def table(fig, rows, y, x0=0.07, colw=None, fs=9, rh=0.032, header=True):
 
 def main():
     r1, r2, qa, cf = (M['R1'], M['R2'], M['qa'], M['counterfactual_v1_cost'])
-    with PdfPages('report.pdf') as pdf:
+    out_pdf = ROOT / 'report.pdf'
+    with PdfPages(out_pdf) as pdf:
         fig = plt.figure(figsize=(PW, PH))
         fig.patch.set_facecolor(PAPER)
         fig.lines.append(plt.Line2D([0.07, 0.93], [0.957, 0.957], color=INK, lw=2.6, transform=fig.transFigure))

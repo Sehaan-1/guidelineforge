@@ -1,6 +1,16 @@
 import random
+import sys
+from pathlib import Path
 import pandas as pd
 from text_features import featurize
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / 'data'
+
+
 RNG = random.Random(20260825)
 BITEXT_TO_MACRO = {'get_refund': 'refund_request', 'track_refund': 'refund_request', 'cancel_order': 'cancellation', 'check_cancellation_fee': 'cancellation', 'payment_issue': 'billing_payments', 'check_payment_methods': 'billing_payments', 'check_invoice': 'billing_payments', 'get_invoice': 'billing_payments', 'delivery_options': 'shipping_delivery', 'delivery_period': 'shipping_delivery', 'track_order': 'shipping_delivery', 'change_shipping_address': 'shipping_delivery', 'set_up_shipping_address': 'shipping_delivery', 'create_account': 'account_access', 'delete_account': 'account_access', 'edit_account': 'account_access', 'recover_password': 'account_access', 'registration_problems': 'account_access', 'switch_account': 'account_access', 'change_order': 'order_changes', 'place_order': 'order_changes', 'complaint': 'feedback_complaints', 'review': 'feedback_complaints', 'contact_customer_service': 'other_contact', 'contact_human_agent': 'other_contact', 'newsletter_subscription': 'other_contact', 'check_refund_policy': 'other_contact'}
 INTENT_CLASSES = ['refund_request', 'cancellation', 'billing_payments', 'shipping_delivery', 'order_changes', 'account_access', 'feedback_complaints', 'other_contact']
@@ -62,7 +72,7 @@ def injected_rows():
     return rows
 
 def main():
-    bitext = pd.read_csv('data/raw/bitext_raw.csv').rename(columns={'instruction': 'text'})
+    bitext = pd.read_csv(DATA_DIR / 'raw' / 'bitext_raw.csv').rename(columns={'instruction': 'text'})
     bitext['text'] = bitext['text'].astype(str).str.replace('\\{\\{[^}]*\\}\\}', lambda m: RNG.choice(OIDS + AMTS), regex=True)
     bitext['design_intent'] = bitext['intent'].map(BITEXT_TO_MACRO)
     bitext = bitext.dropna(subset=['design_intent'])
@@ -164,12 +174,15 @@ def main():
     corpus['is_gold'] = corpus.index.isin(gold_idx)
     corpus['is_calibration'] = corpus.index.isin(calib_idx)
     corpus['batch'] = RNG.sample(['B1'] * 150 + ['B2'] * 150 + ['B3'] * 150 + ['B4'] * 150, 600)
-    corpus.to_csv('data/raw/support_tickets.csv', index=False)
+    (DATA_DIR / 'raw').mkdir(parents=True, exist_ok=True)
+    corpus.to_csv(DATA_DIR / 'raw' / 'support_tickets.csv', index=False)
     gold = corpus[corpus.is_gold].copy()
     gold = gold[['ticket_id', 'text', 'design_intent', 'design_sentiment', 'ambiguity_type']].rename(columns={'design_intent': 'gold_intent', 'design_sentiment': 'gold_sentiment'})
-    gold.to_csv('data/gold_set.csv', index=False)
+    gold.to_csv(DATA_DIR / 'gold_set.csv', index=False)
+    peer_dir = DATA_DIR / 'for_peer_annotation'
+    peer_dir.mkdir(parents=True, exist_ok=True)
     for name in ['annotator_sheet_1.csv', 'annotator_sheet_2.csv', 'annotator_sheet_3.csv']:
-        corpus[['ticket_id', 'text']].assign(intent_label='', sentiment_label='').to_csv(f'data/for_peer_annotation/{name}', index=False)
+        corpus[['ticket_id', 'text']].assign(intent_label='', sentiment_label='').to_csv(peer_dir / name, index=False)
     print(f"corpus: {len(corpus)} tickets | augmented: {(corpus.augmentation != 'none').sum()}")
     print(corpus.design_intent.value_counts().to_string())
     print('\nsentiment design distribution:')

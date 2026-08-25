@@ -12,8 +12,11 @@ def main():
     ap.add_argument('--names', nargs=3, default=['P1', 'P2', 'P3'])
     ap.add_argument('--round', type=int, choices=[1, 2], required=True)
     args = ap.parse_args()
-    corpus = pd.read_csv('data/raw/support_tickets.csv')
-    gold = pd.read_csv('data/gold_set.csv')
+    from pathlib import Path
+    ROOT = Path(__file__).resolve().parent.parent
+    DATA_DIR = ROOT / 'data'
+    corpus = pd.read_csv(DATA_DIR / 'raw' / 'support_tickets.csv')
+    gold = pd.read_csv(DATA_DIR / 'gold_set.csv')
     ok_ids = set(corpus.ticket_id)
     frames = []
     for path, name in zip(args.sheets, args.names):
@@ -30,7 +33,8 @@ def main():
         df['round'] = f'R{args.round}'
         frames.append(df[['round', 'ticket_id', 'annotator', 'intent_label', 'sentiment_label']].rename(columns={'intent_label': 'intent', 'sentiment_label': 'sentiment'}))
     ann = pd.concat(frames)
-    out = f'data/annotations/annotations_peer_round{args.round}.csv'
+    out = DATA_DIR / 'annotations' / f'annotations_peer_round{args.round}.csv'
+    out.parent.mkdir(parents=True, exist_ok=True)
     ann.to_csv(out, index=False)
     print(f'wrote {out} ({len(ann)} labels)')
     labeled = {n: set(g.ticket_id) for n, g in ann.groupby('annotator')}

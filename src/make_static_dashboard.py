@@ -3,18 +3,26 @@ import datetime as _dt
 import hashlib
 import html
 import json
+import sys
+from pathlib import Path
 import numpy as np
 import pandas as pd
 from agreement import fleiss_kappa
-ROOT = __file__.rsplit('/', 2)[0]
-OUT = f'{ROOT}/qa-dashboard/static_dashboard.html'
-FIG = f'{ROOT}/results/figures'
-M = json.load(open(f'{ROOT}/results/metrics.json'))
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
+ROOT = Path(__file__).resolve().parent.parent
+
+OUT = ROOT / 'qa-dashboard' / 'static_dashboard.html'
+OUT.parent.mkdir(parents=True, exist_ok=True)
+FIG = ROOT / 'results' / 'figures'
+M = json.load(open(ROOT / 'results' / 'metrics.json'))
 R1, R2, QA, CF, DESIGN = (M['R1'], M['R2'], M['qa'], M['counterfactual_v1_cost'], M['design'])
-CORPUS = pd.read_csv(f'{ROOT}/data/raw/support_tickets.csv')
-ADJ = pd.read_csv(f'{ROOT}/data/adjudicated_labels.csv').set_index('ticket_id')
-ANN = {r: pd.read_csv(f'{ROOT}/data/annotations/annotations_round{r}.csv') for r in (1, 2)}
-METRICS_SHA = hashlib.sha256(open(f'{ROOT}/results/metrics.json', 'rb').read()).hexdigest()
+CORPUS = pd.read_csv(ROOT / 'data' / 'raw' / 'support_tickets.csv')
+ADJ = pd.read_csv(ROOT / 'data' / 'adjudicated_labels.csv').set_index('ticket_id')
+ANN = {r: pd.read_csv(ROOT / 'data' / 'annotations' / f'annotations_round{r}.csv') for r in (1, 2)}
+METRICS_SHA = hashlib.sha256(open(ROOT / 'results' / 'metrics.json', 'rb').read()).hexdigest()
 INTENT_AB = {'cancellation': 'cancel', 'refund_request': 'refund', 'billing_payments': 'billing', 'shipping_delivery': 'shipping', 'order_changes': 'order-chg', 'account_access': 'account', 'feedback_complaints': 'feedback', 'other_contact': 'other'}
 SENT_AB = {'positive': 'pos', 'neutral': 'neu', 'negative': 'neg'}
 PERSONA = {'A1': ('Priya', 'careful literalist'), 'A2': ('Marcus', 'empathetic reader'), 'A3': ('Tom', 'fast skimmer')}
@@ -102,8 +110,10 @@ assert 'data:image/png;base64' in HTML_BODY
 for frag in ['GF-0202', 'GF-0291', 'tone trap', 'Simulation disclosure']:
     assert frag in HTML_BODY, frag
 assert not HTML_BODY.count('�')
-with open(OUT, 'w') as fh:
+with open(OUT, 'w', encoding='utf-8') as fh:
     fh.write(HTML_BODY)
-size_kb = len(HTML_BODY.encode()) / 1024
+size_kb = len(HTML_BODY.encode('utf-8')) / 1024
 print(f'wrote {OUT}  ({size_kb:.0f} KB)')
-print(f'paired Δκ intent = +{D_MEAN:.3f}  95% CI [{D_LO:.3f}, {D_HI:.3f}]')
+print(f'paired Delta-kappa intent = +{D_MEAN:.3f}  95% CI [{D_LO:.3f}, {D_HI:.3f}]')
+
+

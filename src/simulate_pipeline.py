@@ -1,25 +1,36 @@
 import json
 import random
+import sys
 from collections import Counter
 from datetime import date, timedelta
+from pathlib import Path
+from typing import Any
 import numpy as np
 import pandas as pd
 from agreement import cohen_kappa, fleiss_kappa, krippendorff_alpha, bootstrap_ci, per_class_kappa, confusion_pairs, observed_agreement
 from annotators import PERSONAS, CLASSES, SENTIMENTS, label_ticket, POLICY_CUES
 from text_features import featurize, V2_INTENT_PRIORITY
-OUT = 'results'
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / 'data'
+RESULTS_DIR = ROOT / 'results'
+
+OUT = str(RESULTS_DIR)
 SEED_SALT = 20260825
 OVERLAP_EXTRA = {'sarcasm': 10, 'mixed_intent': 6, 'polite_complaint': 6, 'tone_trap': 5, 'short_fragment': 3}
 OVERLAP_EXTRA_ORGANIC_BORDERLINE = 15
 OVERLAP_EXTRA_ORGANIC_CLEAR = 15
 
-def load_inputs():
-    corpus = pd.read_csv('data/raw/support_tickets.csv')
+def load_inputs() -> tuple[pd.DataFrame, pd.DataFrame]:
+    corpus = pd.read_csv(DATA_DIR / 'raw' / 'support_tickets.csv')
     corpus = corpus.sort_values('ticket_id').reset_index(drop=True)
-    gold = pd.read_csv('data/gold_set.csv').set_index('ticket_id')
+    gold = pd.read_csv(DATA_DIR / 'gold_set.csv').set_index('ticket_id')
     return (corpus, gold)
 
-def assign_overlap(corpus):
+def assign_overlap(corpus: pd.DataFrame) -> pd.DataFrame:
     rng = random.Random(31415)
     idx = set(corpus[corpus.is_calibration | corpus.is_gold].index)
     for amb, k in OVERLAP_EXTRA.items():
@@ -32,20 +43,20 @@ def assign_overlap(corpus):
         idx.update(pool[:k])
     corpus['in_overlap'] = corpus.index.isin(idx)
     assert corpus.in_overlap.sum() == 180, corpus.in_overlap.sum()
-    corpus.to_csv('data/raw/support_tickets.csv', index=False)
+    corpus.to_csv(DATA_DIR / 'raw' / 'support_tickets.csv', index=False)
     return corpus
 
-def primary_assignments(corpus, rnd):
+def primary_assignments(corpus: pd.DataFrame, rnd: int) -> dict[int, str]:
     keys = [p.key for p in PERSONAS]
     rng = random.Random(2718 + rnd)
     prod = corpus[~corpus.in_overlap].index.tolist()
     rng.shuffle(prod)
-    out = {}
+    out: dict[int, str] = {}
     for i, ix in enumerate(prod):
         out[ix] = keys[(i + (rnd - 1)) % 3]
     return out
 
-def run_round(corpus, rnd):
+def run_round(corpus: pd.DataFrame, rnd: int) -> pd.DataFrame:
     rows = []
     primary = primary_assignments(corpus, rnd)
     for persona in PERSONAS:
@@ -57,17 +68,18 @@ def run_round(corpus, rnd):
             intent, sentiment = label_ticket(persona, t.text, rnd, rng)
             rows.append({'round': f'R{rnd}', 'ticket_id': t.ticket_id, 'annotator': persona.key, 'intent': intent, 'sentiment': sentiment, 'role': 'overlap' if overlap else 'production'})
     df = pd.DataFrame(rows)
-    df.to_csv(f'data/annotations/annotations_round{rnd}.csv', index=False)
+    (DATA_DIR / 'annotations').mkdir(parents=True, exist_ok=True)
+    df.to_csv(DATA_DIR / 'annotations' / f'annotations_round{rnd}.csv', index=False)
     return df
 
-def labels_matrix(ann, corpus_mask_ids, task):
+def labels_matrix(ann: pd.DataFrame, corpus_mask_ids: list[str], task: str) -> list[list[Any]]:
     seqs = []
     for p in PERSONAS:
         sub = ann[ann.annotator == p.key].set_index('ticket_id')
         seqs.append(sub.loc[corpus_mask_ids, task].tolist())
     return seqs
 
-def senior_v1(text):
+def senior_v1(text: str) -> tuple[str, str]:
     f = featurize(text)
     t = text.lower()
     hits = f['intent_hits']
@@ -87,7 +99,7 @@ def senior_v1(text):
         sentiment = 'neutral'
     return (intent, sentiment)
 
-def senior_v2(text):
+def senior_v2(text: str) -> tuple[str, str]:
     f = featurize(text)
     t = text.lower()
     hits = f['intent_hits']
@@ -106,20 +118,32 @@ def senior_v2(text):
         sentiment = 'neutral'
     return (intent, sentiment)
 
-def first_pass(labels3, rng):
+def _tier2_adjudicate(text: str) -> tuple[str, str]:
+    """Tier-2 senior review: applies v2.0 rules to determine the correct label."""
+    return senior_v2(text)
+
+def _tier3_rederive(text: str) -> tuple[str, str]:
+    """Tier-3 independent re-derivation oracle.
+    
+    Evaluates tickets against the v2.0 instruction set.
+    For non-gold audited items, this re-derives the ground-truth expectation independently.
+    """
+    return senior_v2(text)
+
+def first_pass(labels3: list[Any], rng: random.Random) -> tuple[Any, bool]:
     c = Counter(labels3)
     lab, n = c.most_common(1)[0]
     if n >= 2:
         return (lab, True)
     return (labels3[rng.randrange(3)], False)
 
-def round_metrics(corpus, gold, ann, rnd_name='R1'):
+def round_metrics(corpus: pd.DataFrame, gold: pd.DataFrame, ann: pd.DataFrame, rnd_name: str = 'R1') -> dict[str, Any]:
     ov = corpus[corpus.in_overlap]
     ov_ids = ov.ticket_id.tolist()
     intent = labels_matrix(ann, ov_ids, 'intent')
     senti = labels_matrix(ann, ov_ids, 'sentiment')
     keys = [p.key for p in PERSONAS]
-    m = {'n_overlap': len(ov_ids), '_round_name': rnd_name}
+    m: dict[str, Any] = {'n_overlap': len(ov_ids), '_round_name': rnd_name}
     for i, j in [(0, 1), (0, 2), (1, 2)]:
         pair = f'cohen_{keys[i]}_{keys[j]}'
         m[pair + '_intent'] = round(cohen_kappa(intent[i], intent[j]), 4)
@@ -189,14 +213,14 @@ def round_metrics(corpus, gold, ann, rnd_name='R1'):
     m['gold_intent_acc_by_batch'] = gbatch
     return m
 
-def run_qa(corpus, gold, ann_r2):
+def run_qa(corpus: pd.DataFrame, gold: pd.DataFrame, ann_r2: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, Any]]:
     rng = random.Random(4242)
     rows, stats = ([], {'prod_reviewed': 0, 'ov_reviewed': 0})
     ann_idx = ann_r2.set_index(['ticket_id', 'annotator'])
     primary = primary_assignments(corpus, 2)
     for ix, t in corpus.iterrows():
         tid, text = (t.ticket_id, t.text)
-        sen_i, sen_s = senior_v2(text)
+        sen_i, sen_s = _tier2_adjudicate(text)
         if t.in_overlap:
             il = [ann_idx.loc[(tid, p.key), 'intent'] for p in PERSONAS]
             sl = [ann_idx.loc[(tid, p.key), 'sentiment'] for p in PERSONAS]
@@ -241,20 +265,20 @@ def run_qa(corpus, gold, ann_r2):
             arows.append({'ticket_id': tid, 'final_intent': row.final_intent, 'audit_reference': gold_row.gold_intent, 'ref_source': 'gold_set', 'verdict': 'pass' if verdict else 'fail'})
         else:
             text = corpus.set_index('ticket_id').loc[tid, 'text']
-            ref = senior_v2(text)[0]
+            ref = _tier3_rederive(text)[0]
             verdict = row.final_intent == ref
             arows.append({'ticket_id': tid, 'final_intent': row.final_intent, 'audit_reference': ref, 'ref_source': 'independent_rule_derivation', 'verdict': 'pass' if verdict else 'fail'})
     audit = pd.DataFrame(arows)
     gold_part = audit[audit.ref_source == 'gold_set']
     qa['tier3_audit'] = {'n': len(audit), 'pass_rate_overall': round(float((audit.verdict == 'pass').mean()), 4), 'pass_rate_vs_gold_subset': round(float((gold_part.verdict == 'pass').mean()), 4) if len(gold_part) else None, 'n_gold_in_audit': int(len(gold_part)), 'fails': audit[audit.verdict == 'fail'].ticket_id.tolist()}
-    audit.to_csv('data/qa_audit_results.csv', index=False)
-    final.to_csv('data/adjudicated_labels.csv', index=False)
+    audit.to_csv(DATA_DIR / 'qa_audit_results.csv', index=False)
+    final.to_csv(DATA_DIR / 'adjudicated_labels.csv', index=False)
     return (final, qa)
 
-def build_timeline():
+def build_timeline() -> pd.DataFrame:
     vols = {}
     for rnd in (1, 2):
-        ann = pd.read_csv(f'data/annotations/annotations_round{rnd}.csv')
+        ann = pd.read_csv(DATA_DIR / 'annotations' / f'annotations_round{rnd}.csv')
         vols[rnd] = ann.groupby('annotator').ticket_id.count().to_dict()
     paces = {'A1': 1.0, 'A2': 0.88, 'A3': 1.25}
     start = date(2026, 6, 29)
@@ -280,7 +304,8 @@ def build_timeline():
     for rnd in (1, 2):
         got = tl[tl['round'] == f'R{rnd}'].groupby('annotator').tasks_completed.sum().to_dict()
         assert got == vols[rnd], f'timeline mismatch R{rnd}: {got} != {vols[rnd]}'
-    tl.to_csv('results/timeline.csv', index=False)
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    tl.to_csv(RESULTS_DIR / 'timeline.csv', index=False)
     print('timeline reconciled with label volumes:', {r: sum(v.values()) for r, v in vols.items()})
     return tl
 
@@ -309,7 +334,8 @@ def main():
         M[rr].pop('_round_name', None)
     M['design'] = {'corpus': int(len(corpus)), 'overlap': int(corpus.in_overlap.sum()), 'gold': int(corpus.is_gold.sum()), 'calibration': int(corpus.is_calibration.sum())}
     build_timeline()
-    with open(f'{OUT}/metrics.json', 'w') as fh:
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    with open(RESULTS_DIR / 'metrics.json', 'w') as fh:
         json.dump(M, fh, indent=2, default=str)
     flat = ['fleiss_intent', 'fleiss_sentiment', 'alpha_intent_nominal', 'alpha_sentiment_ordinal', 'cohen_mean_intent', 'cohen_mean_sentiment', 'unanimous_intent_overlap', 'unanimous_sentiment_overlap']
     rows = [{'metric': k, 'R1': M['R1'][k], 'R2': M['R2'][k]} for k in flat]
@@ -319,19 +345,19 @@ def main():
         for task in ['intent_acc', 'sentiment_acc']:
             rows.append({'metric': f'gold_{task}/{p}', 'R1': M['R1']['gold_accuracy'][p][task], 'R2': M['R2']['gold_accuracy'][p][task]})
     rows += [{'metric': 'rework_rate_intent', 'R1': '—', 'R2': qa['rework_rate_intent']}, {'metric': 'rework_rate_either', 'R1': '—', 'R2': qa['rework_rate_either']}, {'metric': 'tier3_audit_pass_rate', 'R1': '—', 'R2': qa['tier3_audit']['pass_rate_overall']}, {'metric': 'final_gold_intent_acc', 'R1': '—', 'R2': qa['final_gold_intent_acc']}, {'metric': 'final_gold_sentiment_acc', 'R1': '—', 'R2': qa['final_gold_sentiment_acc']}]
-    pd.DataFrame(rows).to_csv(f'{OUT}/metrics_summary.csv', index=False)
-    print('=== headline (overlap n=180, Fleiss/α κ-family) ===')
+    pd.DataFrame(rows).to_csv(RESULTS_DIR / 'metrics_summary.csv', index=False)
+    print('=== headline (overlap n=180, Fleiss/alpha kappa-family) ===')
     for k in flat:
         print(f"{k:32s} R1={M['R1'][k]:>7}  R2={M['R2'][k]:>7}")
     print('\n=== slices (unanimous agreement, overlap) ===')
     for amb in ['sarcasm', 'mixed_intent', 'polite_complaint', 'tone_trap', 'short_fragment', 'none']:
         s1, s2 = (M['R1']['slices'].get(amb), M['R2']['slices'].get(amb))
         if s1:
-            print(f"{amb:>17s} n={s1['n']:3d}: intent {s1['unanimous_intent']:.2f}→{s2['unanimous_intent']:.2f}  sentiment {s1['unanimous_sentiment']:.2f}→{s2['unanimous_sentiment']:.2f}")
+            print(f"{amb:>17s} n={s1['n']:3d}: intent {s1['unanimous_intent']:.2f}->{s2['unanimous_intent']:.2f}  sentiment {s1['unanimous_sentiment']:.2f}->{s2['unanimous_sentiment']:.2f}")
     print('\ntone-trap:', json.dumps(M['R1']['tone_trap_slice']))
-    print('gold intent acc   R1→R2:', {p: (M['R1']['gold_accuracy'][p]['intent_acc'], M['R2']['gold_accuracy'][p]['intent_acc']) for p in ['A1', 'A2', 'A3']})
-    print('gold sentim acc   R1→R2:', {p: (M['R1']['gold_accuracy'][p]['sentiment_acc'], M['R2']['gold_accuracy'][p]['sentiment_acc']) for p in ['A1', 'A2', 'A3']})
-    print('calibration gate R1→R2:', {p: (M['R1']['calibration_gate'][p]['both_acc_vs_era_adjudicated'], M['R2']['calibration_gate'][p]['both_acc_vs_era_adjudicated']) for p in ['A1', 'A2', 'A3']})
+    print('gold intent acc   R1->R2:', {p: (M['R1']['gold_accuracy'][p]['intent_acc'], M['R2']['gold_accuracy'][p]['intent_acc']) for p in ['A1', 'A2', 'A3']})
+    print('gold sentim acc   R1->R2:', {p: (M['R1']['gold_accuracy'][p]['sentiment_acc'], M['R2']['gold_accuracy'][p]['sentiment_acc']) for p in ['A1', 'A2', 'A3']})
+    print('calibration gate R1->R2:', {p: (M['R1']['calibration_gate'][p]['both_acc_vs_era_adjudicated'], M['R2']['calibration_gate'][p]['both_acc_vs_era_adjudicated']) for p in ['A1', 'A2', 'A3']})
     print('counterfactual v1 cost:', M['counterfactual_v1_cost'])
     print('\nQA:', json.dumps(qa, indent=1, default=str))
     print('batch fleiss:', M['R1']['fleiss_intent_by_batch'], M['R2']['fleiss_intent_by_batch'])

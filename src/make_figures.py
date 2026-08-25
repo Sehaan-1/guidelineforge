@@ -1,20 +1,25 @@
 import json
+from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from chart_style import base_rc, titles, source, dumbbell, legend_strip, legend_in_ax, PAPER, CARD, INK, MUTE, HAIR, GRID, R1C, R2C, GOOD, BAD, AMBER, SLATE, CMAP_HEAT, CMAP_CONF, SERIF, MONO
-M = json.load(open('results/metrics.json'))
+
+ROOT = Path(__file__).resolve().parent.parent
+FIG_DIR = ROOT / 'results' / 'figures'
+FIG_DIR.mkdir(parents=True, exist_ok=True)
+
+M = json.load(open(ROOT / 'results' / 'metrics.json'))
 r1, r2, qa, cf = (M['R1'], M['R2'], M['qa'], M['counterfactual_v1_cost'])
-FIG = 'results/figures'
 base_rc()
 SRC = 'Source: data/annotations/annotations_round{1,2}.csv · blind overlap n=180, 3 annotators · recomputed from raw labels'
 
 def save(fig, name):
-    fig.savefig(f'{FIG}/{name}.png', dpi=150, facecolor=PAPER)
+    fig.savefig(FIG_DIR / f'{name}.png', dpi=150, facecolor=PAPER)
     plt.close(fig)
-    print('wrote', f'{FIG}/{name}.png')
+    print('wrote', str(FIG_DIR / f'{name}.png'))
 
 def fig_headline():
     metrics = [("Fleiss' κ — intent", 'fleiss_intent'), ("Fleiss' κ — sentiment", 'fleiss_sentiment'), ('Krippendorff α — sentiment (ordinal)', 'alpha_sentiment_ordinal'), ("Cohen's κ (mean) — intent", 'cohen_mean_intent'), ("Cohen's κ (mean) — sentiment", 'cohen_mean_sentiment')]
