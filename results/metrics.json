@@ -1,0 +1,399 @@
+{
+  "R1": {
+    "n_overlap": 180,
+    "cohen_A1_A2_intent": 0.8563,
+    "cohen_A1_A2_sentiment": 0.6495,
+    "cohen_A1_A3_intent": 0.8182,
+    "cohen_A1_A3_sentiment": 0.7866,
+    "cohen_A2_A3_intent": 0.8296,
+    "cohen_A2_A3_sentiment": 0.5841,
+    "cohen_mean_intent": 0.8347,
+    "cohen_mean_sentiment": 0.6734,
+    "fleiss_intent": 0.8345,
+    "fleiss_sentiment": 0.6676,
+    "alpha_intent_nominal": 0.8348,
+    "alpha_sentiment_ordinal": 0.6101,
+    "fleiss_intent_ci95": [
+      0.7832,
+      0.8798
+    ],
+    "alpha_intent_ci95": [
+      0.7836,
+      0.88
+    ],
+    "unanimous_intent_overlap": 0.7944,
+    "unanimous_sentiment_overlap": 0.7444,
+    "per_class_intent_kappa": {
+      "refund_request": 0.7872,
+      "cancellation": 0.5815,
+      "billing_payments": 0.8169,
+      "shipping_delivery": 0.8995,
+      "order_changes": 0.8396,
+      "account_access": 0.9085,
+      "feedback_complaints": 0.8947,
+      "other_contact": 0.9362
+    },
+    "slices": {
+      "sarcasm": {
+        "n": 20,
+        "unanimous_intent": 0.85,
+        "unanimous_sentiment": 0.3,
+        "fleiss_intent": 0.869,
+        "fleiss_sentiment": 0.252
+      },
+      "mixed_intent": {
+        "n": 16,
+        "unanimous_intent": 0.125,
+        "unanimous_sentiment": 0.688,
+        "fleiss_intent": 0.032,
+        "fleiss_sentiment": -0.015
+      },
+      "polite_complaint": {
+        "n": 13,
+        "unanimous_intent": 0.769,
+        "unanimous_sentiment": 0.538,
+        "fleiss_intent": 0.787,
+        "fleiss_sentiment": 0.248
+      },
+      "tone_trap": {
+        "n": 16,
+        "unanimous_intent": 0.75,
+        "unanimous_sentiment": 0.938,
+        "fleiss_intent": 0.615,
+        "fleiss_sentiment": 0.833
+      },
+      "short_fragment": {
+        "n": 7,
+        "unanimous_intent": 1.0,
+        "unanimous_sentiment": 0.429,
+        "fleiss_intent": 1.0,
+        "fleiss_sentiment": -0.05
+      },
+      "none": {
+        "n": 60,
+        "unanimous_intent": 0.867,
+        "unanimous_sentiment": 0.85,
+        "fleiss_intent": 0.894,
+        "fleiss_sentiment": 0.79
+      }
+    },
+    "top_confusions_A1_A2": [
+      {
+        "a1": "cancellation",
+        "a2": "billing_payments",
+        "n": 5
+      },
+      {
+        "a1": "cancellation",
+        "a2": "refund_request",
+        "n": 5
+      },
+      {
+        "a1": "billing_payments",
+        "a2": "refund_request",
+        "n": 3
+      },
+      {
+        "a1": "shipping_delivery",
+        "a2": "refund_request",
+        "n": 3
+      },
+      {
+        "a1": "refund_request",
+        "a2": "feedback_complaints",
+        "n": 1
+      },
+      {
+        "a1": "account_access",
+        "a2": "feedback_complaints",
+        "n": 1
+      }
+    ],
+    "gold_accuracy": {
+      "A1": {
+        "intent_acc": 0.8472,
+        "sentiment_acc": 0.8056
+      },
+      "A2": {
+        "intent_acc": 0.8889,
+        "sentiment_acc": 0.9028
+      },
+      "A3": {
+        "intent_acc": 0.8472,
+        "sentiment_acc": 0.7361
+      }
+    },
+    "calibration_intent_acc_vs_design": {
+      "A1": 0.6458,
+      "A2": 0.6667,
+      "A3": 0.5417
+    },
+    "calibration_gate": {
+      "A1": {
+        "intent_acc_vs_era_adjudicated": 1.0,
+        "both_acc_vs_era_adjudicated": 0.8958
+      },
+      "A2": {
+        "intent_acc_vs_era_adjudicated": 0.9792,
+        "both_acc_vs_era_adjudicated": 0.8125
+      },
+      "A3": {
+        "intent_acc_vs_era_adjudicated": 0.875,
+        "both_acc_vs_era_adjudicated": 0.7708
+      }
+    },
+    "tone_trap_slice": {
+      "n": 16,
+      "unanimous_agreement": 0.75,
+      "accuracy_vs_design": {
+        "A1": 0.25,
+        "A2": 0.25,
+        "A3": 0.25
+      }
+    },
+    "fleiss_intent_by_batch": {
+      "B1": 0.7749,
+      "B2": 0.816,
+      "B3": 0.8732,
+      "B4": 0.8744
+    },
+    "gold_intent_acc_by_batch": {
+      "B1": {
+        "A1": 0.875,
+        "A2": 0.917,
+        "A3": 0.833
+      },
+      "B2": {
+        "A1": 0.9,
+        "A2": 0.95,
+        "A3": 0.9
+      },
+      "B3": {
+        "A1": 0.812,
+        "A2": 0.812,
+        "A3": 0.812
+      },
+      "B4": {
+        "A1": 0.75,
+        "A2": 0.833,
+        "A3": 0.833
+      }
+    }
+  },
+  "R2": {
+    "n_overlap": 180,
+    "cohen_A1_A2_intent": 0.9666,
+    "cohen_A1_A2_sentiment": 0.9322,
+    "cohen_A1_A3_intent": 0.9532,
+    "cohen_A1_A3_sentiment": 0.8358,
+    "cohen_A2_A3_intent": 0.9466,
+    "cohen_A2_A3_sentiment": 0.8658,
+    "cohen_mean_intent": 0.9555,
+    "cohen_mean_sentiment": 0.8779,
+    "fleiss_intent": 0.9554,
+    "fleiss_sentiment": 0.8779,
+    "alpha_intent_nominal": 0.9555,
+    "alpha_sentiment_ordinal": 0.8852,
+    "fleiss_intent_ci95": [
+      0.9283,
+      0.9799
+    ],
+    "alpha_intent_ci95": [
+      0.9284,
+      0.9799
+    ],
+    "unanimous_intent_overlap": 0.9444,
+    "unanimous_sentiment_overlap": 0.8944,
+    "per_class_intent_kappa": {
+      "refund_request": 0.9642,
+      "cancellation": 0.9073,
+      "billing_payments": 0.9378,
+      "shipping_delivery": 0.9397,
+      "order_changes": 1.0,
+      "account_access": 0.9765,
+      "feedback_complaints": 0.9355,
+      "other_contact": 1.0
+    },
+    "slices": {
+      "sarcasm": {
+        "n": 20,
+        "unanimous_intent": 1.0,
+        "unanimous_sentiment": 0.8,
+        "fleiss_intent": 1.0,
+        "fleiss_sentiment": 0.574
+      },
+      "mixed_intent": {
+        "n": 16,
+        "unanimous_intent": 0.938,
+        "unanimous_sentiment": 0.938,
+        "fleiss_intent": 0.866,
+        "fleiss_sentiment": 0.895
+      },
+      "polite_complaint": {
+        "n": 13,
+        "unanimous_intent": 0.769,
+        "unanimous_sentiment": 0.769,
+        "fleiss_intent": 0.778,
+        "fleiss_sentiment": 0.729
+      },
+      "tone_trap": {
+        "n": 16,
+        "unanimous_intent": 0.812,
+        "unanimous_sentiment": 0.938,
+        "fleiss_intent": 0.765,
+        "fleiss_sentiment": 0.833
+      },
+      "short_fragment": {
+        "n": 7,
+        "unanimous_intent": 0.857,
+        "unanimous_sentiment": 0.714,
+        "fleiss_intent": 0.874,
+        "fleiss_sentiment": 0.596
+      },
+      "none": {
+        "n": 60,
+        "unanimous_intent": 0.983,
+        "unanimous_sentiment": 0.95,
+        "fleiss_intent": 0.987,
+        "fleiss_sentiment": 0.934
+      }
+    },
+    "top_confusions_A1_A2": [
+      {
+        "a1": "account_access",
+        "a2": "refund_request",
+        "n": 1
+      },
+      {
+        "a1": "refund_request",
+        "a2": "cancellation",
+        "n": 1
+      },
+      {
+        "a1": "refund_request",
+        "a2": "shipping_delivery",
+        "n": 1
+      },
+      {
+        "a1": "billing_payments",
+        "a2": "cancellation",
+        "n": 1
+      },
+      {
+        "a1": "cancellation",
+        "a2": "shipping_delivery",
+        "n": 1
+      }
+    ],
+    "gold_accuracy": {
+      "A1": {
+        "intent_acc": 0.9861,
+        "sentiment_acc": 0.9444
+      },
+      "A2": {
+        "intent_acc": 0.9861,
+        "sentiment_acc": 0.9306
+      },
+      "A3": {
+        "intent_acc": 0.9583,
+        "sentiment_acc": 0.9306
+      }
+    },
+    "calibration_intent_acc_vs_design": {
+      "A1": 0.75,
+      "A2": 0.7292,
+      "A3": 0.75
+    },
+    "calibration_gate": {
+      "A1": {
+        "intent_acc_vs_era_adjudicated": 1.0,
+        "both_acc_vs_era_adjudicated": 0.9792
+      },
+      "A2": {
+        "intent_acc_vs_era_adjudicated": 0.9792,
+        "both_acc_vs_era_adjudicated": 0.9792
+      },
+      "A3": {
+        "intent_acc_vs_era_adjudicated": 1.0,
+        "both_acc_vs_era_adjudicated": 0.9792
+      }
+    },
+    "tone_trap_slice": {
+      "n": 16,
+      "unanimous_agreement": 0.812,
+      "accuracy_vs_design": {
+        "A1": 0.938,
+        "A2": 0.938,
+        "A3": 0.938
+      }
+    },
+    "fleiss_intent_by_batch": {
+      "B1": 0.9505,
+      "B2": 0.9831,
+      "B3": 0.9218,
+      "B4": 0.9605
+    },
+    "gold_intent_acc_by_batch": {
+      "B1": {
+        "A1": 0.958,
+        "A2": 1.0,
+        "A3": 0.917
+      },
+      "B2": {
+        "A1": 1.0,
+        "A2": 1.0,
+        "A3": 1.0
+      },
+      "B3": {
+        "A1": 1.0,
+        "A2": 0.938,
+        "A3": 1.0
+      },
+      "B4": {
+        "A1": 1.0,
+        "A2": 1.0,
+        "A3": 0.917
+      }
+    }
+  },
+  "qa": {
+    "tier2_review_volume": {
+      "prod_reviewed": 420,
+      "ov_reviewed": 29
+    },
+    "rework_rate_intent": 0.0167,
+    "rework_rate_sentiment": 0.0333,
+    "rework_rate_either": 0.0467,
+    "rework_rate_intent_production": 0.0238,
+    "rework_rate_sentiment_production": 0.0452,
+    "rework_by_class_intent": {
+      "account_access": 0.061,
+      "billing_payments": 0.02,
+      "cancellation": 0.0,
+      "feedback_complaints": 0.0,
+      "order_changes": 0.0,
+      "other_contact": 0.031,
+      "refund_request": 0.0,
+      "shipping_delivery": 0.0
+    },
+    "final_gold_intent_acc": 1.0,
+    "final_gold_sentiment_acc": 0.9583,
+    "tier3_audit": {
+      "n": 117,
+      "pass_rate_overall": 1.0,
+      "pass_rate_vs_gold_subset": 1.0,
+      "n_gold_in_audit": 21,
+      "fails": []
+    }
+  },
+  "counterfactual_v1_cost": {
+    "r1_production_intents_misrouted_under_v2": 0.0476,
+    "r1_production_sentiments_corrected_under_v2": 0.1452
+  },
+  "design": {
+    "corpus": 600,
+    "overlap": 180,
+    "gold": 72,
+    "calibration": 48
+  }
+}
